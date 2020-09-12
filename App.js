@@ -1,21 +1,53 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
+import styled from "styled-components/native";
+import { Provider } from "react-redux";
+import store from "./store/index";
+import { AppLoading } from "expo";
+import { useFonts } from "expo-font";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+// Import navigators
+import RootNavigator from "./navigators/RootNavigator";
+
+const Screen = styled.View`
+  flex: 1;
+  background-color: #f9f9f9;
+`;
+
+const TitleBar = styled.View`
+  background-color: white;
+  padding: 32px 16px 8px;
+  box-shadow: 10px 5px 5px black;
+`;
+
+function App() {
+  let [fontsLoaded, error] = useFonts({
+    sans400: require("./assets/fonts/Jano-Sans-Pro-Regular.otf"),
+    serif400: require("./assets/fonts/Lora-Regular.ttf"),
+  });
+
+  if (!fontsLoaded) {
+    return (
+      <View>
+        <Text>LOADING</Text>
+      </View>
+    );
+  } else if (error) {
+    return (
+      <View>
+        <Text>ERROR</Text>
+      </View>
+    );
+  } else {
+    return (
+      <Provider store={store}>
+        <Screen>
+          <RootNavigator />
+        </Screen>
+      </Provider>
+    );
+  }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;

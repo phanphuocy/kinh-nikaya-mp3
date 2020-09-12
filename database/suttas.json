@@ -1,0 +1,33 @@
+{
+  "byIds": {
+    "5kKiEtXyKLgMR6WuMtQqeM": {
+      "name": "Kinh A-ma-trú",
+      "slug": "kinh-a-ma-tru",
+      "paliName": "Ambaṭṭha Sutta",
+      "codeName": "DN:03",
+      "difficultyLevel": "Intermediate",
+      "introduction": "A young brahmin student attacks the Buddha’s family, but is put in his place."
+    },
+    "NvSXLwURStO3P20qRjKFB": {
+      "name": "Kinh Sa-môn quả",
+      "slug": "kinh-sa-mon-qua",
+      "paliName": "Sāmaññaphala Sutta",
+      "codeName": "DN:02",
+      "difficultyLevel": "Beginner",
+      "introduction": "The newly crowned King Ajātasattu is disturbed by the violent means by which he achieved the crown. He visits the Buddha to find peace of mind, and asks him about the benefits of spiritual practice. This is one of the greatest literary and spiritual texts of early Buddhism."
+    },
+    "149YiGuYA6NKOSz3KXW1Mc": {
+      "name": "Kinh Phạm võng",
+      "slug": "kinh-pham-vong",
+      "paliName": "Brahmajāla Sutta",
+      "codeName": "DN:01",
+      "difficultyLevel": "Advanced",
+      "introduction": "While others may praise or criticize the Buddha, they tend to focus on trivial details. The Buddha presents an analysis of 62 kinds of wrong view, seeing through which one becomes detached from meaningless speculations."
+    }
+  },
+  "allIds": [
+    "5kKiEtXyKLgMR6WuMtQqeM",
+    "NvSXLwURStO3P20qRjKFB",
+    "149YiGuYA6NKOSz3KXW1Mc"
+  ]
+}

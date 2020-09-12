@@ -1,0 +1,346 @@
+{
+  "byIds": {
+    "5Ybv7ApEC0Y74ZT7f5Eklv": {
+      "name": "Phẩm Giới-Uẩn",
+      "slug": "pham-gioi-uan",
+      "paliName": "Silakkhandha Vagga",
+      "order": 1,
+      "suttas": [
+        {
+          "name": "Kinh Phạm võng",
+          "slug": "kinh-pham-vong",
+          "paliName": "Brahmajāla Sutta",
+          "codeName": "DN:01",
+          "difficultyLevel": "Advanced",
+          "introduction": "While others may praise or criticize the Buddha, they tend to focus on trivial details. The Buddha presents an analysis of 62 kinds of wrong view, seeing through which one becomes detached from meaningless speculations.",
+          "id": "149YiGuYA6NKOSz3KXW1Mc"
+        },
+        {
+          "name": "Kinh Sa-môn quả",
+          "slug": "kinh-sa-mon-qua",
+          "paliName": "Sāmaññaphala Sutta",
+          "codeName": "DN:02",
+          "difficultyLevel": "Beginner",
+          "introduction": "The newly crowned King Ajātasattu is disturbed by the violent means by which he achieved the crown. He visits the Buddha to find peace of mind, and asks him about the benefits of spiritual practice. This is one of the greatest literary and spiritual texts of early Buddhism.",
+          "id": "NvSXLwURStO3P20qRjKFB"
+        },
+        {
+          "name": "Kinh A-ma-trú",
+          "slug": "kinh-a-ma-tru",
+          "paliName": "Ambaṭṭha Sutta",
+          "codeName": "DN:03",
+          "difficultyLevel": "Intermediate",
+          "introduction": "A young brahmin student attacks the Buddha’s family, but is put in his place.",
+          "id": "5kKiEtXyKLgMR6WuMtQqeM"
+        }
+      ]
+    },
+    "4ms7T8Akobgn2dKjxyUUST": {
+      "name": "Kinh tập",
+      "slug": "kinh-tap",
+      "paliName": "Sutta Nipata",
+      "order": 5,
+      "suttas": []
+    },
+    "5HzvtyzwXn8KCV9mbMIioi": {
+      "name": "Kinh Phật thuyết như vậy",
+      "slug": "kinh-phat-thuyet-nhu-vay",
+      "paliName": "Itivuttaka",
+      "order": 4,
+      "suttas": []
+    },
+    "cqjtDfcwiUx8R2H1PsrxL": {
+      "name": "Cảm hứng ngữ, Phật tự thuyết",
+      "slug": "cam-hung-ngu-phat-tu-thuyet",
+      "paliName": "Udana",
+      "order": 3,
+      "suttas": []
+    },
+    "ke8hCr3FK5h9MirS7PYkH": {
+      "name": "Kinh Pháp cú",
+      "slug": "kinh-phap-cu",
+      "paliName": "Dhammapada",
+      "order": 2,
+      "suttas": []
+    },
+    "2LjmJV3AVyhksC7ZIQDXSV": {
+      "name": "Kinh Tiểu tụng",
+      "slug": "kinh-tieu-tung",
+      "paliName": "Khuddakapatha",
+      "order": 1,
+      "suttas": []
+    },
+    "4se4hNrwmnKtVFTDqu80aI": {
+      "name": "Chương Mười Một Pháp",
+      "slug": "chuong-muoi-mot-phap",
+      "paliName": "Ekadasakanipāta",
+      "order": 11,
+      "suttas": []
+    },
+    "1bqjWQDew2odswB2ClOjov": {
+      "name": "Chương Mười Pháp",
+      "slug": "chuong-muoi-phap",
+      "paliName": "Dasakanipāta",
+      "order": 10,
+      "suttas": []
+    },
+    "610mvL3xluOxDF91H8izDt": {
+      "name": "Chương Chín Pháp",
+      "slug": "chuong-chin-phap",
+      "paliName": "Navakanipāta",
+      "order": 9,
+      "suttas": []
+    },
+    "65GEJ52UPyOzhJZy5LNa8b": {
+      "name": "Chương Tám Pháp",
+      "slug": "chuong-tam-phap",
+      "paliName": "Atthakanipāta",
+      "order": 8,
+      "suttas": []
+    },
+    "4SkqmvysMdgiljco7zrs04": {
+      "name": "Chương Bảy Pháp",
+      "slug": "chuong-bay-phap",
+      "paliName": "Sattakanipāta",
+      "order": 7,
+      "suttas": []
+    },
+    "jUzaSzMzMD3jV8HD3jPIz": {
+      "name": "Chương Sáu Pháp",
+      "slug": "chuong-sau-phap",
+      "paliName": "Chakkanipāta",
+      "order": 6,
+      "suttas": []
+    },
+    "3dITn1V0Jndxgfu9dIBf3Z": {
+      "name": "Chương Năm Pháp",
+      "slug": "chuong-nam-phap",
+      "paliName": "Pañcakanipāta",
+      "order": 5,
+      "suttas": []
+    },
+    "3zxTY3DSzlcGGPrxPSROLR": {
+      "name": "Chương Bốn Pháp",
+      "slug": "chuong-bon-phap",
+      "paliName": "Catukkanipāta",
+      "order": 4,
+      "suttas": []
+    },
+    "2XsJc6TsPaNelENN5oKLVo": {
+      "name": "Chương Ba Pháp",
+      "slug": "chuong-ba-phap",
+      "paliName": "Tikanipata",
+      "order": 3,
+      "suttas": []
+    },
+    "7yobOn3iFyuP5M8OyI0zdi": {
+      "name": "Chương Hai Pháp",
+      "slug": "chuong-hai-phap",
+      "paliName": "Dukanipāta",
+      "order": 2,
+      "suttas": []
+    },
+    "7A4uIXQWbKUBYTscmrhhJ4": {
+      "name": "Chương Một Pháp",
+      "slug": "chuong-mot-phap",
+      "paliName": "Ekakanipāta",
+      "order": 1,
+      "suttas": []
+    },
+    "3vaVpKSLMC2HD7smzofLCZ": {
+      "name": "Thiên Đại Phẩm",
+      "slug": "thien-dai-pham",
+      "paliName": "Mahàvagga Samyuttapàli",
+      "order": 5,
+      "suttas": []
+    },
+    "5Rxntzt1ghHviogqmyyqil": {
+      "name": "Thiên Sáu Xứ",
+      "slug": "thien-sau-xu",
+      "paliName": "Salàyatanavagga Samyuttapàli",
+      "order": 4,
+      "suttas": []
+    },
+    "1JFlUMF0MCt1fDwypPTg3I": {
+      "name": "Thiên Uẩn",
+      "slug": "thien-uan",
+      "paliName": "Khandavagga Samyuttapàli",
+      "order": 3,
+      "suttas": []
+    },
+    "4X0OhRGxRiXY8n108ifGm2": {
+      "name": "Thiên Nhân Duyên",
+      "slug": "thien-nhan-duyen",
+      "paliName": "Nidànavagga Samyuttapàli",
+      "order": 2,
+      "suttas": []
+    },
+    "2VQdLdeuEc5npthZjUecAo": {
+      "name": "Thiên Có Kệ",
+      "slug": "thien-co-ke",
+      "paliName": "Sagàthàvagga Samyuttapàli",
+      "order": 1,
+      "suttas": []
+    },
+    "76p1lpVz1uHK2Z3RTcjkH6": {
+      "name": "The Division of the Sixfold Base",
+      "slug": "the-division-of-the-sixfold-base",
+      "paliName": "Saḷāyatana Vagga",
+      "order": 15,
+      "suttas": []
+    },
+    "7Eou9CCQ9bok7PQq2ZutB4": {
+      "name": "The Division of Expositions",
+      "slug": "the-division-of-expositions",
+      "paliName": "Vibhaṅga Vagga",
+      "order": 14,
+      "suttas": []
+    },
+    "6dymjEuA3dXkgEOz3jzSmV": {
+      "name": "The Division of Voidness",
+      "slug": "the-division-of-voidness",
+      "paliName": "Suññata Vagga",
+      "order": 13,
+      "suttas": []
+    },
+    "4lU1VjNxzutq2ubyKJ72n0": {
+      "name": "The Division of One by One",
+      "slug": "the-division-of-one-by-one",
+      "paliName": "Anupada Vagga",
+      "order": 12,
+      "suttas": []
+    },
+    "1AJFPP4SzVOhtWt8LFtLuT": {
+      "name": "The Division at Devadaha",
+      "slug": "the-division-at-devadaha",
+      "paliName": "Devadaha Vagga",
+      "order": 11,
+      "suttas": []
+    },
+    "5EdTABd0jlADrQN9d4Jvqu": {
+      "name": "The Division on Brahmins",
+      "slug": "the-division-on-brahmins",
+      "paliName": "Brāhmaṇa Vagga",
+      "order": 10,
+      "suttas": []
+    },
+    "enAHzPmji08bwn7w9aHQX": {
+      "name": "The Division on Kings",
+      "slug": "the-division-on-kings",
+      "paliName": "Rāja Vagga",
+      "order": 9,
+      "suttas": []
+    },
+    "7eda8TP7lJvLQVZPNb1oPK": {
+      "name": "The Division on Wanderers",
+      "slug": "the-division-on-wanderers",
+      "paliName": "Paribbājaka Vagga",
+      "order": 8,
+      "suttas": []
+    },
+    "34EbKh4N0p3MmRS1h6dnbC": {
+      "name": "The Division on Bhikkhus",
+      "slug": "the-division-on-bhikkhus",
+      "paliName": "Bhikkhu Vagga",
+      "order": 7,
+      "suttas": []
+    },
+    "70VwRkGUxSbqiSFEXk7jmv": {
+      "name": "The Division on Householders",
+      "slug": "the-division-on-householders",
+      "paliName": "Gahapati Vagga",
+      "order": 6,
+      "suttas": []
+    },
+    "73NnI5CRG6VGZWa5EfNPSU": {
+      "name": "The Shorter Division of Pairs",
+      "slug": "the-shorter-division-of-pairs",
+      "paliName": "Cūḷayamaka Vagga",
+      "order": 5,
+      "suttas": []
+    },
+    "54ix3hzWc0lqijiVLKLYiZ": {
+      "name": "The Great Division of Pairs",
+      "slug": "the-great-division-of-pairs",
+      "paliName": "Mahāyamaka Vagga",
+      "order": 4,
+      "suttas": []
+    },
+    "5puhlcF976C6I5yZVPqub8": {
+      "name": "The Division of Similes",
+      "slug": "the-division-of-similes",
+      "paliName": "Opamma Vagga",
+      "order": 3,
+      "suttas": []
+    },
+    "4eiI2ZmiH1qXDTOccmu5Zc": {
+      "name": "The Division of the Lion's Roar",
+      "slug": "the-division-of-the-lions-roar",
+      "paliName": "Sīhanāda Vagga",
+      "order": 2,
+      "suttas": []
+    },
+    "5E7f9uiyriQtnsojgjRDY3": {
+      "name": "The Division of the Discourse on the Root",
+      "slug": "the-division-of-the-discourse-on-the-root",
+      "paliName": "Mūlapariyāya Vagga",
+      "order": 1,
+      "suttas": []
+    },
+    "5QTLxp2ZBGfnMqr2CgxhDy": {
+      "name": "Phẩm Ba-lê-tử",
+      "slug": "pham-ba-le-tu",
+      "paliName": "Patika Vagga",
+      "order": 3,
+      "suttas": []
+    },
+    "5CnfWStqhuvS7DEqgJb1Y9": {
+      "name": "Đại-Phẩm",
+      "slug": "dai-pham",
+      "paliName": "Maha Vagga",
+      "order": 2,
+      "suttas": []
+    }
+  },
+  "allIds": [
+    "5Ybv7ApEC0Y74ZT7f5Eklv",
+    "4ms7T8Akobgn2dKjxyUUST",
+    "5HzvtyzwXn8KCV9mbMIioi",
+    "cqjtDfcwiUx8R2H1PsrxL",
+    "ke8hCr3FK5h9MirS7PYkH",
+    "2LjmJV3AVyhksC7ZIQDXSV",
+    "4se4hNrwmnKtVFTDqu80aI",
+    "1bqjWQDew2odswB2ClOjov",
+    "610mvL3xluOxDF91H8izDt",
+    "65GEJ52UPyOzhJZy5LNa8b",
+    "4SkqmvysMdgiljco7zrs04",
+    "jUzaSzMzMD3jV8HD3jPIz",
+    "3dITn1V0Jndxgfu9dIBf3Z",
+    "3zxTY3DSzlcGGPrxPSROLR",
+    "2XsJc6TsPaNelENN5oKLVo",
+    "7yobOn3iFyuP5M8OyI0zdi",
+    "7A4uIXQWbKUBYTscmrhhJ4",
+    "3vaVpKSLMC2HD7smzofLCZ",
+    "5Rxntzt1ghHviogqmyyqil",
+    "1JFlUMF0MCt1fDwypPTg3I",
+    "4X0OhRGxRiXY8n108ifGm2",
+    "2VQdLdeuEc5npthZjUecAo",
+    "76p1lpVz1uHK2Z3RTcjkH6",
+    "7Eou9CCQ9bok7PQq2ZutB4",
+    "6dymjEuA3dXkgEOz3jzSmV",
+    "4lU1VjNxzutq2ubyKJ72n0",
+    "1AJFPP4SzVOhtWt8LFtLuT",
+    "5EdTABd0jlADrQN9d4Jvqu",
+    "enAHzPmji08bwn7w9aHQX",
+    "7eda8TP7lJvLQVZPNb1oPK",
+    "34EbKh4N0p3MmRS1h6dnbC",
+    "70VwRkGUxSbqiSFEXk7jmv",
+    "73NnI5CRG6VGZWa5EfNPSU",
+    "54ix3hzWc0lqijiVLKLYiZ",
+    "5puhlcF976C6I5yZVPqub8",
+    "4eiI2ZmiH1qXDTOccmu5Zc",
+    "5E7f9uiyriQtnsojgjRDY3",
+    "5QTLxp2ZBGfnMqr2CgxhDy",
+    "5CnfWStqhuvS7DEqgJb1Y9"
+  ]
+}
