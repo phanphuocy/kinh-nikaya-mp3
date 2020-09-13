@@ -3,13 +3,26 @@ import { connect } from "react-redux";
 import styled from "styled-components/native";
 import { View, ScrollView, FlatList, TouchableOpacity } from "react-native";
 import { Text } from "../components/Atomics";
+import { Ionicons } from "@expo/vector-icons";
 
-const GroupScreen = ({ group }) => {
+const GroupScreen = ({ group, navigation }) => {
+  function handleCardReadingClicked(id) {
+    navigation.navigate("Reading", { id: id });
+  }
+
+  const ListHeader = () => (
+    <>
+      <SectionTitle>GIỚI THIỆU</SectionTitle>
+      <IntroductionText>
+        {group.introduction
+          ? group.introduction
+          : "Amet velit officia sint laboris dolor nostrud. Laboris sit exercitation cillum ipsum est non ex consequat fugiat deserunt fugiat in velit. Aliqua est non consectetur dolor in sit veniam amet aute aute. Tempor consequat do eiusmod do adipisicing ullamco occaecat aute minim eu."}
+      </IntroductionText>
+      <SectionTitle>CÁC BÀI KINH</SectionTitle>
+    </>
+  );
   return (
     <Screen>
-      {/* <Text>{JSON.stringify(group, null, 2)}</Text> */}
-      <Text>GIỚI THIỆU</Text>
-      <Text>{group.introduction}</Text>
       <FlatList
         data={group.suttas}
         keyExtractor={(item) => item.slug}
@@ -21,8 +34,13 @@ const GroupScreen = ({ group }) => {
               <Text>{item.introduction}</Text>
             </ContentContainer>
             <ActionContainer>
-              <ActionTouchable>
-                <Text>Touch me</Text>
+              <ActionTouchable
+                onPress={() => handleCardReadingClicked(item.id)}
+              >
+                <ButtonIconContainer>
+                  <Ionicons name="md-book" size={24} color="white" />
+                </ButtonIconContainer>
+                <Text>Hòa Thượng Thích Minh Châu</Text>
               </ActionTouchable>
               <ActionTouchable>
                 <Text>Touch me</Text>
@@ -30,6 +48,7 @@ const GroupScreen = ({ group }) => {
             </ActionContainer>
           </SuttaCard>
         )}
+        ListHeaderComponent={ListHeader}
       />
     </Screen>
   );
@@ -38,6 +57,23 @@ const GroupScreen = ({ group }) => {
 const Screen = styled.View`
   background-color: #f9f9f9;
   flex: 1;
+`;
+
+const SectionTitle = styled.Text`
+  text-align: center;
+  font-family: serif400;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 16px;
+  margin-bottom: 16px;
+`;
+
+const IntroductionText = styled.Text`
+  margin: 4px 24px;
+  font-family: sans400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 22.4px;
 `;
 
 const SuttaCard = styled.View`
@@ -55,10 +91,23 @@ const ContentContainer = styled.View`
 const ActionContainer = styled.View``;
 
 const ActionTouchable = styled.TouchableOpacity`
+  flex-direction: row;
+  align-items: center;
   padding: 12px 16px;
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   margin-bottom: 4px;
+`;
+
+const ButtonIconContainer = styled.View`
+  background-color: black;
+  border-radius: 18px;
+  height: 36px;
+  width: 36px;
+  padding: 4px;
+  margin-right: 8px;
+  justify-content: center;
+  align-items: center;
 `;
 
 function mapStateToProps(state, ownProps) {

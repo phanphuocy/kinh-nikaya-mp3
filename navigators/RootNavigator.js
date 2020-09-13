@@ -7,6 +7,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 // Import navigators
 import BrowsingStackNavigator from "./BrowsingStackNavigator";
 import ReadingStackNavigator from "./ReadingStackNavigator";
+import SuttaScreen from "../screens/SuttaScreen";
 
 const RootStack = createStackNavigator();
 
@@ -15,7 +16,7 @@ const RootNavigator = () => {
     <NavigationContainer>
       <RootStack.Navigator headerMode="none">
         <RootStack.Screen name="Browsing" component={BrowsingStackNavigator} />
-        <RootStack.Screen name="Reading" component={ReadingStackNavigator} />
+        <RootStack.Screen name="Reading" component={SuttaScreen} />
       </RootStack.Navigator>
     </NavigationContainer>
   );

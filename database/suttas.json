@@ -1,12 +1,40 @@
 {
   "byIds": {
+    "2AIHNSG4Ox5MUPvNq0deTh": {
+      "name": "Kinh Ma-Ha-Li",
+      "slug": "kinh-ma-ha-li",
+      "paliName": "Mahāli Sutta",
+      "codeName": "DN:06",
+      "difficultyLevel": "Intermediate",
+      "introduction": "The Buddha explains to a diverse group of lay people how the results of meditation depend on the manner of development.",
+      "id": "2AIHNSG4Ox5MUPvNq0deTh"
+    },
+    "7m0jV0NI5kjULadAX70WsY": {
+      "name": "Kinh Cứu-La-Ðàn-Ðầu",
+      "slug": "kinh-cuu-la-dan-dau",
+      "paliName": "Kūṭadanta Sutta",
+      "codeName": "DN:05",
+      "difficultyLevel": "Beginner",
+      "introduction": "A brahmin wishes to undertake a great sacrifice, and asks for the Buddha’s advice. The Buddha tells a legend of the past, in which a king is persuaded to give up violent sacrifice, and instead to devote his resources to supporting the needy citizens of his realm. However, even such a beneficial and non-violent sacrifice pales in comparison to the spiritual sacrifice of giving up attachments.",
+      "id": "7m0jV0NI5kjULadAX70WsY"
+    },
+    "3wJbxHh0LU7r0pMmrV7lWB": {
+      "name": "Kinh Chủng Ðức",
+      "slug": "kinh-chung-duc",
+      "paliName": "Soṇadaṇḍa Sutta",
+      "codeName": "DN:04",
+      "difficultyLevel": "Intermediate",
+      "introduction": "A reputed brahmin visits the Buddha, despite the reservations of other brahmins. They discuss the true meaning of a brahmin, and the Buddha skillfully draws him around to his own point of view.",
+      "id": "3wJbxHh0LU7r0pMmrV7lWB"
+    },
     "5kKiEtXyKLgMR6WuMtQqeM": {
       "name": "Kinh A-ma-trú",
       "slug": "kinh-a-ma-tru",
       "paliName": "Ambaṭṭha Sutta",
       "codeName": "DN:03",
       "difficultyLevel": "Intermediate",
-      "introduction": "A young brahmin student attacks the Buddha’s family, but is put in his place."
+      "introduction": "A young brahmin student attacks the Buddha’s family, but is put in his place.",
+      "id": "5kKiEtXyKLgMR6WuMtQqeM"
     },
     "NvSXLwURStO3P20qRjKFB": {
       "name": "Kinh Sa-môn quả",
@@ -14,7 +42,8 @@
       "paliName": "Sāmaññaphala Sutta",
       "codeName": "DN:02",
       "difficultyLevel": "Beginner",
-      "introduction": "The newly crowned King Ajātasattu is disturbed by the violent means by which he achieved the crown. He visits the Buddha to find peace of mind, and asks him about the benefits of spiritual practice. This is one of the greatest literary and spiritual texts of early Buddhism."
+      "introduction": "The newly crowned King Ajātasattu is disturbed by the violent means by which he achieved the crown. He visits the Buddha to find peace of mind, and asks him about the benefits of spiritual practice. This is one of the greatest literary and spiritual texts of early Buddhism.",
+      "id": "NvSXLwURStO3P20qRjKFB"
     },
     "149YiGuYA6NKOSz3KXW1Mc": {
       "name": "Kinh Phạm võng",
@@ -22,10 +51,14 @@
       "paliName": "Brahmajāla Sutta",
       "codeName": "DN:01",
       "difficultyLevel": "Advanced",
-      "introduction": "While others may praise or criticize the Buddha, they tend to focus on trivial details. The Buddha presents an analysis of 62 kinds of wrong view, seeing through which one becomes detached from meaningless speculations."
+      "introduction": "While others may praise or criticize the Buddha, they tend to focus on trivial details. The Buddha presents an analysis of 62 kinds of wrong view, seeing through which one becomes detached from meaningless speculations.",
+      "id": "149YiGuYA6NKOSz3KXW1Mc"
     }
   },
   "allIds": [
+    "2AIHNSG4Ox5MUPvNq0deTh",
+    "7m0jV0NI5kjULadAX70WsY",
+    "3wJbxHh0LU7r0pMmrV7lWB",
     "5kKiEtXyKLgMR6WuMtQqeM",
     "NvSXLwURStO3P20qRjKFB",
     "149YiGuYA6NKOSz3KXW1Mc"

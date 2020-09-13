@@ -76,7 +76,9 @@ const CollectionAccordionItem = ({
           keyExtractor={(item) => item.slug}
           renderItem={({ item }) => (
             <GroupCard>
-              <TouchableOpacity onPress={() => handleCardClicked(item.id)}>
+              <TouchableOpacity
+                onPress={() => handleCardClicked(item.id, item.name)}
+              >
                 <Text>{item.name}</Text>
                 <Text>{item.paliName}</Text>
               </TouchableOpacity>

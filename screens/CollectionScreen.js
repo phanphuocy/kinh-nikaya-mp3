@@ -6,8 +6,8 @@ import CollectionAccordion from "../components/CollectionAccordion";
 const CollectionScreen = ({ collections, navigation }) => {
   const data = collections.allIds.map((id) => collections.byIds[id]);
 
-  function handleCardClicked(idOfGroup) {
-    navigation.navigate("Group", { id: idOfGroup });
+  function handleCardClicked(idOfGroup, screenName) {
+    navigation.navigate("Group", { id: idOfGroup, screenName: screenName });
   }
 
   return (

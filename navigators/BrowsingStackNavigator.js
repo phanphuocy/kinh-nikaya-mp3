@@ -16,7 +16,11 @@ const BrowsingStackNavigator = () => {
   return (
     <BrowsingStack.Navigator>
       <BrowsingStack.Screen name="Collection" component={CollectionScreen} />
-      <BrowsingStack.Screen name="Group" component={GroupScreen} />
+      <BrowsingStack.Screen
+        name="Group"
+        component={GroupScreen}
+        options={({ route }) => ({ title: route.params.screenName })}
+      />
     </BrowsingStack.Navigator>
   );
 };

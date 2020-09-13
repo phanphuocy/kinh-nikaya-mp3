@@ -33,13 +33,15 @@
           "introduction": "A young brahmin student attacks the Buddha’s family, but is put in his place.",
           "id": "5kKiEtXyKLgMR6WuMtQqeM"
         }
-      ]
+      ],
+      "id": "5Ybv7ApEC0Y74ZT7f5Eklv"
     },
     "4ms7T8Akobgn2dKjxyUUST": {
       "name": "Kinh tập",
       "slug": "kinh-tap",
       "paliName": "Sutta Nipata",
       "order": 5,
+      "id": "4ms7T8Akobgn2dKjxyUUST",
       "suttas": []
     },
     "5HzvtyzwXn8KCV9mbMIioi": {
@@ -47,6 +49,7 @@
       "slug": "kinh-phat-thuyet-nhu-vay",
       "paliName": "Itivuttaka",
       "order": 4,
+      "id": "5HzvtyzwXn8KCV9mbMIioi",
       "suttas": []
     },
     "cqjtDfcwiUx8R2H1PsrxL": {
@@ -54,6 +57,7 @@
       "slug": "cam-hung-ngu-phat-tu-thuyet",
       "paliName": "Udana",
       "order": 3,
+      "id": "cqjtDfcwiUx8R2H1PsrxL",
       "suttas": []
     },
     "ke8hCr3FK5h9MirS7PYkH": {
@@ -61,6 +65,7 @@
       "slug": "kinh-phap-cu",
       "paliName": "Dhammapada",
       "order": 2,
+      "id": "ke8hCr3FK5h9MirS7PYkH",
       "suttas": []
     },
     "2LjmJV3AVyhksC7ZIQDXSV": {
@@ -68,6 +73,7 @@
       "slug": "kinh-tieu-tung",
       "paliName": "Khuddakapatha",
       "order": 1,
+      "id": "2LjmJV3AVyhksC7ZIQDXSV",
       "suttas": []
     },
     "4se4hNrwmnKtVFTDqu80aI": {
@@ -75,6 +81,7 @@
       "slug": "chuong-muoi-mot-phap",
       "paliName": "Ekadasakanipāta",
       "order": 11,
+      "id": "4se4hNrwmnKtVFTDqu80aI",
       "suttas": []
     },
     "1bqjWQDew2odswB2ClOjov": {
@@ -82,6 +89,7 @@
       "slug": "chuong-muoi-phap",
       "paliName": "Dasakanipāta",
       "order": 10,
+      "id": "1bqjWQDew2odswB2ClOjov",
       "suttas": []
     },
     "610mvL3xluOxDF91H8izDt": {
@@ -89,6 +97,7 @@
       "slug": "chuong-chin-phap",
       "paliName": "Navakanipāta",
       "order": 9,
+      "id": "610mvL3xluOxDF91H8izDt",
       "suttas": []
     },
     "65GEJ52UPyOzhJZy5LNa8b": {
@@ -96,6 +105,7 @@
       "slug": "chuong-tam-phap",
       "paliName": "Atthakanipāta",
       "order": 8,
+      "id": "65GEJ52UPyOzhJZy5LNa8b",
       "suttas": []
     },
     "4SkqmvysMdgiljco7zrs04": {
@@ -103,6 +113,7 @@
       "slug": "chuong-bay-phap",
       "paliName": "Sattakanipāta",
       "order": 7,
+      "id": "4SkqmvysMdgiljco7zrs04",
       "suttas": []
     },
     "jUzaSzMzMD3jV8HD3jPIz": {
@@ -110,6 +121,7 @@
       "slug": "chuong-sau-phap",
       "paliName": "Chakkanipāta",
       "order": 6,
+      "id": "jUzaSzMzMD3jV8HD3jPIz",
       "suttas": []
     },
     "3dITn1V0Jndxgfu9dIBf3Z": {
@@ -117,6 +129,7 @@
       "slug": "chuong-nam-phap",
       "paliName": "Pañcakanipāta",
       "order": 5,
+      "id": "3dITn1V0Jndxgfu9dIBf3Z",
       "suttas": []
     },
     "3zxTY3DSzlcGGPrxPSROLR": {
@@ -124,6 +137,7 @@
       "slug": "chuong-bon-phap",
       "paliName": "Catukkanipāta",
       "order": 4,
+      "id": "3zxTY3DSzlcGGPrxPSROLR",
       "suttas": []
     },
     "2XsJc6TsPaNelENN5oKLVo": {
@@ -131,6 +145,7 @@
       "slug": "chuong-ba-phap",
       "paliName": "Tikanipata",
       "order": 3,
+      "id": "2XsJc6TsPaNelENN5oKLVo",
       "suttas": []
     },
     "7yobOn3iFyuP5M8OyI0zdi": {
@@ -138,6 +153,7 @@
       "slug": "chuong-hai-phap",
       "paliName": "Dukanipāta",
       "order": 2,
+      "id": "7yobOn3iFyuP5M8OyI0zdi",
       "suttas": []
     },
     "7A4uIXQWbKUBYTscmrhhJ4": {
@@ -145,6 +161,7 @@
       "slug": "chuong-mot-phap",
       "paliName": "Ekakanipāta",
       "order": 1,
+      "id": "7A4uIXQWbKUBYTscmrhhJ4",
       "suttas": []
     },
     "3vaVpKSLMC2HD7smzofLCZ": {
@@ -152,6 +169,7 @@
       "slug": "thien-dai-pham",
       "paliName": "Mahàvagga Samyuttapàli",
       "order": 5,
+      "id": "3vaVpKSLMC2HD7smzofLCZ",
       "suttas": []
     },
     "5Rxntzt1ghHviogqmyyqil": {
@@ -159,6 +177,7 @@
       "slug": "thien-sau-xu",
       "paliName": "Salàyatanavagga Samyuttapàli",
       "order": 4,
+      "id": "5Rxntzt1ghHviogqmyyqil",
       "suttas": []
     },
     "1JFlUMF0MCt1fDwypPTg3I": {
@@ -166,6 +185,7 @@
       "slug": "thien-uan",
       "paliName": "Khandavagga Samyuttapàli",
       "order": 3,
+      "id": "1JFlUMF0MCt1fDwypPTg3I",
       "suttas": []
     },
     "4X0OhRGxRiXY8n108ifGm2": {
@@ -173,6 +193,7 @@
       "slug": "thien-nhan-duyen",
       "paliName": "Nidànavagga Samyuttapàli",
       "order": 2,
+      "id": "4X0OhRGxRiXY8n108ifGm2",
       "suttas": []
     },
     "2VQdLdeuEc5npthZjUecAo": {
@@ -180,6 +201,7 @@
       "slug": "thien-co-ke",
       "paliName": "Sagàthàvagga Samyuttapàli",
       "order": 1,
+      "id": "2VQdLdeuEc5npthZjUecAo",
       "suttas": []
     },
     "76p1lpVz1uHK2Z3RTcjkH6": {
@@ -187,6 +209,7 @@
       "slug": "the-division-of-the-sixfold-base",
       "paliName": "Saḷāyatana Vagga",
       "order": 15,
+      "id": "76p1lpVz1uHK2Z3RTcjkH6",
       "suttas": []
     },
     "7Eou9CCQ9bok7PQq2ZutB4": {
@@ -194,6 +217,7 @@
       "slug": "the-division-of-expositions",
       "paliName": "Vibhaṅga Vagga",
       "order": 14,
+      "id": "7Eou9CCQ9bok7PQq2ZutB4",
       "suttas": []
     },
     "6dymjEuA3dXkgEOz3jzSmV": {
@@ -201,6 +225,7 @@
       "slug": "the-division-of-voidness",
       "paliName": "Suññata Vagga",
       "order": 13,
+      "id": "6dymjEuA3dXkgEOz3jzSmV",
       "suttas": []
     },
     "4lU1VjNxzutq2ubyKJ72n0": {
@@ -208,6 +233,7 @@
       "slug": "the-division-of-one-by-one",
       "paliName": "Anupada Vagga",
       "order": 12,
+      "id": "4lU1VjNxzutq2ubyKJ72n0",
       "suttas": []
     },
     "1AJFPP4SzVOhtWt8LFtLuT": {
@@ -215,6 +241,7 @@
       "slug": "the-division-at-devadaha",
       "paliName": "Devadaha Vagga",
       "order": 11,
+      "id": "1AJFPP4SzVOhtWt8LFtLuT",
       "suttas": []
     },
     "5EdTABd0jlADrQN9d4Jvqu": {
@@ -222,6 +249,7 @@
       "slug": "the-division-on-brahmins",
       "paliName": "Brāhmaṇa Vagga",
       "order": 10,
+      "id": "5EdTABd0jlADrQN9d4Jvqu",
       "suttas": []
     },
     "enAHzPmji08bwn7w9aHQX": {
@@ -229,6 +257,7 @@
       "slug": "the-division-on-kings",
       "paliName": "Rāja Vagga",
       "order": 9,
+      "id": "enAHzPmji08bwn7w9aHQX",
       "suttas": []
     },
     "7eda8TP7lJvLQVZPNb1oPK": {
@@ -236,6 +265,7 @@
       "slug": "the-division-on-wanderers",
       "paliName": "Paribbājaka Vagga",
       "order": 8,
+      "id": "7eda8TP7lJvLQVZPNb1oPK",
       "suttas": []
     },
     "34EbKh4N0p3MmRS1h6dnbC": {
@@ -243,6 +273,7 @@
       "slug": "the-division-on-bhikkhus",
       "paliName": "Bhikkhu Vagga",
       "order": 7,
+      "id": "34EbKh4N0p3MmRS1h6dnbC",
       "suttas": []
     },
     "70VwRkGUxSbqiSFEXk7jmv": {
@@ -250,6 +281,7 @@
       "slug": "the-division-on-householders",
       "paliName": "Gahapati Vagga",
       "order": 6,
+      "id": "70VwRkGUxSbqiSFEXk7jmv",
       "suttas": []
     },
     "73NnI5CRG6VGZWa5EfNPSU": {
@@ -257,6 +289,7 @@
       "slug": "the-shorter-division-of-pairs",
       "paliName": "Cūḷayamaka Vagga",
       "order": 5,
+      "id": "73NnI5CRG6VGZWa5EfNPSU",
       "suttas": []
     },
     "54ix3hzWc0lqijiVLKLYiZ": {
@@ -264,6 +297,7 @@
       "slug": "the-great-division-of-pairs",
       "paliName": "Mahāyamaka Vagga",
       "order": 4,
+      "id": "54ix3hzWc0lqijiVLKLYiZ",
       "suttas": []
     },
     "5puhlcF976C6I5yZVPqub8": {
@@ -271,6 +305,7 @@
       "slug": "the-division-of-similes",
       "paliName": "Opamma Vagga",
       "order": 3,
+      "id": "5puhlcF976C6I5yZVPqub8",
       "suttas": []
     },
     "4eiI2ZmiH1qXDTOccmu5Zc": {
@@ -278,6 +313,7 @@
       "slug": "the-division-of-the-lions-roar",
       "paliName": "Sīhanāda Vagga",
       "order": 2,
+      "id": "4eiI2ZmiH1qXDTOccmu5Zc",
       "suttas": []
     },
     "5E7f9uiyriQtnsojgjRDY3": {
@@ -285,6 +321,7 @@
       "slug": "the-division-of-the-discourse-on-the-root",
       "paliName": "Mūlapariyāya Vagga",
       "order": 1,
+      "id": "5E7f9uiyriQtnsojgjRDY3",
       "suttas": []
     },
     "5QTLxp2ZBGfnMqr2CgxhDy": {
@@ -292,6 +329,7 @@
       "slug": "pham-ba-le-tu",
       "paliName": "Patika Vagga",
       "order": 3,
+      "id": "5QTLxp2ZBGfnMqr2CgxhDy",
       "suttas": []
     },
     "5CnfWStqhuvS7DEqgJb1Y9": {
@@ -299,6 +337,7 @@
       "slug": "dai-pham",
       "paliName": "Maha Vagga",
       "order": 2,
+      "id": "5CnfWStqhuvS7DEqgJb1Y9",
       "suttas": []
     }
   },

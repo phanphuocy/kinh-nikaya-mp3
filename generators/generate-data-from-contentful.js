@@ -1,6 +1,7 @@
 const contentful = require("contentful");
 const fs = require("fs");
 require("dotenv").config();
+const orderBy = require("lodash.orderby");
 
 const client = contentful.createClient({
   // This is the space ID. A space is like a project folder in Contentful terms
@@ -38,6 +39,7 @@ function getFileSizeInMegabytes(filename) {
   function sanitizeAndPopulateCollection(id, fields) {
     collections.byIds[id] = {
       ...fields,
+      id: id,
       groups: fields.groups
         ? fields.groups.map((group) => {
             delete group.fields.suttas;
@@ -48,12 +50,14 @@ function getFileSizeInMegabytes(filename) {
           })
         : [],
     };
+
     collections.allIds.push(id);
   }
 
   function sanitizeAndPopulateGroup(id, fields) {
     groups.byIds[id] = {
       ...fields,
+      id: id,
       suttas: fields.suttas
         ? fields.suttas.map((sutta) => {
             delete sutta.fields.text;
@@ -79,6 +83,7 @@ function getFileSizeInMegabytes(filename) {
 
     suttas.byIds[id] = {
       ...fields,
+      id: id,
     };
     suttas.allIds.push(id);
   }
@@ -102,6 +107,14 @@ function getFileSizeInMegabytes(filename) {
         return;
     }
   });
+
+  function reorderCollectionIds() {
+    let collectionsObj = collections.allIds.map((id) => collections.byIds[id]);
+    collectionsObj = orderBy(collectionsObj, "order", "asc");
+    collections.allIds = collectionsObj.map((obj) => obj.id);
+  }
+
+  reorderCollectionIds();
 
   function writeDataToDrive(data, path, lengthOfData) {
     fs.writeFileSync(path, JSON.stringify(data, null, 2), {

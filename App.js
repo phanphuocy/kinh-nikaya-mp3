@@ -25,6 +25,7 @@ function App() {
   let [fontsLoaded, error] = useFonts({
     sans400: require("./assets/fonts/Jano-Sans-Pro-Regular.otf"),
     serif400: require("./assets/fonts/Lora-Regular.ttf"),
+    serif700: require("./assets/fonts/Lora-Bold.ttf"),
   });
 
   if (!fontsLoaded) {
