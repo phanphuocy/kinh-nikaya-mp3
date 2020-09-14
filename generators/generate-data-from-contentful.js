@@ -73,6 +73,9 @@ function getFileSizeInMegabytes(filename) {
   }
 
   function sanitizeAndPopulateSutta(id, fields) {
+    if (!fields.text) {
+      console.log(fields.name, "does not have text");
+    }
     let joinedText = fields.text.concat(fields.textExtended);
 
     suttasText.byIds[id] = joinedText;

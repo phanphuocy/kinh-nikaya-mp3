@@ -1,11 +1,13 @@
 import { StatusBar } from "expo-status-bar";
-import React from "react";
+import React, { useEffect } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import styled from "styled-components/native";
 import { Provider } from "react-redux";
 import store from "./store/index";
 import { AppLoading } from "expo";
 import { useFonts } from "expo-font";
+import { initializePlayer } from "./store/actions/playerActions";
+import { connect } from "react-redux";
 
 // Import navigators
 import RootNavigator from "./navigators/RootNavigator";
@@ -21,7 +23,17 @@ const TitleBar = styled.View`
   box-shadow: 10px 5px 5px black;
 `;
 
-function App() {
+const PlayerProvider = connect(null, { initializePlayer })(
+  ({ children, initializePlayer }) => {
+    useEffect(() => {
+      initializePlayer();
+      console.log("App mounted");
+    }, []);
+    return <Screen>{children}</Screen>;
+  }
+);
+
+function App({ initializePlayer }) {
   let [fontsLoaded, error] = useFonts({
     sans400: require("./assets/fonts/Jano-Sans-Pro-Regular.otf"),
     serif400: require("./assets/fonts/Lora-Regular.ttf"),
@@ -43,9 +55,11 @@ function App() {
   } else {
     return (
       <Provider store={store}>
-        <Screen>
-          <RootNavigator />
-        </Screen>
+        <PlayerProvider>
+          <Screen>
+            <RootNavigator />
+          </Screen>
+        </PlayerProvider>
       </Provider>
     );
   }
