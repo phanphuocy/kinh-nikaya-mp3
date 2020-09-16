@@ -8,6 +8,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import CollectionScreen from "../screens/CollectionScreen";
 import GroupScreen from "../screens/GroupScreen";
 import SearchScreen from "../screens/SearchScreen";
+import PersonalScreen from "../screens/PersonalScreen";
 
 // BrowsingStack is the child of BrowsingTabs, alongside with Search(screen)
 const BrowsingStack = createStackNavigator();
@@ -37,6 +38,7 @@ const BrowsingTabsNavigator = () => {
       />
 
       <BrowsingTabs.Screen name="Search" component={SearchScreen} />
+      <BrowsingTabs.Screen name="Personal" component={PersonalScreen} />
     </BrowsingTabs.Navigator>
   );
 };

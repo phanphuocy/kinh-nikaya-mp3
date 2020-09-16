@@ -120,7 +120,6 @@ const ButtonIconContainer = styled.View`
 `;
 
 function mapStateToProps(state, ownProps) {
-  console.log(ownProps);
   let id = ownProps.route.params.id;
   return {
     group: state.system.groups.byIds[id],

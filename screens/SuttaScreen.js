@@ -11,6 +11,7 @@ import AudioControlPanel from "../components/AudioControlPanel";
 
 // Import actions
 import { loadNewPlaybackInstance } from "../store/actions/playerActions";
+import { addNewReadingSutta } from "../store/actions/personalActions";
 
 const ScreenHeader = ({
   menuButtonHandler,
@@ -86,6 +87,7 @@ const SuttaScreen = ({
   tracks,
   instance,
   loadNewPlaybackInstance,
+  addNewReadingSutta,
   navigation,
   route,
 }) => {
@@ -94,7 +96,9 @@ const SuttaScreen = ({
   );
 
   useEffect(() => {
-    loadNewPlaybackInstance(instance, tracks[0].url, tracks, true, {});
+    if (route.params.openWithAudio) {
+      loadNewPlaybackInstance(instance, tracks[0].url, tracks, true, {});
+    }
   }, [id]);
 
   //
@@ -129,6 +133,25 @@ const SuttaScreen = ({
     }
   }
 
+  function handleOnContentScroll(event) {
+    event.persist();
+    let position =
+      Math.round(
+        (event.nativeEvent.contentOffset.y /
+          event.nativeEvent.contentSize.height) *
+          100
+      ) / 100;
+    setScrollingPosition(position);
+
+    // Only fire add new sutta action when scrolling changed by 0.01 and user have
+    // read over 10% percent
+    if (position !== scrollingPosition && position >= 0.1) {
+      addNewReadingSutta(id, sutta, scrollingPosition);
+    }
+  }
+
+  const [scrollingPosition, setScrollingPosition] = useState(0);
+
   return (
     <Screen>
       {openMenu && <SuttaScreenMenu />}
@@ -138,7 +161,13 @@ const SuttaScreen = ({
         decreaseFontsizeHandler={handleDecreaseFontsize}
         menuButtonHandler={toggleMenu}
       />
-      <ScrollView>
+      <View>
+        <Text>{scrollingPosition}</Text>
+      </View>
+      <ScrollView
+        onScroll={(e) => handleOnContentScroll(e)}
+        scrollEventThrottle={200}
+      >
         {/* <Text>Sutta screen</Text>
         <Text>{id}</Text>
         <Text>{JSON.stringify(sutta, null, 2)}</Text> */}
@@ -186,6 +215,7 @@ function mapStateToProps(state, ownProps) {
   };
 }
 
-export default connect(mapStateToProps, { loadNewPlaybackInstance })(
-  SuttaScreen
-);
+export default connect(mapStateToProps, {
+  loadNewPlaybackInstance,
+  addNewReadingSutta,
+})(SuttaScreen);

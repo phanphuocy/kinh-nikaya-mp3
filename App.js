@@ -3,10 +3,11 @@ import React, { useEffect } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import styled from "styled-components/native";
 import { Provider } from "react-redux";
-import store from "./store/index";
+import { store, persistor } from "./store/index";
 import { AppLoading } from "expo";
 import { useFonts } from "expo-font";
 import { connect } from "react-redux";
+import { PersistGate } from "redux-persist/integration/react";
 
 // Import navigators
 import RootNavigator from "./navigators/RootNavigator";
@@ -52,9 +53,18 @@ function App() {
     return (
       <Provider store={store}>
         {/* <PlayerProvider> */}
-        <Screen>
-          <RootNavigator />
-        </Screen>
+        <PersistGate
+          loading={
+            <View>
+              <Text>LOADING PERSISTOR</Text>
+            </View>
+          }
+          persistor={persistor}
+        >
+          <Screen>
+            <RootNavigator />
+          </Screen>
+        </PersistGate>
         {/* </PlayerProvider> */}
       </Provider>
     );
