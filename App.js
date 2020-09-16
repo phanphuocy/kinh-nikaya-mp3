@@ -6,7 +6,6 @@ import { Provider } from "react-redux";
 import store from "./store/index";
 import { AppLoading } from "expo";
 import { useFonts } from "expo-font";
-import { initializePlayer } from "./store/actions/playerActions";
 import { connect } from "react-redux";
 
 // Import navigators
@@ -23,17 +22,14 @@ const TitleBar = styled.View`
   box-shadow: 10px 5px 5px black;
 `;
 
-const PlayerProvider = connect(null, { initializePlayer })(
-  ({ children, initializePlayer }) => {
-    useEffect(() => {
-      initializePlayer();
-      console.log("App mounted");
-    }, []);
-    return <Screen>{children}</Screen>;
-  }
-);
+const PlayerProvider = connect(null)(({ children }) => {
+  useEffect(() => {
+    console.log("App mounted");
+  }, []);
+  return <Screen>{children}</Screen>;
+});
 
-function App({ initializePlayer }) {
+function App() {
   let [fontsLoaded, error] = useFonts({
     sans400: require("./assets/fonts/Jano-Sans-Pro-Regular.otf"),
     serif400: require("./assets/fonts/Lora-Regular.ttf"),
@@ -55,11 +51,11 @@ function App({ initializePlayer }) {
   } else {
     return (
       <Provider store={store}>
-        <PlayerProvider>
-          <Screen>
-            <RootNavigator />
-          </Screen>
-        </PlayerProvider>
+        {/* <PlayerProvider> */}
+        <Screen>
+          <RootNavigator />
+        </Screen>
+        {/* </PlayerProvider> */}
       </Provider>
     );
   }

@@ -161,76 +161,8 @@
       "difficultyLevel": "Advanced",
       "introduction": "While others may praise or criticize the Buddha, they tend to focus on trivial details. The Buddha presents an analysis of 62 kinds of wrong view, seeing through which one becomes detached from meaningless speculations.",
       "tracks": [
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "b8XgizGR4565tvVDL3aM6",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:18.469Z",
-            "updatedAt": "2020-09-14T11:52:18.469Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN01 PT01-02 KinhPhamVong",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/b8XgizGR4565tvVDL3aM6/c8de1a99bbbc6e3f5ba5dbac51bdc807/DN01__PT01-02_KinhPhamVong.mp3",
-              "details": {
-                "size": 25208832
-              },
-              "fileName": "DN01__PT01-02_KinhPhamVong.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        },
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "6wBRHI5bx0PUsqwPnqW5z3",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:19.375Z",
-            "updatedAt": "2020-09-14T11:52:19.375Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN01 PT02-02 KinhPhamVong",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/6wBRHI5bx0PUsqwPnqW5z3/e3cc19bdb68ff4c769e8fe0aa4c02e76/DN01__PT02-02_KinhPhamVong.mp3",
-              "details": {
-                "size": 29716480
-              },
-              "fileName": "DN01__PT02-02_KinhPhamVong.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        }
+        "b8XgizGR4565tvVDL3aM6",
+        "6wBRHI5bx0PUsqwPnqW5z3"
       ],
       "id": "149YiGuYA6NKOSz3KXW1Mc"
     },
@@ -260,41 +192,7 @@
       "difficultyLevel": "Beginner",
       "introduction": "The newly crowned King Ajātasattu is disturbed by the violent means by which he achieved the crown. He visits the Buddha to find peace of mind, and asks him about the benefits of spiritual practice. This is one of the greatest literary and spiritual texts of early Buddhism.",
       "tracks": [
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "3mA581w7ligzxA8mvjk7MK",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:18.455Z",
-            "updatedAt": "2020-09-14T11:52:18.455Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN02 KinhSaMonQua",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/3mA581w7ligzxA8mvjk7MK/cdc891c7d67635bb9579e786bbf1884d/DN02__KinhSaMonQua.mp3",
-              "details": {
-                "size": 44114796
-              },
-              "fileName": "DN02__KinhSaMonQua.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        }
+        "3mA581w7ligzxA8mvjk7MK"
       ],
       "id": "NvSXLwURStO3P20qRjKFB"
     },
@@ -306,41 +204,7 @@
       "difficultyLevel": "Beginner",
       "introduction": "A brahmin wishes to undertake a great sacrifice, and asks for the Buddha’s advice. The Buddha tells a legend of the past, in which a king is persuaded to give up violent sacrifice, and instead to devote his resources to supporting the needy citizens of his realm. However, even such a beneficial and non-violent sacrifice pales in comparison to the spiritual sacrifice of giving up attachments.",
       "tracks": [
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "1iY7pd9AU9dPWsu8qisj7f",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:18.437Z",
-            "updatedAt": "2020-09-14T11:52:18.437Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN05 KinhKutadanta",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/1iY7pd9AU9dPWsu8qisj7f/4b546d247db01f8fb445124ad0867603/DN05__KinhKutadanta.mp3",
-              "details": {
-                "size": 24783228
-              },
-              "fileName": "DN05__KinhKutadanta.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        }
+        "1iY7pd9AU9dPWsu8qisj7f"
       ],
       "id": "7m0jV0NI5kjULadAX70WsY"
     },
@@ -352,41 +216,7 @@
       "difficultyLevel": "Advanced",
       "introduction": "The Buddha discusses with a wanderer the nature of perception and how it evolves through deeper states of meditation. None of these, however, should be identified with a self or soul.",
       "tracks": [
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "5yyhraP0vS4WYIeUXBMDwB",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:17.024Z",
-            "updatedAt": "2020-09-14T11:52:17.024Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN09 KinhPotthapada",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/5yyhraP0vS4WYIeUXBMDwB/795934fcb38825a48560f09ec9be464d/DN09__KinhPotthapada.mp3",
-              "details": {
-                "size": 26900506
-              },
-              "fileName": "DN09__KinhPotthapada.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        }
+        "5yyhraP0vS4WYIeUXBMDwB"
       ],
       "id": "6KerMkjAVBx66gv77jZNHA"
     },
@@ -398,41 +228,7 @@
       "difficultyLevel": "Intermediate",
       "introduction": "The Buddha is challenged by a naked ascetic on the topic of spiritual austerities. He points out that it is quite possible to perform all kinds of austere practices without having any inner purity of mind.",
       "tracks": [
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "2qLRMyTwGD5C4o9K2t3LUL",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:17.033Z",
-            "updatedAt": "2020-09-14T11:52:17.033Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN08 KassapaSihanada",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/2qLRMyTwGD5C4o9K2t3LUL/8abc3caad87644b2774affbe764f9049/DN08__KassapaSihanada.mp3",
-              "details": {
-                "size": 21083205
-              },
-              "fileName": "DN08__KassapaSihanada.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        }
+        "2qLRMyTwGD5C4o9K2t3LUL"
       ],
       "id": "4vKyJBw04b39jhjR7UsiZ"
     },
@@ -444,41 +240,7 @@
       "difficultyLevel": "Intermediate",
       "introduction": "A young brahmin student attacks the Buddha’s family, but is put in his place.",
       "tracks": [
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "5QwUmwqjYlQLhYYKJyGuCa",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:18.423Z",
-            "updatedAt": "2020-09-14T11:52:18.423Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN03 KinhAmbattha",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/5QwUmwqjYlQLhYYKJyGuCa/2fe7e5425074ab267f9b31397824e29c/DN03__KinhAmbattha.mp3",
-              "details": {
-                "size": 23971320
-              },
-              "fileName": "DN03__KinhAmbattha.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        }
+        "5QwUmwqjYlQLhYYKJyGuCa"
       ],
       "id": "5kKiEtXyKLgMR6WuMtQqeM"
     },
@@ -490,41 +252,7 @@
       "difficultyLevel": "Intermediate",
       "introduction": "A reputed brahmin visits the Buddha, despite the reservations of other brahmins. They discuss the true meaning of a brahmin, and the Buddha skillfully draws him around to his own point of view.",
       "tracks": [
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "6aTlr2h5TIy383Pp997Yr1",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:18.534Z",
-            "updatedAt": "2020-09-14T11:52:18.534Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN04 KinhSonadanda",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/6aTlr2h5TIy383Pp997Yr1/0d2ad1c431059dd8a169164a1c300b10/DN04__KinhSonadanda.mp3",
-              "details": {
-                "size": 18025933
-              },
-              "fileName": "DN04__KinhSonadanda.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        }
+        "6aTlr2h5TIy383Pp997Yr1"
       ],
       "id": "3wJbxHh0LU7r0pMmrV7lWB"
     },
@@ -536,41 +264,7 @@
       "difficultyLevel": "Intermediate",
       "introduction": "The Buddha explains to a diverse group of lay people how the results of meditation depend on the manner of development.",
       "tracks": [
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "2qcrjbtcwvLLgtiCRdVLN1",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:18.434Z",
-            "updatedAt": "2020-09-14T11:52:18.434Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN06 KinhMahali",
-            "file": {
-              "url": "//assets.ctfassets.net/sh3xm3v5m77n/2qcrjbtcwvLLgtiCRdVLN1/674cf78579db0662c38b6e900c5fdae3/DN06__KinhMahali.mp3",
-              "details": {
-                "size": 9057893
-              },
-              "fileName": "DN06__KinhMahali.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        }
+        "2qcrjbtcwvLLgtiCRdVLN1"
       ],
       "id": "2AIHNSG4Ox5MUPvNq0deTh"
     },
@@ -582,41 +276,7 @@
       "difficultyLevel": "Intermediate",
       "introduction": "Shortly after the Buddha’s death, Venerable Ānanda is invited to explain the core teachings.",
       "tracks": [
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "1X93Bvpu4Nv5F8sN7c0E7r",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:17.624Z",
-            "updatedAt": "2020-09-14T11:52:17.624Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN10 KinhSubha",
-            "file": {
-              "url": "//assets.ctfassets.net/sh3xm3v5m77n/1X93Bvpu4Nv5F8sN7c0E7r/9724f9c22af2ad1c06cb91ddba24beba/DN10__KinhSubha.mp3",
-              "details": {
-                "size": 5997086
-              },
-              "fileName": "DN10__KinhSubha.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        }
+        "1X93Bvpu4Nv5F8sN7c0E7r"
       ],
       "id": "0118HXqEpk33OLZloCZKrH"
     },
@@ -628,113 +288,10 @@
       "difficultyLevel": "Beginner",
       "introduction": "The longest of all discourses, this extended narrative tells of the events surrounding the Buddha’s death. Full of vivid and moving details, it is an ideal entry point into knowing the Buddha as a person, and understanding how the Buddhist community coped with his passing.",
       "tracks": [
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "7f288qjezmVf6LabVSVnzD",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:17.669Z",
-            "updatedAt": "2020-09-14T11:52:17.669Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN16 PT01-03 KinhDaiBatNietBan",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/7f288qjezmVf6LabVSVnzD/85d331134f1f8960f606d8795533d9c3/DN16__PT01-03__KinhDaiBatNietBan.mp3",
-              "details": {
-                "size": 38475776
-              },
-              "fileName": "DN16__PT01-03__KinhDaiBatNietBan.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        },
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "7u25XhTp4tAbJ4viSdjsUn",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:17.655Z",
-            "updatedAt": "2020-09-14T11:52:17.655Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN16 PT02-03 KinhDaiBatNietBan",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/7u25XhTp4tAbJ4viSdjsUn/fab81af58b524eda9ceb729a015db6eb/DN16__PT02-03__KinhDaiBatNietBan.mp3",
-              "details": {
-                "size": 34506752
-              },
-              "fileName": "DN16__PT02-03__KinhDaiBatNietBan.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        },
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "3PC6nE0vVinshJvV1c7jlU",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:17.802Z",
-            "updatedAt": "2020-09-14T11:52:17.802Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN16 PT03-03 KinhDaiBatNietBan",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/3PC6nE0vVinshJvV1c7jlU/29fe26f38b83d972e4d88b3112b6924c/DN16__PT03-03__KinhDaiBatNietBan.mp3",
-              "details": {
-                "size": 21425592
-              },
-              "fileName": "DN16__PT03-03__KinhDaiBatNietBan.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        }
+        "7f288qjezmVf6LabVSVnzD",
+        "7u25XhTp4tAbJ4viSdjsUn",
+        "3PC6nE0vVinshJvV1c7jlU"
       ],
-      "textFurtherExtended": "42. Rồi Thế Tôn nói với Tôn giả Ananda:\n\n- Này Ananda, rất có thể có người làm cho thợ sắt Cunda hối hận: “Này Hiền giả Cunda, thật không lợi ích gì cho Ngươi, thật là tai hại cho Ngươi, vì Như Lai dùng bữa ăn cuối cùng từ Ngươi cúng dường, và nhập diệt”. Này Ananda, cần phải làm tiêu tan sự hối hận ấy của thợ sắt Cunda: “Này Hiền giả, thật là công đức cho bạn, vì được Như Lai dùng bữa ăn cuối cùng từ bạn cúng dường, và nhập diệt. Này Hiền giả Cunda, tôi tự thân nghe, tự thân lãnh thọ lời nói này của Thế Tôn: “Có hai sự cúng dường ăn uống đồng một quả báo, đồng một dị thục quả, quả báo lớn hơn, lợi ích hơn các sự cúng dường ăn uống khác? Thế nào là hai? Một là bữa ăn trước khi Như Lai chứng vô thượng Chánh Ðẳng Chánh Giác, hai là bữa ăn trước khi Như Lai diệt độ Niết-bàn giới, không còn di hưởng sanh tử. Hai bữa ăn này đồng một quả báo, đồng một dị thục quả, quả báo lớn hơn, lợi ích hơn các sự cúng dường ăn uống khác. Nhờ hành động này, đại đức Cunda sẽ được hưởng tuổi thọ; nhờ hành động này, đại đức Cunda sẽ được hưởng sắc đẹp; nhờ hành động này, đại đức Cunda sẽ được hưởng an lạc; nhờ hành động này, đại đức Cunda sẽ được hưởng danh tiếng; nhờ hành động này, đại đức Cunda sẽ đợưc hưởng cõi trời, nhờ hành động này, đại đức Cunda sẽ được hưởng uy quyền”.\n\nNày Ananda, cần phải làm cho thợ sắt Cunda tiêu tan hối hận.\n\n43. Rồi Thế Tôn, sau khi hiểu ý nghĩa này, liền thốt lời cảm khái như sau:\n\nCông đức người bố thí,\n\nLuôn luôn được tăng trưởng,\n\nTrừ được tâm hận thù.\n\nKhông chất chứa, chế ngựa,\n\nKẻ chí thiện từ bỏ.\n\nMọi ác hạnh bất thiện,\n\nDiệt trừ tham, sân, si.\n\nTâm giải thoát thanh tịnh.\n\nTụng phẩm V\n\n1. Rồi Thế Tôn nói với Tôn giả Ananda:\n\n- Này Ananda, chúng ta hãy đi qua bờ bên kia sông Hirannavati, đến ở Kusinàrà - Upavatama - rừng Sàlà của dòng họ Màllà.\n\n- Xin vâng, bạch Thế Tôn!\n\nTôn giả Ananda vâng lời Thế Tôn.\n\nRồi Thế Tôn, cùng với đại chúng Tỷ-kheo đi đến bên kia sông Hirannavati, tại Kusinàrà Upavattana, rừng Sàlà của dòng họ Mallà, khi đi đến nơi liền nói với Tôn giả Ananda:\n\n- Này Ananda, hãy trải chỗ nằm, đầu hướng về phía Bắc giữa hai cây sàlà song thọ: này Ananda, Ta nay mệt mỏi, muốn nằm nghỉ.\n\n- Xin vâng, bạch Thế Tôn!\n\nTôn giả Ananda vâng lời Thế Tôn, trải chỗ nằm, đầu hướng về phía Bắc giữa hai cây sàlà song thọ. Và Thế Tôn nằm xuống, về phía hông bên phải, như dáng nằm con sư tử, hai chân để lên nhau chánh niệm và giác tỉnh.\n\n2. Lúc bấy giờ, cây sàlà song thọ trổ hoa trái mùa, tràn đầy cành lá. Những đóa hoa này rơi lên, gieo khắp và tung vãi trên thân Như Lai để cúng dường Ngài. Những thiên hoa Mandàrava từ trên hư không rơi xuống, rơi lên, gieo khắp và tung vãi trên thân Như Lai để cúng dường Ngài. Bột trời chiên đàn từ trên hư không rơi xuống, rơi lên, gieo khắp và tung vãi trên thân Như Lai để cúng dường Ngài, nhạc trời trên hư không trổi dậy để cúng dường Như Lai. Thiên ca trên hư không vang lên để cúng dường Như Lai.\n\n3. Rồi Như Lai nói với tôn giả Ananda:\n\n-- Này Ananada, các cây sàlà song thọ tự nhiên trổ hoa trái mùa tràn đầy cành lá, những đóa hoa này rơi lên, gieo khắp và tung vãi trên thân Như Lai để cúng dường. Những thiên hoa Mandàrava từ trên hư không rơi xuống, rơi lên, gieo khắp và tung vãi trên thân Như Lai để cúng dường. Bột trời chiên đàn từ trên hư không rơi xuống, rơi lên, gieo khắp và tung vãi trên thân Như Lai để cúng dường. Nhạc trời trên hư không trổi dậy để cúng dường Như Lai. Thiên ca trên hư không vang lên để cúng dường Như Lai.\n\nNhưng, này Ananda, như vậy không phải kính trọng, tôn sùng, đảnh lễ, cúng dường hay lễ kính Như Lai. Này Ananda, nếu có Tỷ-kheo, Tỷ-kheo ni, cư sĩ nam hay cư sĩ nữ nào thành tựu Chánh pháp và Tùy pháp, sống chơn chánh trong Chánh pháp, hành trì đúng Chánh pháp, thời người ấy kính trọng, tôn sùng, đảnh lễ, cúng dường Như Lai với sự cúng dường tối thượng. Do vậy, này Ananda, hãy thành tựu Chánh pháp và Tùy pháp, sống chơn chánh trong Chánh pháp và hành trì đúng Chánh pháp. Này Ananda, các Người phải học tập như vậy.\n\n4. Lúc bấy giờ, tôn giả Upavàna đứng trước mặt Thế Tôn và quạt Ngài. Thế Tôn liền quở trách tôn giả Upavàna: “Này Tỷ-kheo, hãy đứng một bên, chớ có đứng trước mặt Ta.”\n\nTôn giả Ananda, liền tự suy nghĩ: “Ðại đức Upavàna này là thị giả sống gần và hầu cận Thế Tôn đã lâu ngày. Nay Thế Tôn trong giờ phút cuối cùng lại quở trách đại đức Upavàna: “Này Tỷ-kheo, hãy đứng một bên, chớ có đứng trước mặt Ta”. Do nhơn gì, do duyên gì, Thế Tôn quở trách đại đức Upavàna: “Này Tỷ-kheo, hãy đứng một bên, chớ có đứng trước mặt ta”?.\n\n5. Rồi tôn giả Ananda bạch Thế Tôn:\n\n-- Ðại đức Upavàna này là thị giả, sống gần và hầu cận Thế Tôn đã lâu ngày. Nay Thế Tôn trong giờ phút cuối cùng lại quở trách đại đức Upavàna: “Này Tỷ-kheo, hãy đứng một bên, chớ có đứng trước mặt Ta.” Do nhơn gì, do duyên gì, Thế Tôn quở trách đại đức Upavàna: “Này Tỷ-kheo hãy đứng một bên, chớ có đứng trước mặt Ta”?\n\n-- Này Ananda, rất đông các vị Thiên thần ở mười phương thế giới tụ hội để chiêm ngưỡng Như Lai. Này Ananda, cho đến mười hai do tuần xung quanh Kusinàrà, Upavattana, rừng Sàlà thuộc dòng họ Mallà, không có một chỗ nào, nhỏ cho đến đầu một sợi tóc có thể chích được mà không đầy những Thiên thần có uy lực tụ họp. Này Ananda, các vị Thiên Thần đang than phiền: “Chúng ta từ rất xa đến chiêm ngưỡng Như Lai. Thật rất là hy hữu, các Như Lai, bậc A-la-hán, Chánh Ðẳng Giác xuất hiện ở đời, và tối hôm nay, trong canh cuối cùng, Như Lai sẽ nhập diệt. Và nay Tỷ-kheo có oai lực này lại đứng ngang trước Thế Tôn, khiến chúng ta không thể chiêm ngưỡng Như Lai trong giờ phút cuối cùng”. Này Ananda, các chư Thiên than phiền như vậy.\n\n6. -- Bạch Thế Tôn, Thế Tôn đang nghĩ đến hạng chư Thiên nào?\n\n- Này Ananda, có hạng chư Thiên ở trên hư không nhưng có tâm tư thế tục, những vị này khóc than, ới đầu bù tóc rối, khóc than với cánh tay duỗi cao, khóc than thân bổ nhoài dưới đất, lăn lộn qua lại: “Thế Tôn nhập diệt quá sớm, Thiện Thệ nhập diệt quá sớm, Pháp nhãn biến mất ở trên đời quá sớm”.\n\nNày Ananda, có hạng Thiên thần ở trên đất với tâm tư thế tục những vị này khóc than với đầu bù tóc rối, khóc than với cánh tay duỗi cao, khóc than thân nằm nhoài dưới đất, lăn lộn qua lại:\n\n“Thế Tôn nhập diệt quá sớm, Thiện Thệ nhập diệt quá sớm, Pháp nhãn biến mất ở trên đời quá sớm”.\n\nCó chư Thiên đã diệt trừ ái dục, những vị này bình thản, tỉnh giác chịu đựng, với tâm suy tư: “Các hành là vô thường, làm sao sự kiện có thể khác được?”\n\n7. -- Bạch Thế Tôn, thuở trước các Tỷ-kheo sau khi thọ an cư, từ các địa phương đến chiêm ngưỡng Như Lai, chúng con được sự lợi ích tiếp kiến, hầu cận những Tỷ-kheo tu hành điêu luyện. Bạch Thế Tôn, sau khi Thế Tôn nhập diệt, chúng con sẽ không được sự lợi ích tiếp kiến, hầu cận những Tỷ-kheo tu hành điêu luyện.\n\n8. - Này Ananda, có bốn Thánh tích kẻ thiện tín cần phải chiêm ngưỡng và tôn kính. Thế nào là bốn?\n\n“Ðây là chỗ Như Lai đản sanh”. Này Ananda, đó là thánh tích, kẻ thiện tín cần phải chiêm ngưỡng và tôn kính.\n\n“Ðây là chỗ Như Lai chứng ngộ vô thượng Chánh Ðẳng Giác”, này Ananda, đó là Thánh tích, kẻ thiện tín cần phải chiêm ngưỡng và tôn kính.\n\n“Ðây là chỗ Như Lai chuyển Pháp luân vô thượng”, này Ananda, đó là Thánh tích, kẻ thiện tín cần phải chiêm ngưỡng và tôn kính.\n\n“Ðây là chỗ Như Lai diệt độ, nhập Vô dư y Niết-bàn”, này Ananda, đó là Thánh tích, kẻ thiện tín cần phải chiêm ngưỡng và tôn kính.\n\nNày Ananda, đó là bốn Thánh tích, kẻ thiện tín cư sĩ cần phải chiêm ngưỡng và tôn kính. Này Ananda, các thiện tín Tỷ-kheo, Tỷ-kheo ni, cư sĩ nam, cư si nữ sẽ đến với niềm suy tư: “Ðây là chỗ Như Lai đản sanh”, “Ðây là chỗ Như Lai chứng ngộ vô thượng Chánh Ðẳng Chánh Giác”, “Ðây là chỗ Như Lai chuyển Pháp luân vô thượng”, “Ðây là chỗ Như Lai diệt độ, Nhập Vô dư y Niết-bàn”.\n\nNày Ananda, và những ai, trong khi chiêm bái những Thánh tích mà từ trần với tâm thâm tín hoan hỷ, thời những vị ấy, sau khi thân hoại mạng chung sẽ được sanh cõi thiện thú, cảnh giới chư Thiên.\n\n9. -- Bạch Thế Tôn, chúng con phải cư xử với phái nữ như thế nào?\n\n-- Này Ananda, chớ có thấy chúng.\n\n-- Bạch Thế Tôn, nếu phải thấy chúng, thời phải như thế nào?\n\n-- Này Ananda, chớ có nói chuyện với chúng.\n\n-- Bạch Thế Tôn, nếu phải nói chuyện với chúng, thời phải như thế nào?\n\n-- Này Ananda, phải an trú chánh niệm.\n\n10. -- Bạch Thế Tôn, chúng con phải xử sự thân xá-lợi Như Lai như thế nào?\n\n-- Này Ananda, các Ngươi đừng có lo lắng vấn đề cung kính thân xá-lợi của Như Lai. Này Ananda, các Người hãy nỗ lực, hãy tinh tấn hướng về tự độ, sống không phóng dật, cần mẫn, chuyên hướng về tự độ. Này Ananda, có những học giả Sát-đế-lỵ, những học giả Bà-la-môn, những học giả gia chủ thâm tín Như Lai, những vị này sẽ lo cho sự cung kính cúng dường thân xá-lợi của Như Lai.\n\n11. -- Bạch Thế Tôn, cần phải xử sự thân Như Lai như thế nào?\n\n-- Này Ananda, xử sự thân Chuyển luân Thánh Vương như thế nào, hãy xử sự thân xá-lợi Như Lai như vậy.\n\n-- Bạch Thế Tôn, người ta xử sự thân chuyển luân Thánh vương như thế nào?\n\n-- Này Ananda, thân của Chuyển luân Thánh vương được vấn tròn với vải mới. Sau khi vấn vải mới xong, lại được vấn thêm với vải gai bện. Sau khi vấn vải gai bệnh, lại vấn thêm với vải mới, và tiếp tục như vậy cho đến năm trăm lớp cả hai loại vải. Rồi thân được đặt vào trong một hòm dầu bằng sắt, hòm sắt này được một hòm sắt khác đậy kín. Xong một giàn hỏa gồm mọi loại hương được xây dựng lên, thân của vị Chuyển luân Thánh vương được đem thiêu trên giàn hỏa này và tại ngã tư đường, tháp của vị Chuyển luân Thánh vương được xây dựng lên. Này Ananda, đó là pháp táng thân vị Chuyển luân Thánh vương.\n\nNày Ananda, pháp táng thân vị Chuyển luân Thánh vương như thế nào, pháp táng thân Thế Tôn cũng như vậy. Tháp của Như Lai phải được dựng lên tại ngã tư đường. Và những ai đem tại chỗ ấy vòng hoa, hương, hay hương bột nhiều màu, đảnh lễ tháp, hay khởi tâm hoan hỷ (khi đứng trước mặt tháp), thời những người ấy sẽ được lợi ích, hạnh phúc lâu dài.\n\n12. Này Ananda, bốn hạng người sau này đáng được xây tháp. Thế nào là bốn? Như Lai, bậc A-la-hán, Chánh Ðẳng Giác xứng đáng xây tháp. Ðộc Giác Phật xứng đáng xây tháp. Ðệ tử Thanh Văn của Như Lai xứng đáng xây tháp. Chuyển luân Thánh vương xứng đáng xây tháp.\n\nNày Ananda, vì lý do gì, Như Lai, Ứng Cúng, Chánh Biến Tri xứng đáng xây tháp? Này Ananda, tâm của dân chúng sẽ hoan hỷ khi nghĩ đến: “Ðây là tháp của Thế Tôn, Ứng Cúng, Chánh Biến Tri. “ Do tâm hoan hỷ như vậy, khi thân hoại mạng chung, chúng sẽ sanh lên thiện thú, cảnh giới chư Thiên. Này Ananda, vì lý do này, Như Lai, Ứng Cúng, Chánh Biến Tri xứng đáng xây tháp.\n\nNày Ananda, vì lý do gì, bậc Ðộc Giác Phật xứng đáng xây tháp? Này Ananda, tâm của dân chúng sẽ hoan hỷ khi nghĩ đến: “Ðây là tháp của Thế Tôn Ðộc Giác Phật”. “ Do tâm hoan hỷ như vậy, khi thân hoại mạng chung, chúng sẽ được sanh thiện thú, cảnh giới chư Thiên. Này Ananda, vì lý do này, bậc Ðộc Giác Phật xứng đáng xây tháp.\n\nNày Ananda, vì lý do gì, đệ tử Thanh Văn của Như Lai xứng đáng xây tháp? Này Ananda, tâm của dân chúng sẽ hoan hỷ khi nghĩ đến: “Ðây là tháp đệ tử Thanh Văn của Thế Tôn, Ứng Cúng, Chánh Biến Tri.” Do tâm hoan hỷ như vậy, khi thân hoại mạng chung, chúng sẽ được sanh thiện thú, cảnh giới chư Thiên. Này Ananda, vì lý do này, đệ tử Thanh Văn của Như Lai xứng đáng xây tháp .\n\nNày Ananda, vì lý do gì, Chuyển luân Thánh vương xứng đáng xây tháp? Này Ananda, tâm của dân chúng sẽ hoan hỷ khi nghĩ đến: “Ðây là tháp của vị Pháp vương trị vì đúng pháp.” Do tâm hoan hỷ như vậy, khi thân hoại mạng chung, chúng sẽ được sanh thiện thú, cảnh giới chư Thiên. Này Ananda, vì lý do này, Chuyển luân Thánh vương xứng đáng xây tháp.\n\nNày Ananda, đó là bốn hạng người xứng đáng xây tháp.\n\n13. Rồi tôn giả Ananda đi vào trong tịnh xá, dựa trên cột cửa và đứng khóc: “Ta nay vẫn còn là kẻ hữu học, còn phải tự lo tu tập. Nay bậc Ðạo Sư của ta sắp diệt độ, còn ai thương tưởng ta nữa!”\n\nThế Tôn nói với các Tỷ-kheo:\n\n-- Này các Tỷ-kheo, Ananda ở tại đâu?\n\n-- Bạch Thế Tôn, tôn giả Ananda đi vào trong tịnh xá, dựa trên cột cửa và đứng khóc: “Ta nay vẫn còn là kẻ hữu học, còn phải tự lo tu tập. Nay bậc Ðạo Sư của ta sắp diệt độ, còn ai thương tưởng ta nữa!”\n\nThế Tôn liền nói với một Tỷ-kheo:\n\n-- Này Tỷ-kheo, hãy đi và nhân danh Ta, nói với Ananda: “Này Hiền giả Ananda, bậc Ðạo Sư cho gọi Hiền giả.”\n\n-- Xin vâng, bạch Thế Tôn!\n\nVị Tỷ-kheo ấy vâng lời Thế Tôn, đi đến chỗ tôn giả Ananda, sau khi đến, liền nói với tôn giả: “Này Hiền giả Ananda, bậc Ðạo Sư cho gọi Hiền giả.” - “Thưa vâng, Hiền giả. “ Tôn giả Ananda vâng lời vị Tỷ-kheo ấy, đi đến Thế Tôn, đảnh lễ Ngài và ngồi xuống một bên.\n\n14. Thế Tôn nói với tôn giả Ananda đang ngồi một bên:\n\n-- Thôi vừa rồi, Ananda, chớ có buồn rầu, chớ có khóc than. Này Ananda, Ta đã tuyên bố trước với ngươi rằng mọi vật ái luyến, tốt đẹp đều phải sanh biệt, tử biệt và dị biệt. Này Ananda làm sao được có sự kiện này: “Các pháp sanh, trú, hữu vi, biến hoại đừng có bị tiêu diệt?” Không thể có sự kiện như vậy được. Này Ananda, đã lâu ngày, ngươi đối với Như Lai, với thân nghiệp đầy lòng từ ái, lợi ích, an lạc, có một không hai, vô lượng với khẩu nghiệp đầy lòng từ ái, lợi ích, an lạc, có một không hai, vô lượng với ý nghiệp đầy lòng từ ái, lợi ích, an lạc, có một không hai, vô lượng. Này Ananda, ngươi là người tác thành công đức. Hãy cố gắng tinh tấn lên, ngươi sẽ chứng bậc Vô lậu, không bao lâu đâu.\n\n15. Rồi Thế Tôn nói với các Tỷ-kheo:\n\n-- Này các Tỷ-kheo, những vị A-la-hán, Chánh Ðẳng Giác trong thời quá khứ, những bậc Thế Tôn này đều có những thị giả tối thắng như Ananda của Ta. Này Tỷ-kheo, những vị A-la-hán, Chánh Ðẳng Giác thời vị lai, những bậc Thế Tôn này cũng sẽ có những vị thị giả tối thắng như Ananda của Ta vậy.\n\nNày các Tỷ-kheo, Ananda là người có trí và hiểu rõ: “Nay đúng thời để các Tỷ-kheo yết kiến Thế Tôn, nay đúng thời để các Tỷ-kheo ni, nay đúng thời để các nam cư sĩ, nay đúng thời để các nữ cư sĩ, nay đúng thời để các vua chúa, để các đại thần, để các ngoại đạo sư, để các đệ tử các ngoại đạo sư yết kiến Thế Tôn!”\n\n16. Này các Tỷ-kheo, Ananda có bốn đức tánh kỳ cựu, hy hữu. Thế nào là bốn?\n\nNày các Tỷ-kheo, nếu có chúng Tỷ-kheo đến yết kiến Ananda, chúng ấy sẽ được hoan hỷ vì được yết kiến Ananda, và nếu Ananda thuyết pháp chúng ấy sẽ được hoan hỷ vì bài thuyết pháp, và nếu Ananda làm thinh thời, này các Tỷ-kheo, chúng Tỷ-kheo ấy sẽ thất vọng.\n\nNày các Tỷ-kheo, nếu có Tỷ-kheo ni..., chúng nam cư sĩ... chúng nữ cư sĩ đến yết kiến Ananda, chúng ấy sẽ được hoan hỷ, vì được yết kiến Ananda, và nếu Ananda thuyết pháp, chúng ấy sẽ được hoan hỷ vì bài thuyết pháp và nếu Ananda làm thinh thời này các Tỷ-kheo, chúng nữ cư sĩ ấy sẽ thất vọng.\n\nNày các Tỷ-kheo, vị Chuyển luân Thánh vương có bốn đức tánh kỳ diệu, hy hữu.\n\nNày các Tỷ-kheo, nếu có chúng Sát-đế-lỵ... chúng Bà-la-môn... chúng gia chủ... chúng Sa-môn đến yết kiến vị Chuyển luân Thánh vương, chúng sẽ được hoan hỷ vì được yết kiến vị Chuyển luân Thánh vương và nếu vị Chuyển luân Thánh vương nói chuyện, chúng ấy sẽ được hoan hỷ vì bài nói chuyện, và nếu vị Chuyển luân Thánh vương làm thinh thời chúng Sa-môn ấy sẽ thất vọng.\n\nCũng vậy, này các Tỷ-kheo, Ananda có bốn đức tánh kỳ diệu, hy hữu. Nếu có chúng Tỷ-kheo... chúng Tỷ-kheo ni... chúng nam cư sĩ... chúng nữ cư sĩ đến yết kiến Ananda, chúng ấy sẽ được hoan hỷ vì được yết kiến Ananda. và nếu Ananda thuyết pháp chúng ấy sẽ được hoan hỷ vì bài thuyết pháp, và nếu Ananda làm thinh, thời này các Tỷ-kheo chúng nữ cư sĩ ấy sẽ thất vọng.\n\nNày các Tỷ-kheo, Ananda có bốn đức tánh kỳ diệu, hy hữu như vậy.\n\n17. Khi được nói vậy, tôn giả Ananda bạch Thế Tôn:\n\n-- Bạch Thế Tôn, Thế Tôn chớ có diệt độ tại đô thị nhỏ bé này, tại đô thị hoang vu này, tại đô thị phụ thuộc này. Bạch Thế Tôn, có những đô thị khác to lớn hơn như Campà (Chiêm-bà), Ràjagaha (Vương Xá), Sàvatthi (Xá-vệ), Sàketa (Sa-kỳ), Kosambi (Kiều-thương-di), Bàrànasi (Ba-la-nại). Thế Tôn hãy diệt độ tại chỗ ấy. Tại chỗ ấy, có đại chúng Sát-đế-lỵ, có đại chúng Bà-la-môn, có đại chúng gia chủ rất tin tưởng Như Lai, các vị này sẽ cúng dường thân xá-lợi Như Lai.\n\n-- Này Ananda, chớ có nói như vậy, này Ananda, chớ có nói đô thị này nhỏ bé, đô thị này hoang vu, đô thị này phụ thuộc.\n\n18. Này Ananda, thuở xưa có vị vua tên là Mahasudassana (Ðại Thiên Kiến). Vị này là Chuyển luân vương, trị vì như pháp, là vị pháp vương, thống lãnh bốn thiên hạ, chinh phục hộ trì quốc dân, đầy đủ bảy báu. Này Ananda, đô thị Kusinàrà này là kinh đô của vua Mahasudassana, tên là Kusàvatì (Câu-xá-bà-đề), phía Ðông và phía Tây rộng đến mười hai do tuần, phía Bắc và phía Nam rộng đến bảy do tuần.\n\nNày Ananda, kinh đô Kusàvatì này rất phôịn thịnh, phú cường, dân cư đông đúc, dân chúng sung mãn, thực phẩm phong phú. Này Ananda, cũng như kinh đô Alakamanda của chư thiên rất phồn thịnh, phú cường dân cư đông đúc, Thiên chúng sung mãn, thực phẩm phong phú, cũng vậy này Ananda, kinh đô Kusàvatì này cũng rất phồn thịnh, phú cường, dân cư đông đúc, nhân chúng sung mãn.\n\nNày Ananda, kinh đô Kusàvatì này, ngày đêm vang dậy chín loại tiếng, tức là tiếng voi, tiếng ngựa, tiếng xe, tiếng trống lớn, tiếng trống nhỏ, tiếng tỳ bà, tiếng hát, tiếng xập xỏa, tiếng chuông và tiếng thứ mười là lời kêu gọi: “Hãy uống đi, hãy ăn đi”.\n\n19. Này Ananda, hãy đi vào Kusinàrà và nói với dân Mallà Kusinàrà: “Này các Vàsetthà, đêm nay, vào canh cuối cùng, Như Lai sẽ diệt độ”.\n\n- Này Vàsetthà, các Ngươi hãy đến. Này Vàsetthà, các Ngươi hãy đến. Về sau chớ có hối hận: “Như Lai đã diệt độ tại làng vườn chúng ta mà chúng ta không được chiêm ngưỡng Như Lai”.\n\n- Thưa vâng, bạch Thế Tôn!\n\nTôn giả Ananda vâng lời Thế Tôn, đắp y, đem theo y bát và cùng một vị khác làm bạn đồng hành đi vào Kusinàrà.\n\n20. Lúc bấy giờ, dân Mallà ở Kusinàrà đang tụ họp tại giảng đường vì một vài công sự. Tôn giả Ananda đến tại giảng đường của dân Mallà ở Kusinàrà. Sau khi đến, tôn giả liền nói vói dân Mallà ở Kusinàrà:\n\n- Này Vàsetthà, đêm nay, vào canh cuối cùng Như Lai sẽ diệt độ, Này Vàsetthà, các Ngươi hãy đến. Này Vàsetthà, các Ngươi hãy đến. Về sau chớ có hối hận: “Như Lai đã diệt độ tại làng vườn chúng ta mà chúng ta không được chiêm ngưỡng Như Lai”.\n\n21. Dân Mallà cùng với con trai, con gái và vợ, khi nghe tôn giả Ananda nói như vậy, liền đau đớn, sầu muộn, tâm tư khổ não. Kẻ thì khóc than với đầu bù tóc rối, kẻ thì khóc than với cánh tay duỗi cao, kẻ thì khóc than thân bổ nhoài dưới đất, lăn lộn qua lại: “Thế Tôn nhập diệt quá sớm, Thiện Thệ nhập diệt quá sớm, Pháp nhãn biến mất ở trên đời quá sớm”.\n\nVà dân Mallà cùng với con trai, con gái và vợ đau đớn, sầu muộn, tâm tư khổ não, đi đến Upavattana, khu rừng Sàlà của dòng họ Mallà và đến chỗ tôn giả Ananda.\n\n22. Tôn giả Ananda tự nghĩ: “Nếu ta để dân Mallà ở Kusinàrà đảnh lễ Thế Tôn từng người một, thời đêm sẽ tàn trước khi Thế Tôn được tất cả dân Mallà đảnh lễ. Vậy ta hãy để dân Mallà ở Kusinàrà đảnh lễ theo từng gia tộc”.\n\n- Bạch Thế Tôn, gia tộc Mallà này với vợ con, đồ chúng, bạn bè đến cúi đầu đảnh lễ chân Thế Tôn.\n\nVà tôn giả Ananda, theo phương tiện này trong canh một, khiến dân Mallà ở Kusinàrà đảnh lễ Thế Tôn.\n\n23. Lúc bấy giờ, du sĩ ngoại đạo Subhadda ở tại Kusinàrà. Du sĩ ngoại đạo Subhadda được nghe: “Tối nay canh cuối cùng, Sa-môn Gotama sẽ diệt độ”.\n\nVà du sĩ ngoại đạo Subhadda suy nghĩ: “Ta nghe các du sĩ ngoại đạo niên cao lạp lớn, sư trưởng và đệ tử nói rằng: “Như Lai, Ứng Cúng, Chánh Biến Tri xuất hiện ra đời thật là hy hữu. Và đêm nay, vào canh cuối cùng Sa-môn Gotama sẽ diệt độ”. Nay có nghi vấn này khởi lên trong tâm ta. Ta tin Sa-môn Gotama có thể thuyết pháp và giải được nghi vấn cho ta”.\n\n24. Rồi du sĩ ngoại đạo Subhadda đi đến Upavattana, khu rừng Sàla của dân Mallà, đến tại chỗ tôn giả Ananda và thưa với tôn giả:\n\n- Hiền giả Ananda, tôi nghe các du sĩ ngoại đạo, niên cạo lạp lớn, sư trưởng và đệ tử nói rằng: “Như Lai, Ứng Cúng, Chánh Biến Tri xuất hiện ra đời thật là hy hữu, và đêm nay, vào canh cuối cùng, Sa-môn Gotama sẽ diệt độ”. Nay có nghi vấn này khởi lên trong tâm tôi. Tôi tin Sa-môn Gotama có thể thuyết pháp giải được nghi vấn cho tôi. Hiền giả Ananda, hãy cho phép tôi được yết kiến Sa-môn Gotama.\n\nKhi được nói vậy, tôn giả Ananda nói với du sĩ ngoại đạo Subhadda:\n\n- Thôi đi Hiền giả Subhadda, chớ có phiền nhiễu Như Lai. Thế Tôn đang mệt.\n\nLần thứ hai, du sĩ ngoại đạo Subhadda ... Lần thứ ba, du sĩ ngoại đạo Subhadda nói với tôn giả Ananda:\n\n- Hiền giả Ananda, tôi nghe các du sĩ ngoại đạo, niên cạo lạp lớn, sư trưởng và đệ tử nói rằng: “Như Lai, Ứng Cúng, Chánh Biến Tri xuất hiện ra đời thật là hy hữu, và đêm nay, vào canh cuối cùng, Sa-môn Gotama sẽ diệt độ”. Nay có nghi vấn này khởi lên trong tâm tôi. Tôi tin Sa-môn Gotama có thể thuyết pháp giải được nghi vấn cho tôi. Hiền giả Ananda, hãy cho phép tôi được yết kiến Sa-môn Gotama.\n\nLần thứ ba, tôn giả Ananda nói với du sĩ ngoại đạo Subhadda:\n\n- Thôi đi Hiền giả Subhadda, chớ có phiền nhiễu Như Lai. Thế Tôn đang mệt.\n\n25. Thế Tôn nghe được câu chuyện của tôn giả Ananda với du sĩ ngoại đạo Subhadda, Ngài liền nói với tôn giả Ananda:\n\n- Thôi Ananda, chớ có ngăn trở Subhadda, Ananda, hãy để cho Subhadda được phép yết kiến Như Lai. Những gì Subhadda hỏi Ta là hỏi để hiểu biết chớ không phải để phiền nhiễu Ta. Và những gì ta trả lời các câu hỏi, Subhadda sẽ hiểu ý nghĩa một cách mau lẹ.\n\nTôn giả Ananda liền nói với du sĩ ngoại đạo Subhadda:\n\n- Này Hiền giả Subhadda, hãy vào. Thế Tôn đã cho phép Hiền giả.\n\n26. Rồi du sĩ ngoại đạo Subhadda đến chỗ Thế Tôn, nói lên những lời chúc tụng hỏi thăm xã giao, rồi ngồi xuống một bên. Sau khi ngồi một bên, du sĩ ngoại đạo Subhadda bạch Thế Tôn:\n\n- Tôn giả Gotama, có những Sa-môn, Bà-la-môn là những vị hội chủ, vị giáo trưởng, vị sư trưởng giáo hội, có tiếng tốt, có danh vọng, khai tổ giáo phái, được quần chúng tôn sùng, như các ngài Pàrana Kassapa, Makkhali Gosàla, Ajita Kesakambalì, Pakadha Kaccàyana, Sanjaya Belatthiputta, Nigantha Nàthaputta, tất cả những vị này có phải là giác ngộ như các vị đã tự cho như vậy, hay tất cả chưa giác ngộ, hay một số đã giác ngộ và một số chưa giác ngộ?\n\n- Thôi Subhadda, hãy để vấn đề này yên một bên: “Tất cả những vị này có phải là đã giác ngộ như các vị đã tự cho như vậy, hay tất cả chưa giác ngộ, hay một số đã giác ngộ và một số chưa giác ngộ”. Này Subhadda, Ta sẽ thuyết pháp cho Ngươi. Hãy nghe và suy nghiệm kỹ, Ta sẽ giảng.\n\n- Thưa vâng, bạch Thế Tôn!\n\nDu sĩ ngoại đạo Subhadda vâng lời Thế Tôn. Thế Tôn nói như sau:\n\n27. - Này Subhadda, trong pháp luật nào không có Bát Thánh đạo, thời ở đây không có (đệ nhất) Sa-môn, ở đây cũng không có đệ nhị Sa-môn, cũng không có đệ tam Sa-môn, cũng không có đệ tứ Sa-môn. Này Subhadda trong pháp luật nào có Bát Thánh đạo thời ở đây có (đệ nhứt) Sa-môn, cũng có đệ nhị Sa-môn, cũng có đệ tam Sa-môn, ở đấy cũng có đệ tứ Sa-môn. Này Subhadda, chính trong pháp luật này có Bát Thánh Ðạo, thời này Subhadda, ở đây có đệ nhất Sa-môn, ở đây cũng có đệ nhị Sa-môn, cũng có đệ tam Sa-môn, cũng có đệ tứ Sa-môn. Những hệ thống ngoại đạo khác đều không có những Sa-môn. Này Subhadda, nếu những vị Tỷ-kheo này sống chơn chánh, thời đời này không vắng những vị A-la-hán.\n\nNày Subhadda, năm hai mươi chín,\n\nTa xuất gia hướng tìm chân thiện đạo.\n\nTrải năm mươi năm với thêm một năm\n\nTừ khi xuất gia, này Subhadda,\n\nTa là du sĩ tu Trí, tu Ðức.\n\nNgoài lãnh vực này, không có Sa-môn (đệ nhứt) cũng không có Sa-môn đệ nhị, cũng không có Sa-môn đệ tam, cũng không có Sa-môn đệ tứ. Những hệ thống ngoại đạo khác đều không có những Sa-môn. Này Subhadda, nếu những Tỷ-kheo sống chơn chánh, thì đời này không vắng những vị A-la-hán.\n\n28. Khi được nói vậy, du sĩ ngoại đạo Subhadda bạch Thế Tôn:\n\n- Thật hy hữu thay, bạch Thế Tôn! Thật vi diệu thay, bạch Thế Tôn! Như người dựng đứng lại những gì bị quăng ngã xuống, phơi bày ra những gì bị che kín, chỉ đường cho người bị lạc hướng, đem đèn sáng vào trong bóng tối để những ai có mắt có thể thấy sắc. Cũng vậy, chánh pháp đã được Thế Tôn dùng nhiều phương tiện trình bày, giải thích. Bạch Thế Tôn, con xin quy y Thế Tôn, quy y Pháp và quy y Tỷ-kheo Tăng. Mong con được xuất gia với Thế Tôn. Con xin thọ đại giới.\n\n- Này Subhadda, ai trước kia là ngoại đạo, nay muốn xuất gia muốn thọ đại giới trong Pháp, Luật này phải sống bốn tháng biệt trú. Sau khi sống bốn tháng biệt trú, các vị Tỷ-kheo nếu đồng ý sẽ cho xuất gia, cho thọ đại giới để thành vị Tỷ-kheo. Nhưng Ta nhận thấy cá tánh con người sai biệt nhau.\n\n29. - Bạch Thế Tôn, nếu những người xưa kia là ngoại đạo nay muốn xuất gia, muốn thọ đại giới trong Pháp và Luật này phải sống bốn tháng biệt trú. Sau khi sống bốn tháng biệt thú, các vị Tỷ-kheo nếu đồng ý sẽ cho xuất gia, cho thọ đại giới, thời con sẽ xin sống biệt trú bốn năm, sau khi sống biệt trú bốn năm, nếu các vị Tỷ-kheo đồng ý, hãy cho con xuất gia, cho con thọ đại giới để thành vị Tỷ-kheo.\n\nVà Thế Tôn nói với tôn giả Ananda:\n\n- Này Ananada, hãy xuất gia cho Subhadda.\n\n- Xin vâng, bạch Thế Tôn!\n\nTôn giả Ananda vâng lời Thế Tôn.\n\n30. Du sĩ ngoại đạo Subhadda nói với tôn giả Ananda:\n\n- Thật là lợi ích, thưa Tôn giả Ananda, thật là thiện lợi, thưa Tôn giả Ananda, được thọ lễ quán đảnh làm đệ tử trước mặt bậc Ðạo Sư!\n\nVà du sĩ ngoại đạo Subhadda được xuất gia được thọ đại giới với Thế Tôn. Thọ đại giới không bao lâu, đại đức Subhadda ở một mình, an tịnh, không phóng dật, tinh tấn, sống nhiệt tâm, cần mẫn. Và không bao lâu, vị này chứng được mục đích tối cao mà con cháu các lương gia đã xuất gia, từ bỏ gia đình, sống không gia đình hướng đến. Ðó là vô thượng phạm hạnh ngay trong hiện tại, tự giác chứng và an trú. Sanh đã tận, phạm hạnh đã thành, những gì nên làm đã làm, sau đời này sẽ không có đời sống khác nữa.\n\nVà đại đức Subhadda trở thành một A-la-hán nữa. Ðại đức là vị đệ tử cuối cùng được Thế Tôn thế độ.\n\nTụng phẩm VI\n\n1. Lúc bấy giờ, Thế Tôn nói với Tôn giả Ananda:\n\n- Này Ananda, nếu trong các ngươi có người nghĩ rằng: “Lời nói của bậc Ðạo sư không còn nữa. Chúng ta không có Ðạo sư (giáo chủ)”. Này Ananda, chớ có những tư tưởng như vậy. Này Ananda, Pháp và Luật, Ta đã giảng dạy và trình bày, sau khi Ta diệt độ, chính Pháp và Luật ấy sẽ là Ðạo Sư của các Ngươi.\n\n2. Này Ananda, nay các vị Tỷ-kheo xưng hô với nhau là Hiền giả. Sau khi Ta diệt độ, chớ có xưng hô như vậy. Này Ananda, vị Tỷ-kheo niên lão hãy gọi vị Tỷ-kheo niên thiếu, hoặc bằng tên, hoặc bằng họ, hoặc bằng tiếng Hiền giả. Vị Tỷ-kheo niên thiếu, hãy gọi vị Tỷ-kheo niên lão là Thượng tọa (Bhante) hay Ðại đức.\n\n3. Này Ananda, nếu chúng Tăng muốn, sau khi Ta diệt độ có thể hủy bỏ những học giới nhỏ nhặt chi tiết.\n\n4. Này Ananda, sau khi Ta diệt độ, hãy hành tội Phạm đàn (Brahmadanda) đối với Tỷ-kheo Channa.\n\n- Bạch Thế Tôn, thế nào là Phạm đàn?\n\n- Này Ananda, Tỷ-kheo Channa muốn nói gì thì nói. Chúng Tỷ-kheo sẽ không nói, sẽ không giảng dạy, sẽ không giáo giới Tỷ-kheo Channa.\n\n5. Rồi Thế Tôn nói với các Tỷ-kheo:\n\n- Này các Tỷ-kheo, nếu có Tỷ-kheo nào nghi ngờ hay phân vân gì về đức Phật, Pháp, chúng Tăng, đạo hay phương pháp, thời này các Tỷ-kheo các Người hãy hỏi đi. Sau chớ có hối tiếc: “Bậc Ðạo Sư có mặt trước chúng ta mà chúng ta không tận mặt hỏi Thế Tôn”.\n\nKhi được nói vậy, các Tỷ-kheo ấy im lặng. Một lần thứ hai, Thế Tôn.... Một lần thứ ba, Thế Tôn nói với các Tỷ-kheo:\n\n- Này các Tỷ-kheo, nếu có một Tỷ-kheo có nghi ngờ hay phân vân gì về đức Phật, Pháp, chúng Tăng, đạo hay phương pháp, thời này các Tỷ-kheo, các ngươi hãy hỏi đi. Sau chớ có hối tiếc: “Bậc Ðạo Sư có mặt trước chúng ta mà chúng ta không tận mặt hỏi Thế Tôn”.\n\nLần thứ ba, các Tỷ-kheo ấy giữ im lặng.\n\nRồi Thế Tôn nói với các Tỷ-kheo:\n\n- Này các Tỷ-kheo, nếu có vị nào vì lòng kính trọng bậc Ðạo Sư mà không hỏi, thời này các Tỷ-kheo, giữa bạn đồng tu, hãy hỏi nhau.\n\nKhi được nói vậy, những vị Tỷ-kheo ấy giữ im lặng.\n\n6. Rồi tôn giả Ananda bạch Thế Tôn:\n\n- Bạch Thế Tôn, thật kỳ diệu thay, bạch Thế Tôn, thật hy hữu thay! Bạch Thế Tôn, con tin rằng trong chúng Tỷ-kheo này, không có một Tỷ-kheo nào có nghi ngờ hay phân vân gì đối với Phật, Pháp, chúng Tăng, đạo hay phương pháp.\n\n- Này Ananda, ngươi có tín nhiệm nên nói vậy. Nhưng ở đây, này Ananda, Như Lai biết rằng trong chúng Tỷ-kheo này, không có một Tỷ-kheo nào có nghi ngờ hay phân vân gì đối với Phật, Pháp, chúng Tăng, đạo hay phương pháp. Này Ananda, trong năm trăm Tỷ-kheo này, Tỷ-kheo thấp nhất đã chứng được quả Dự lưu, không còn đọa lạc, chắc chắn hướng đến Chánh giác.\n\n7. Và Thế Tôn nói với các Tỷ-kheo:\n\n- Này các Tỷ-kheo, nay Ta khuyên dạy các ngươi: “Các pháp hữu vi là vô thường, hãy tinh tấn, chớ có phóng dật”.\n\nÐó là lời cuối cùng Như Lai.\n\n8. Rồi Thế Tôn nhập định Sơ thiền. Xuất Sơ thiền, Ngài nhập Nhị thiền. Xuất Nhị thiền, Ngài nhập Tam thiền. Xuất Tam thiền, Ngài nhập Tứ thiền. Xuất Tứ thiền, Ngài nhập định Không vô biên xứ. Xuất Không vô biên xứ, Ngài nhập định Thức vô biên xứ. Xuất Thức vô biên xứ, Ngài nhập định Vô sở hữu xứ. Xuất Vô Sở hữu xứ, Ngài nhập định Phi tưởng phi phi tưởng xứ. Xuất Phi tưởng phi phi tưởng xứ, Ngài nhập Diệt thọ tưởng định.\n\nKhi ấy tôn giả Ananda nói với tôn giả Anuruddha:\n\n- Thưa Tôn giả, Thế Tôn đã diệt độ.\n\n- Này Hiền giả Ananda, Thế Tôn chưa diệt độ. Ngài mới nhập Diệt thọ tưởng định.\n\n9. Rồi xuất Diệt thọ tưởng định, Ngài nhập Phi tưởng phi phi tưởng xứ định. Xuất Phi tưởng phi phi tưởng xứ, Ngài nhập Vô sở hữu xứ định. Xuất Vô sở hữu xứ, Ngài nhập Thức vô biên xứ định. Xuất thức Vô biên xứ, Ngài nhập Hư không vô biên xứ định. Xuất Hư không vô biên xứ, Ngài nhập định Tứ thiền. Xuất Tứ thiền, Ngài nhập định Tam thiền. Xuất Tam thiền, Ngài nhập định Nhị thiền. Xuất Nhị thiền, Ngài nhập định Sơ thiền. Xuất Sơ thiền, Ngài nhập định Nhị thiền. Xuất Nhị thiền, Ngài nhập định Tam thiền. Xuất Tam thiền, Ngài nhập định Tứ thiền. Xuất Tứ thiền, Ngài lập tức diệt độ.\n\n10. Khi Thế Tôn diệt độ, cùng với sự diệt độ, đại địa chấn động khủng khiếp, râu tóc dựng ngược, sấm trời vang động.\n\nKhi Thế Tôn diệt độ, Phạm thiên Sahampati, cùng lúc Ngài diệt độ, thốt lên bài kệ này:\n\nChúng sanh ở trên đời,\n\nTừ bỏ thân ngũ uẩn\n\nBậc đạo sư cũng vậy,\n\nÐấng Tuyệt luân trên đời.\n\nBậc Ðại hùng Giác ngộ\n\nNhư Lai đã diệt độ.\n\nKhi Thế Tôn diệt độ, Thiên chủ Sakka, cùng lúc Ngài diệt độ, thốt lên bài kệ này:\n\nCác hành là vô thường,\n\nCó sanh phải có diệt\n\nÐã sanh, chúng phải diệt,\n\nNhiếp chúng là an lạc.\n\nKhi Thế Tôn diệt độ, tôn giả Anuruddha, cùng lúc Ngài diệt độ, thốt lên bài kệ này:\n\nKhông phải thở ra vào\n\nChính tâm trú chánh định\n\nKhông tham ái tịch tịnh\n\nTu sĩ hướng diệt độ\n\nChính tâm tịnh bất động\n\nNhẫn chịu mọi cảm thọ\n\nNhư đèn sáng bị tắt\n\nTâm giải thoát hoàn toàn.\n\nKhi Thế Tôn diệt độ, tôn giả Ananda, cùng lúc Ngài diệt độ, thốt lên bài kệ này:\n\nThật kinh khủng bàng hoàng,\n\nThật râu tóc dựng ngược,\n\nKhi Bậc Toàn thiện năng,\n\nBậc Giác ngộ nhập diệt.\n\nKhi Thế Tôn diệt độ, những Tỷ-kheo chưa giải thoát tham ái, có vị thì khóc than với cánh tay duỗi cao, có vị thì khóc than, thân nằm nhoài dưới đất, lăn lộn qua lại: “Thế Tôn nhập diệt quá sớm, Thiện Thệt nhập diệt quá sớm, Pháp nhãn biến mất ở trên đời quá sớm”. Còn những Tỷ-kheo đã diệt trừ tham ái, những vị này an trú chánh niệm tỉnh giác, nhẫn nại, suy tư: “Các hành là vô thường, làm sao tránh khỏi sự kiện ấy?”\n\n11. Lúc bấy giờ, tôn giả Anuruddha nói với các Tỷ-kheo:\n\n- Thôi các Hiền giả, chớ có sầu não, chớ có khóc than. Này các Hiền giả, phải chăng Thế Tôn đã tuyên bố ngay từ ban đầu rằng mọi vật ưu ái thân tình đều phải sanh biệt, tử biệt và dị biệt. Này các Hiền giả, làm sao có thể được như vầy:”Những gì sanh, tồn tại, hữu vi, chịu sự biến hoại mà lại mong khỏi có sự biến dịch? Thật không có sự trạng ấy”. Này các Hiền giả, chính chư Thiên đang trách đó.\n\n- Thưa Tôn giả Anuruddha, Tôn giả đang nghĩ đến hạng chư Thiên nào?\n\n- Hiền giả Ananda, có hạng chư Thiên ở trên hư không nhưng có tâm tư thế tục, những vị này khóc than với đầu bù tóc rối, khóc than với cánh tay duỗi cao, khóc than thân bổ nhoài dưới đất, lăn lộn qua lại: “Thế Tôn nhập diệt quá sớm, Thiện Thệ nhập diệt quá sớm, Pháp nhãn biến mất ở trên đời quá sớm”.\n\nHiền giả Ananda, có hạng chư Thiên ở trên đất với tâm tư thế tục, những vị này khóc than với đầu bù tóc rối, khóc than với cánh tay duỗi cao, khóc than thân nằm nhoài dưới đất, lăn lộn qua lại: “Thế Tôn nhập diệt quá sớm, Thiện Thệ nhập diệt quá sớm, Pháp nhãn biến mất ở trên đời quá sớm”. Còn những chư Thiên diệt trừ ái dục, những vị này chánh niệm tỉnh giác, chịu đựng với tâm suy tư: “Các hành là vô thường, làm sao có thể khác được?”\n\n12. Tôn giả Anuruddha và tôn giả Ananda luận bàn về Chánh pháp suốt cả đêm còn lại. Rồi tôn giả Anuruddha nói với tôn giả Ananda:\n\n- Hiền giả Ananda, hãy vào thành Kusinàrà: “Này Vàsetthà, Thế Tôn đã diệt độ, hãy làm những gì các ngươi nghĩ phải làm”.\n\n- Tôn giả, xin vâng!\n\nTôn giả Ananda vâng lời tôn giả Anuruddha, buổi sáng đắp y, đem theo y bát cùng một thị giả, vào thành Kusinàrà.\n\nLúc bấy giờ, dân Mallà ở Kusinàrà đang tụ họp tại giảng đường vì một vài công vụ. Tôn giả Ananda đến tại giảng đường của dân Mallà ở Kusinàrà, sau khi đến liền nói với dân Mallà ở Kusinàrà: “Này Vàsetthà, Thế Tôn đã diệt độ, hãy làm những gì các ngươi nghĩ phải làm”.\n\nDân Mallà cùng với con trai, con gái và vợ, khi nghe tôn giả Ananda nói như vậy liền đau đớn sầu muộn, tâm tư khổ não, kẻ thì khóc than với đầu bù tóc rối, kẻ thì khóc than với cánh tay duỗi cao, kẻ thì khóc than thân bổ nhoài dưới đất, lăn lộn qua lại: “Thế Tôn nhập diệt quá sớm, Thiện Thệ nhập diệt quá sớm, Pháp nhãn biến mất ở trên đời quá sớm”.\n\n13. Rồi dân Mallà ở Kusinàrà ra lệnh cho những người làm: “Các người hãy gom góp hương, tràng hoa và tất cả nhạc khí ở Kusinàrà”.\n\nRồi dân Kusinàrà đem theo hương, tràng hoa, tất cả nhạc khí và năm trăm cuộn vải đi đến Upavattana, tại rừng Sàlà của dòng họ Mallà, đến tại chỗ thân xá lợi của Thế Tôn, rồi chúng ở lại cả ngày tôn trọng, cung kính, đảnh lễ, cúng dường thân xá lợi Thế Tôn với các điệu múa, hát, nhạc, tràng hoa, hương, làm những bảo cái bằng vải và tràng hoa Mandala.\n\nRồi dân Mallà ở Kusinàrà suy nghĩ: “Hôm nay, nếu thiêu thân xá lợi Thế Tôn thời quá sớm. Ngày mai, chúng ta sẽ làm lễ thiêu thân xá lợi của Thế Tôn”. Rồi dân Mallà ở Kusinàrà, cả ngày thứ hai, tôn trọng, cung kính, đảnh lễ, cúng dường thân xá lợi Thế Tôn với các điệu múa, hát, nhạc, tràng hoa, hương, làm những bảo cái bằng vải và tràng hoa Mandala, ngày thứ ba cũng như vậy, ngày thứ tư cũng như vậy, ngày thứ năm cũng như vậy. Ngày thứ sáu cũng như vậy.\n\n14. Ðến ngày thứ bảy, dân Mallà ở Kusinàrà suy nghĩ: “Chúng ta đã tôn trọng, cung kính, đảnh lễ, cúng dường thân xá lợi Thế Tôn với các điệu múa hát, nhạc, tràng hoa, hương, nay chúng ta hãy chở thân xác xá lợi Thế Tôn ra ngoài thành về phía Nam và làm lễ thiêu thân tại chỗ ấy”.\n\nLúc bấy giờ tám vị tộc trưởng Mallà gội đầu, mặc áo mới với ý định khiêng nổi thân xá lợi Như Lai nhưng khiêng không nổi được. Các vị Mallà ở Kusinàrà bạch Tôn giả Anuruddha:\n\n- Bạch Tôn giả, do nhân gì, do duyên gì tám vị tộc trưởng Mallà này gội đầu, mặc áo mới với ý định khiêng nổi thân xá lợi Như Lai, nhưng không khiêng nổi được?\n\n- Này Vàsetthà, vì ý định của các Ngươi khác, ý định của chư Thiên khác.\n\n15. - Bạch Tôn giả, ý định của chư Thiên là gì?\n\n- Này các Vàsetthà, ý định của các Ngươi như sau:\n\n“Chúng ta đã tôn trọng, cung kính, đảnh lễ, cúng dường thân xá lợi Thế Tôn với các điệu múa, hát, nhạc, tràng hoa, hương. Nay chúng ta hãy chở thân xá lợi Thế Tôn ra ngoài thành về phía Nam và làm lễ thiêu thân tại chỗ ấy”.\n\nNày các Vàsetthà, ý định của chư Thiên như sau: “Chúng ta đã tôn trọng, cung kính, đảnh lễ, cúng dường thân xá lợi Thế Tôn với các điệu múa, hát, nhạc, tràng hoa, hương hương của Chư thiên nay chúng ta hãy khiêng thân xá lợi Thế Tôn về hướng Bắc phía Bắc của thành. Sau khi khiêng qua cửa phía Bắc, hãy khiêng qua Trung tâm của thành, rồi hướng về phía Ðông, khiêng đến phía Ðông của thành. Sau khi khiêng qua cửa phía Ðông, hãy khiêng đến phía Ðông của thành, tại đền của dân Mallà tên là Makuta-bandhana và chúng ta sẽ thiêu thân Thế Tôn tại chỗ ấy”.\n\n- Bạch Tôn giả, ý định của chư Thiên thế nào, ý định của chúng con cũng vậy.\n\n16. Lúc ấy, khắp cả Kusinàrà cho đến đống bụi, đống rác, được rải la liệt lên đến đầu gối toàn hoa Mandaràva. Rồi chư Thiên và các dân Mallà ở Kusinàrà, sau khi đã tôn trọng, cung kính, đảnh lễ, cúng dường thân xá lợi Thế Tôn với các điệu múa, hát, nhạc, tràng hoa, hương của chư Thiên và loài Người, liền khiêng thân xá lợi Thế Tôn về phía Bắc của Thành. Sau khi khiêng qua cửa phía Bắc, liền khiêng qua Trung tâm của thành, rồi hướng về phía Ðông, khiêng đến phía Ðông của thành. Sau khi khiêng qua cửa phía Ðông, liền khiêng đến phía Ðông của thành, tại đền của dân Mallà tên là Makuta-bandhana và đặt thân xá lợi của Thế Tôn tại chỗ ấy.\n\n17. Rồi dân Mallà bạch tôn giả Ananda:\n\n- Bạch Tôn giả Ananda, chúng con nay phải xử sự như thế nào đối với thân xá lợi Như Lai?\n\n- Này các Vàsetthà, xử sự thân Chuyển luân Thánh vương như thế nào, hãy xử sự thân xá lợi Như Lai như vậy.\n\n- Bạch Tôn giả Ananda, xử sự thân Chuyển luân Thánh vương phải như thế nào?\n\n- Này cá Vàsetthà, thân Chuyển luân Thánh vương được vấn tròn với vải mới. Sau khi vấn vải mới, lại được vấn thêm với vải gai bện. Sau khi vấn với vải gai bện, lại vấn thêm với vải mới và tiếp tục như vậy cho đến năm trăm lớp cả hai loại vải. Rồi thân được đặt trong một hòm dầu bằng sắt, hòm sắt này được một hòm sắt khác đậy kín. Xong một giàn hỏa gồm mọi loại hương được xây dựng lên, thân vị Chuyển luân Thánh vương được đem thiêu trên giàn hỏa này, và tại ngã tư đường, tháp vị Chuyển luân Thánh vương này được xây dựng lên. Này các Vàsetthà, đó là pháp táng thân của vị Chuyển luân Thánh vương.\n\nNày các Vàsetthà, pháp táng thân của vị Chuyểb luân Thánh vương như thế nào, pháp táng thân của Thế Tôn cũng như vậy. Tháp của Như Lai phải được dựng lên tại ngã tư đường. Và những ai đem đến tại chỗ ấy vòng hoa, hương, hay hương bột nhiềumàu, đảnh lễ tháp hay khởi tâm hoan hỷ (khi đứng trước mặt tháp) , thời những người ấy sẽ được lợi ích, hạnh phúc lâu dài.\n\n18. Và các người Mallà ở Kusinàrà sai những người làm công:\n\n- Hãy đem lại tất cả vải gai bện của Mallà .\n\nRồi những người Mallà ở Kusinàrà vấn tròn thân Thế Tôn với vải mới. Sau khi vấn vải mới xong, lại vấn thêm với vải gai bện. Sau khi vấn với vải gai bện lại vấn thêm với vải mới và tiếp tục như vậy cho đến năm trăm lớp cả hai loại vải. Rồi đặt thân Như Lai vào trong một hòm dầu bằng sắt, đậy hòm sắt này vào một hòm sắt khác, dựng lên một giàn hỏa gồm mọi loại hương và đặt thân Thế Tôn trên giàn hỏa.\n\n19. Lúc bấy giờ, Tôn giả Mallà Kassapa đang đi giữa đường từ Pàvà đến Kusinàrà với đại chúng Tỷ-kheo khoảng năm trăm vị. Rồi Tôn giả Mallà Kassapa bước xuống đường và đến ngồi tại một gốc cây.\n\nLúc bấy giờ có một tà mạng ngoại đạo lấy một hoa Mandàrava ở Kusinàrà và đang đi trên một con đường đến Pàvà.\n\nTôn giả Mallà Kassapa thấy tà mạng ngoại đạo đi từ đàng xa đến. Thấy vậy, tôn giả liền hỏi tà mạng ngoại đạo ấy:\n\n- Này Hiền giả, Hiền giả có biết bậc Ðạo sư chúng tôi không?\n\n- Này Hiền giả, tôi có biết. Sa-môn Gotama đã diệt độ cách hôm nay một tuần. Từ chỗ ấy, tôi được hoa Mandàrava này.\n\nLúc ấy những Tỷ-kheo chưa giải thoát tham ái, có vị thì khóc than với cánh tay duỗi cao, có vị thì khóc than, thân nằm nhoài dưới đất, lăn lộn qua lại: “Thế Tôn nhập diệt quá sớm, Thiện Thệ nhập diệt quá sớm, Pháp nhãn biến mất ở trên đời quá sớm”. Còn những Tỷ-kheo đã diệt trừ tham ái, những vị bnày an trú chánh niệm, tỉnh giác nhẫn nại suy tư: “Các hành là vô thường, làm sao tránh khỏi sự kiện ấy?”\n\n20. Lúc bấy giờ, Subhadda được xuất gia khi đã lớn tuổi đang ngồi trong hội chúng này. Subhadda được xuất gia khi đã lớn tuổi nói với những Tỷ-kheo ấy:\n\n- Thôi các Hiền giả, chớ có sầu não, chớ có khóc than. Chúng ta đã được thoát khỏi hoàn toàn vị Ðại Sa-môn ấy, chúng ta đã bị phiền nhiễu quấy rầy với những lời: “Làm như thế này không hợp với các Ngươi. Làm như thế này hợp với các Ngươi”. Nay những gì chúng ta muốn, chúng ta làm, những gì chúng ta không muốn, chúng ta không làm.\n\nTôn giả Mahà Kassapa mới nói với các vị Tỷ-kheo:\n\n- Thôi các Hiền giả, chớ có sầu não, chớ có khóc than. Này các Hiền giả, phải chăng Thế Tôn đã tuyên bố ngay từ ban đầu rằng mọi vật ưu ái thân tình đều phải bị sanh biệt, tử biệt và dị biệt. Này các Hiền giả, làm sao có thể được như vầy: Những gì sanh, tồn tại, hữu vi, chịu sự biến hoại mà lại mong khỏi có sự biến dịch? Thật không có sự trạng ấy.\n\n21, Lúc bấy giờ bốn vị tộc trưởng Mallà gội đầu, mặc áo mới với ý định châm lửa thiêu giàn hỏa Thế Tôn nhưng châm lửa không cháy.\n\nCác vị Mallà ở Kusinàrà bạch tôn giả Anuruddha:\n\n- Bạch Tôn giả, do nhân gì, do duyên gì, bốn vị tộc trưởng Mallà này gội đầu, mặc áo mới với ý định châm lửa thiêu giàn hỏa Thế Tôn, nhưng châm lửa không cháy?\n\n- Này các Vàsetthà, ý định của chư Thiên khác.\n\n- Bạch Tôn giả, ý định của chư Thiên như thế nào?\n\n- Này các vàsetthà, ý định của chư Thiên như sau: “Tôn giả Mahà Kassapa nay đang đi giữa đường giữa Pàvà và Kusinàrà cùng với đại chúng Tỷ-kheo khoảng năm trăm vị. Giàn hỏa Thế Tôn chỉ được đốt cháy khi tôn giả Mahà Kassapa cúi đầu đảnh lễ Thế Tôn”.\n\n- Bạch Tôn giả, ý định chư Thiên như thế nào, hãy làm y như vậy.\n\n22. Rồi Tôn giả Mahà Kassapa đến tại đền Makuta Bandhana của những vị Mallà tại giàn hỏa Thế Tôn, khi đến xong liền choàng áo phía một bên vai, chấp tay, đi nhiễu phía tay phải xung quanh giàn hỏa ba lần, cởi mở chân ra và cúi đầu đảnh lễ chân Thế Tôn.\n\nNăm trăm vị Tỷ-kheo ấy choàng áo phía một bên vai, chấp tay, đi nhiễu qua phía tay phải xung quanh giàn hỏa ba lần và cúi đầu đảnh lễ chân Thế Tôn.\n\nVà khi tôn giả Mahà Kassapa và năm trăm vị Tỷ-kheo đảnh lễ xong, thời giàn hỏa Thế Tôn tự bắt lửa cháy.\n\n23. Khi thân Thế Tôn đã cháy, từ da ngoài cho đến da mỏng, thịt, dây gân hay nước giữa các khớp xương, thảy đều cháy sạch không có tro, không có than, chỉ có xương xá lợi còn lại.\n\nNhư sanh tô hay dầu bị cháy, tất cả đều cháy sạch không có tro, không có than, cũng vậy khi thân Thế Tôn cháy, từ da ngoài cho đến da mỏng, thịt, dây gân hay nước giữa khớp xương, tất cả đều cháy sạch không có tro, không có than, chỉ có xương xá lợi còn lại. Và năm trăm tầng lớp vải gai bện, cả hai lớp trong nhất và lớp ngoài nhất đều bị cháy thiêu.\n\nKhi thân Thế Tôn bị thiêu cháy xong, một dòng nước từ hư không chảy xuống tưới tắt giàn hỏa Thế Tôn, và một dòng nước từ kho nước (hay từ cây sàlà) phun lên tưới tắt giàn hỏa Thế Tôn, và các người Mallà ở Kusinàrà dùng nước với mọi loại hương tưới tắt giàn hỏa Thế Tôn.\n\nRồi các người Mallà xứ Kusinàrà đặt xá lợi Thế Tôn trong giảng đường, dùng cây thương làm hàng rào, dùng cây cung làm bức thành xung quanh và trong bảy ngày tôn trọng, cung kính, đảnh lễ, cúng dường với các điệu múa, hát, nhạc, vòng hoa, hương.\n\n24. Vua nước Magadha tên là Ajàtasattu Vedehiputta nghe tin Thế Tôn đã diệt độ ở Kusinàrà. Vua liền gởi một sứ giả đến các người Mallà ở Kusinàrà “Thế Tôn là người Sát-đế-lỵ, ta cũng là người Sát-đế-lỵ. Ta cũng xứng đáng được một phần xá lợi Thế Tôn, ta cũng dựng tháp và tổ chức nghi lễ đối với xá lợi Thế Tôn”.\n\nNhững người Licchavì ở Vesàli nghe tin Thế Tôn đã diệt độ ở Kusinàrà liền gởi một sứ giả đến các người Mallà ở Kusinàrà: “Thế Tôn là người Sát-đế-lỵ, chúng tôi cũng là người Sát-đế-lỵ. Chúng tôi cũng xứng đáng được phần xá lợi Thế Tôn. Chúng tôi cũng dựng tháp và tổ chức nghi lễ đối với xá-lợi Thế Tôn”.\n\nCác người Sakyà ở Kapilavatthu nghe tin Thế Tôn đã diệt độ ở Kusinàrà, liền gởi một sứ giả đến các người Mallà ở Kusinàrà: “Thế Tôn là người Sát-đế-lỵ, chúng tôi cũng là người Sát-đế-lỵ. Chúng tôi cũng xứng đáng được một phần xá lợi Thế Tôn. Chúng tôi cũng sẽ dựng tháp và tổ chức các nghi lễ với xá-lợi Thế Tôn”.\n\nNhững người Buli ở Allakappa nghe tin Thế Tôn đã diệt độ ở Kusinàrà, liền gởi một sứ giả đến các người Mallà ở Kusinàrà: “Thế Tôn là người Sát-đế-lỵ, chúng tôi cũng là người Sát-đế-lỵ. Chúng tôi cũng xứng đáng được một phần xá-lợi Thế Tôn. Chúng tôi cũng sẽ dựng tháp và tổ chức các nghi lễ đối với xá lợi Thế Tôn”.\n\nNhững người Koli ở Rãmagãma nghe tin Thế Tôn đã diệt độ ở Kusinàrà , liền gởi một sứ giả đến các người Mallà ở Kusinàrà: “Thế Tôn là người Sát-đế-lỵ, chúng tôi cũng là người Sát-đế-lỵ. Chúng tôi cũng xứng đáng được một phần xá lợi Thế Tôn. Chúng tôi cũng sẽ dựng tháp và tổ chức các nghi lễ đối với xá lợi Thế Tôn.”\n\nBà-la-môn Vethadìpaka nghe tin Thế Tôn đã diệt độ ở Kusinàrà, liền gởi một sứ giả đến các người Mallà ở Kusinàrà: “Thế Tôn là người Sát-đế-lỵ, tôi là người Bà-la-môn. Tôi cũng xứng đáng được một phần xá lợi Thế Tôn. Tôi cũng sẽ dựng tháp và tổ chức các nghi lễ đối với xá-lợi Thế Tôn”.\n\nCác người Mallà ở Pàvà nghe tin Thế Tôn đã diệt độ liền gửi một sứ giả đến các người Mallà ở Kusinàrà: “Thế Tôn là người Sát-đế-lỵ, chúng tôi cũng là người Sát-đế-lỵ. Chúng tôi cũng xứng đáng được một phần xá-lợi Thế Tôn. Chúng tôi cũng sẽ dựng tháp và tổ chức các nghi lễ đối với xá-lợi Thế Tôn”.\n\n25. Khi được nói vây các người Mallà ở Kusinàrà liền tuyên bố giữa đại chúng:\n\n- Thế Tôn đã diệt độ tại làng vườn của chúng tôi, chúng tôi sẽ không cho phần xá lợi nào của Thế Tôn.\n\nKhi nghe vậy. Bà-la-môn Dona nói với chúng:\n\nTôn giả, hãy nghe lời tôi nói!\n\nPhật dạy chúng ta phải kham nhẫn.\n\nThật không tốt nếu có tranh giành.\n\nKhi chia xá lợi bậc Thượng nhân.\n\nChúng ta hãy đoàn kết nhất tâm,\n\nHoan hỷ chia xá lợi tám phần.\n\nChúng ta hãy dựng tháp mọi phương,\n\nÐại chúng mười phương tin Pháp nhãn...\n\n- Này Tôn giả Bà-la-môn, Ngài hãy phân chia xá lợi ra tám phần đồng đều.\n\n- Xin vâng, các Tôn giả.\n\nBà-la-môn Dona vâng lời hội chúng ấy, phân chia xá-lợi Thế Tôn thành tám phần đồng đều rồi thưa hội chúng:\n\n- Các Tôn giả, hãy cho tôi cái bình dùng để đông chia xá-lợi này. Tôi sẽ dựng tháp và tổ chức các nghi lễ cho cái bình.\n\nVà hội chúng ấy tặng Bà-la-môn Dona cái bình.\n\n26. Và người Moriyà ở Pipphalivana nghe tin Thế Tôn đã diệt độ liền gởi một sứ giả đến các người Mallà ở Kusinàrà: “Thế Tôn là người Sát-đế-lỵ, chúng tôi cũng là người Sát-đế-lỵ. Chúng tôi cũng xứng đáng được hưởng một phần xá lợi Thế Tôn. Chúng tôi cũng sẽ dựng tháp và tổ chức các nghi lễ đối với xá-lợi Thế Tôn”. - “Nay không còn phần xá-lợi Thế Tôn nào. Xá-lợi Thế Tôn đã được phân chia, hãy lấy tro còn lại”. Rồi các vị nầy lấy than tro còn lại.\n\n27. Và vua nước Magadha tên là Ajàtasattu, con bà Videhi xây dựng tháp trên xá-lợi Thế Tôn tại Vương Xá và tổ chức lễ cúng dường.\n\nNhững người Licchavi ở Vesàli cũng xây dựng tháp trên xá-lợi Thế Tôn tại Vesàli và tổ chức lễ cúng dường.\n\nNhững người Sakya ở Kapilavatthu cũng xây dựng trên xá-lợi Thế Tôn tại Kapilavatthu và tổ chức lễ cúng dường.\n\nNhững người Buli ở Allakappa cũng xây dựng tháp trên xá lợi Thế Tôn tại Allakappa và tổ chức lễ cúng dường.\n\nNhững người Koli ở Ràmagama cũng xây dựng tháp trên xá-lợi Thế Tôn tại Ràmagama và tổ chức lễ cúng dường.\n\nBà-la-môn Vethadìpaka cũng xây dựng tháp trên xá-lợi Thế Tôn tại Vethadìpa và tổ chức lễ cúng dường.\n\nNhững người Mallà ở Pàvà cũng xây dựng tháp trên xá-lợi Thế Tôn tại Pàvà và tổ chức lễ cúng dường.\n\nNhững người Màllà ở Kusinàrà cũng xây dựng tháp trên xá-lợi Thế Tôn tại Kusinàrà và tổ chức lễ cúng dường.\n\nBà-la-môn Dona cũng xây dựng tháp trên bình (dùng để đong chia xá-lợi) và tổ chức lễ cúng dường.\n\nNhững người Moriyà ở Pipphalivana cũng xây dựng tháp trên những than tro và tổ chức lễ cúng dường.\n\nNhư vậy có tám tháp xá-lợi, tháp thứ chín trên bình (dùng để đong chia xá-lợi) và tháp thứ mười trên tro (xá-lợi).\n\nÐó là truyền thống thời xưa như vậy.\n\n28.\n\nÐấng Pháp Nhãn Vô Thượng\n\nXá-lợi phân tám phần.\n\nBảy phần được cúng dường.\n\nTại Jambudìpa.\n\nMột phần Long vương cúng.\n\nTại Ràmagàma.\n\nMột răng Phật được cúng,\n\nTại cõi Tam Thiên giới,\n\nMột tại Gandhàra,\n\nMột tại Kalinga.\n\nMột răng, vua Long vương.\n\nTự mình riêng cúng dường.\n\nQuả đất được chói sáng,\n\nVới hào quang xá-lợi,\n\nVới lễ vật cúng dường.\n\nHạng thượng phẩm, thượng đẳng.\n\nXá-lợi đấng Pháp Nhãn.\n\nNhư vậy được cúng dường,\n\nBởi những bậc tôn trọng\n\nCúng kính lễ cúng dường,\n\nBởi những bậc tôn trọng\n\nCúng kính lễ cúng dường.\n\nBởi Thiên, Long, Nhơn chủ,\n\nBởi bậc Tối thượng nhơn.\n\nCác người hãy chắp tay,\n\nCung kính lễ cúng dường.\n\nKhó thay sự chiêm ngưỡng.\n\nTôn nhan bậc Như Lai.\n\nTrải nhiều nhiều trăm kiếp,\n\nMay lắm được một phần.",
       "id": "5mf25cQEz3jjiLHMWIxkRs"
     },
     "2YMy30cLTwKaO7n11ZZnVQ": {
@@ -745,41 +302,7 @@
       "difficultyLevel": "Intermediate",
       "introduction": "The Buddha refuses to perform miracles, explaining that this is not the right way to inspire faith. He goes on to tell the story of a monk whose misguided quest for answers led him as far as Brahmā.",
       "tracks": [
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "2M7c3i0wYIodEMnBZ6YuFO",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:17.223Z",
-            "updatedAt": "2020-09-14T11:52:17.223Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN11 KinhKevaddha",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/2M7c3i0wYIodEMnBZ6YuFO/e9695aaf962e424bd4516e390a0c7402/DN11__KinhKevaddha.mp3",
-              "details": {
-                "size": 13307651
-              },
-              "fileName": "DN11__KinhKevaddha.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        }
+        "2M7c3i0wYIodEMnBZ6YuFO"
       ],
       "id": "2YMy30cLTwKaO7n11ZZnVQ"
     },
@@ -791,41 +314,7 @@
       "difficultyLevel": "Advanced",
       "introduction": "Rejecting Venerable Ānanda’s claim to easily understand dependent origination, the Buddha presents a complex and demanding analysis, revealing hidden nuances and implications of this central teaching.",
       "tracks": [
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "1vX9xjk4h0g4TKA1iJXcOP",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:17.852Z",
-            "updatedAt": "2020-09-14T11:52:17.852Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN15 KinhDaiDuyen",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/1vX9xjk4h0g4TKA1iJXcOP/dd9ba0f2108a09e24b4f7cec7f934587/DN15__KinhDaiDuyen.mp3",
-              "details": {
-                "size": 17851854
-              },
-              "fileName": "DN15__KinhDaiDuyen.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        }
+        "1vX9xjk4h0g4TKA1iJXcOP"
       ],
       "id": "CUDS6ha6zIJPd3S1kuVTQ"
     },
@@ -837,76 +326,8 @@
       "difficultyLevel": "Intermediate",
       "introduction": "The Buddha teaches about the six Buddhas of the past, and tells a lengthy account of one of those, Vipassī.",
       "tracks": [
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "5F38QmsaSj5mfVHBA6Iqqs",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:17.027Z",
-            "updatedAt": "2020-09-14T11:52:17.027Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN14 PT01-02 KinhDaiBon",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/5F38QmsaSj5mfVHBA6Iqqs/123d9c81fca09181cb2478724d6f02b1/DN14__PT01-02__KinhDaiBon.mp3",
-              "details": {
-                "size": 25210880
-              },
-              "fileName": "DN14__PT01-02__KinhDaiBon.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        },
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "1egkCprVzwCa87T2peY3u5",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:17.024Z",
-            "updatedAt": "2020-09-14T11:52:17.024Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN14 PT02-02 KinhDaiBon",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/1egkCprVzwCa87T2peY3u5/c96aa0281c476bfe060bbb028afef429/DN14__PT02-02__KinhDaiBon.mp3",
-              "details": {
-                "size": 28882944
-              },
-              "fileName": "DN14__PT02-02__KinhDaiBon.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        }
+        "5F38QmsaSj5mfVHBA6Iqqs",
+        "1egkCprVzwCa87T2peY3u5"
       ],
       "id": "6AnSRQaJwHklPWQzRKU60K"
     },
@@ -918,41 +339,7 @@
       "difficultyLevel": "Intermediate",
       "introduction": "A brahmin has fallen into the idea that there is no point in trying to offer spiritual help to others. The Buddha goes to see him, and persuades him of the genuine benefits of spiritual teaching.",
       "tracks": [
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "7IIHHr8w396iSlUaVRqErX",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:17.658Z",
-            "updatedAt": "2020-09-14T11:52:17.658Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN12 KinhLohicca",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/7IIHHr8w396iSlUaVRqErX/c99c55b9acecbf46aeda96e1c9556e29/DN12__KinhLohicca.mp3",
-              "details": {
-                "size": 11049625
-              },
-              "fileName": "DN12__KinhLohicca.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        }
+        "7IIHHr8w396iSlUaVRqErX"
       ],
       "id": "1hTUtYwyOxZoagezFnFg3U"
     },
@@ -964,41 +351,7 @@
       "difficultyLevel": "Intermediate",
       "introduction": "A number of brahmins are discussing the true path to Brahmā. Contesting the claims to authority based on the Vedas, the Buddha insists that only personal experience can lead to the truth.",
       "tracks": [
-        {
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "sh3xm3v5m77n"
-              }
-            },
-            "id": "6VxAKIkrkfaL8TuzzMYEcO",
-            "type": "Asset",
-            "createdAt": "2020-09-14T11:52:17.029Z",
-            "updatedAt": "2020-09-14T11:52:17.029Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "DN13 KinhTevijja",
-            "file": {
-              "url": "//downloads.ctfassets.net/sh3xm3v5m77n/6VxAKIkrkfaL8TuzzMYEcO/7f967a2b4ff8b7c388890ac495f32646/DN13__KinhTevijja.mp3",
-              "details": {
-                "size": 18495549
-              },
-              "fileName": "DN13__KinhTevijja.mp3",
-              "contentType": "audio/mpeg"
-            }
-          }
-        }
+        "6VxAKIkrkfaL8TuzzMYEcO"
       ],
       "id": "3P6GXB49P40CTItFKto6eZ"
     }

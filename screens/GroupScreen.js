@@ -7,7 +7,11 @@ import { Ionicons } from "@expo/vector-icons";
 
 const GroupScreen = ({ group, navigation }) => {
   function handleCardReadingClicked(id) {
-    navigation.navigate("Reading", { id: id });
+    navigation.navigate("Reading", { id: id, openWithAudio: false });
+  }
+
+  function handleCardAudioClicked(id) {
+    navigation.navigate("Reading", { id: id, openWithAudio: true });
   }
 
   const ListHeader = () => (
@@ -21,6 +25,7 @@ const GroupScreen = ({ group, navigation }) => {
       <SectionTitle>CÁC BÀI KINH</SectionTitle>
     </>
   );
+
   return (
     <Screen>
       <FlatList
@@ -42,9 +47,13 @@ const GroupScreen = ({ group, navigation }) => {
                 </ButtonIconContainer>
                 <Text>Hòa Thượng Thích Minh Châu</Text>
               </ActionTouchable>
-              <ActionTouchable>
-                <Text>Touch me</Text>
-              </ActionTouchable>
+              {item.tracks && item.tracks.length > 0 && (
+                <ActionTouchable
+                  onPress={() => handleCardAudioClicked(item.id)}
+                >
+                  <Text>HAS AUDIO</Text>
+                </ActionTouchable>
+              )}
             </ActionContainer>
           </SuttaCard>
         )}

@@ -1,10 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { View, Text, ScrollView, TouchableOpacity } from "react-native";
 import styled from "styled-components/native";
 import { connect } from "react-redux";
 import SuttaScreenMenu from "../components/SuttaScreenMenu";
 import { Ionicons } from "@expo/vector-icons";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+
+// Import custom components
+import AudioControlPanel from "../components/AudioControlPanel";
+
+// Import actions
+import { loadNewPlaybackInstance } from "../store/actions/playerActions";
 
 const ScreenHeader = ({
   menuButtonHandler,
@@ -73,7 +79,25 @@ const HeaderButtonContainer = styled.View`
   margin-right: 4px;
 `;
 
-const SuttaScreen = ({ id, sutta, suttaText, navigation }) => {
+const SuttaScreen = ({
+  id,
+  sutta,
+  suttaText,
+  tracks,
+  instance,
+  loadNewPlaybackInstance,
+  navigation,
+  route,
+}) => {
+  const [openAudioPanel, setOpenAudioPanel] = useState(
+    route.params.openWithAudio
+  );
+
+  useEffect(() => {
+    loadNewPlaybackInstance(instance, tracks[0].url, tracks, true, {});
+  }, [id]);
+
+  //
   const fontSizes = [14, 16, 18, 20, 22];
   const [fontSize, setFontSize] = useState(fontSizes[2]);
 
@@ -121,6 +145,8 @@ const SuttaScreen = ({ id, sutta, suttaText, navigation }) => {
 
         <ReadingText style={{ fontSize: fontSize }}>{suttaText}</ReadingText>
       </ScrollView>
+      {openAudioPanel && <AudioControlPanel />}
+      {/* <Text>{JSON.stringify(tracks, null, 2)}</Text> */}
     </Screen>
   );
 };
@@ -138,11 +164,28 @@ const ReadingText = styled.Text`
 
 function mapStateToProps(state, ownProps) {
   const id = ownProps.route.params.id;
+
+  const isThisTrackHaveAudio = state.system.suttas.byIds[id].hasOwnProperty(
+    "tracks"
+  );
+
+  let tracks = null;
+
+  if (isThisTrackHaveAudio) {
+    tracks = state.system.suttas.byIds[id].tracks.map(
+      (id) => state.player.tracks.byIds[id]
+    );
+  }
+
   return {
     id: id,
     sutta: state.system.suttas.byIds[id],
     suttaText: state.system.suttasText.byIds[id],
+    tracks: tracks,
+    instance: state.player.playbackInstance,
   };
 }
 
-export default connect(mapStateToProps)(SuttaScreen);
+export default connect(mapStateToProps, { loadNewPlaybackInstance })(
+  SuttaScreen
+);

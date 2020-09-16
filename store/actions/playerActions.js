@@ -1,25 +1,134 @@
-import { INITIALIZE_PLAYER } from "../types";
+import {
+  LOAD_NEW_PLAYBACK_INSTANCE,
+  LOADING_INSTANCE,
+  PAUSE_PLAYBACK_INSTANCE,
+  PLAY_PLAYBACK_INSTANCE,
+  SET_PLAYBACK_POSITION,
+  UPDATE_PLAYBACK_STATUS,
+} from "../types";
 import { Audio } from "expo-av";
 
-export const initializePlayer = () => async (dispatch) => {
-  const soundObject = new Audio.Sound();
-  try {
-    await soundObject.loadAsync(require("../../assets/01dusttilldawn.mp3"));
-    // await soundObject.playAsync();
-    // Your sound is playing!
-    const status = await soundObject.getStatusAsync();
+export const loadingInstance = () => {
+  return {
+    type: LOADING_INSTANCE,
+  };
+};
 
-    console.log(status);
+function updateStatus(dispatch, status) {
+  dispatch({
+    type: UPDATE_PLAYBACK_STATUS,
+    payload: {
+      status: status,
+    },
+  });
+}
+
+export const loadNewPlaybackInstance = (
+  instance,
+  source,
+  parts,
+  shouldPlay = true,
+  state
+) => async (dispatch, getState) => {
+  try {
+    console.log("ACTIONS: LOAD NEW PLAYBACK");
+    console.log("SOURCE:", source);
+
+    function onPlaybackStatusUpdate(status) {
+      console.log(status);
+      updateStatus(dispatch, status);
+    }
+    // let instance = getState().player.playbackInstance;
+    console.log("Instance", instance);
+    loadingInstance();
+
+    if (instance !== null) {
+      await instance.unloadAsync();
+      // this.instance.setOnPlaybackStatusUpdate(null);
+      instance = null;
+    }
+
+    const LOOPING_TYPE_ONE = 1;
+
+    const initialStatus = {
+      shouldPlay: shouldPlay,
+      // rate: state.rate,
+      // shouldCorrectPitch: state.shouldCorrectPitch,
+      // volume: state.volume,
+      // isMuted: state.muted,
+      // isLooping: state.loopingType === LOOPING_TYPE_ONE,
+    };
+
+    const protocol = "https:";
+    const { sound, status } = await Audio.Sound.createAsync(
+      { uri: protocol + source },
+      initialStatus,
+      onPlaybackStatusUpdate
+    );
+
+    console.log("SOUND", sound);
+    console.log("STATUS", status);
 
     dispatch({
-      type: INITIALIZE_PLAYER,
+      type: LOAD_NEW_PLAYBACK_INSTANCE,
+      payload: {
+        instance: sound,
+        status: status,
+        parts: parts,
+      },
     });
-
-    // Don't forget to unload the sound from memory
-    // when you are done using the Sound object
-    // await soundObject.unloadAsync();
   } catch (error) {
-    // An error occurred!
+    console.log("ERROR:");
+    console.log(error);
+  }
+};
+
+export const pausePlaybackIntance = (instance) => async (dispatch) => {
+  try {
+    if (instance !== null) {
+      instance.pauseAsync();
+    }
+
+    console.log("PAUSING");
+    const status = await instance.getStatusAsync();
+    console.log("STATUS:", status);
+
+    dispatch({
+      type: PAUSE_PLAYBACK_INSTANCE,
+      payload: { instance: instance, status: status },
+    });
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const playPlaybackIntance = (instance) => async (dispatch) => {
+  try {
+    if (instance !== null) {
+      instance.playAsync();
+    }
+
+    console.log("PLAYING");
+    const status = await instance.getStatusAsync();
+    console.log("STATUS:", status);
+
+    dispatch({
+      type: PLAY_PLAYBACK_INSTANCE,
+      payload: { instance: instance, status: status },
+    });
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const setPlaybackPosition = (instance, current, offset) => async (
+  dispatch
+) => {
+  try {
+    if (instance !== null) {
+      let newPosition = current + offset;
+    }
+  } catch (error) {
     console.log(error);
   }
 };

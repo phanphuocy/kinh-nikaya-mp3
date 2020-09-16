@@ -76,18 +76,26 @@ function getFileSizeInMegabytes(filename) {
     if (!fields.text) {
       console.log(fields.name, "does not have text");
     }
-    let joinedText = fields.text.concat(fields.textExtended);
+    let joinedText = fields.text
+      .concat(fields.textExtended)
+      .concat(fields.textFurtherExtended);
 
     suttasText.byIds[id] = joinedText;
     suttasText.allIds.push(id);
 
     delete fields.text;
     delete fields.textExtended;
+    delete fields.textFurtherExtended;
 
     suttas.byIds[id] = {
       ...fields,
       id: id,
     };
+    if (suttas.byIds[id].tracks) {
+      suttas.byIds[id].tracks = suttas.byIds[id].tracks.map(
+        (track) => track.sys.id
+      );
+    }
     suttas.allIds.push(id);
   }
 
@@ -119,6 +127,25 @@ function getFileSizeInMegabytes(filename) {
 
   reorderCollectionIds();
 
+  let tracks = {
+    byIds: {},
+    allIds: [],
+  };
+
+  entries.includes.Asset.forEach((item) => {
+    let id = item.sys.id;
+    if (item.fields.file.contentType === "audio/mpeg") {
+      tracks.byIds[id] = {
+        ...item.fields.file,
+        size: item.fields.file.details.size,
+        title: item.fields.title,
+        id: id,
+      };
+      delete tracks.byIds[id].details;
+      tracks.allIds.push(id);
+    }
+  });
+
   function writeDataToDrive(data, path, lengthOfData) {
     fs.writeFileSync(path, JSON.stringify(data, null, 2), {
       encoding: "utf-8",
@@ -147,4 +174,5 @@ function getFileSizeInMegabytes(filename) {
     "./database/suttasText.json",
     suttasText.allIds.length
   );
+  writeDataToDrive(tracks, "./database/tracks.json", tracks.allIds.length);
 })();
