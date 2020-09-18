@@ -75,7 +75,7 @@ export const CurrentlyReadingList = connect(mapStateToReadingListProp)(
         ) : (
           <View>
             {reading.allIds.slice(0, 5).map((id) => (
-              <ListItemContainer>
+              <ListItemContainer key={id}>
                 <ItemSeparatorLine />
                 <ListItemContent key={id}>
                   <TitleSide>
