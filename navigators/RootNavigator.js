@@ -6,7 +6,6 @@ import { createStackNavigator } from "@react-navigation/stack";
 
 // Import navigators
 import BrowsingStackNavigator from "./BrowsingStackNavigator";
-import ReadingStackNavigator from "./ReadingStackNavigator";
 import SuttaScreen from "../screens/SuttaScreen";
 
 const RootStack = createStackNavigator();

@@ -1,9 +1,16 @@
 import React from "react";
 import { connect } from "react-redux";
 import styled from "styled-components/native";
-import { View, ScrollView, FlatList, TouchableOpacity } from "react-native";
+import {
+  View,
+  ScrollView,
+  FlatList,
+  TouchableNativeFeedback,
+  StyleSheet,
+} from "react-native";
 import { Text } from "../components/Atomics";
 import { Ionicons } from "@expo/vector-icons";
+import DifficultyIcon from "../components/DifficultyIcon";
 
 const GroupScreen = ({ group, navigation }) => {
   function handleCardReadingClicked(id) {
@@ -34,25 +41,43 @@ const GroupScreen = ({ group, navigation }) => {
         renderItem={({ item }) => (
           <SuttaCard>
             <ContentContainer>
-              <Text>{item.name}</Text>
-              <Text>{item.paliName}</Text>
-              <Text>{item.introduction}</Text>
+              <SuttaTitleRow>
+                <Text weight="semibold" size="large" style={styles.flexShrink}>
+                  {item.name}
+                </Text>
+                {item.hasDifficultyLevel && (
+                  <DifficultyIcon type={item.difficultyLevel} />
+                )}
+              </SuttaTitleRow>
+              <SuttaSubtitleRow>
+                <Text>{item.paliName}</Text>
+                <Spacer />
+                <Text>{item.codeName}</Text>
+              </SuttaSubtitleRow>
+              <Text size="sm">{item.introduction}</Text>
             </ContentContainer>
             <ActionContainer>
-              <ActionTouchable
+              <TouchableNativeFeedback
                 onPress={() => handleCardReadingClicked(item.id)}
               >
-                <ButtonIconContainer>
-                  <Ionicons name="md-book" size={24} color="white" />
-                </ButtonIconContainer>
-                <Text>Hòa Thượng Thích Minh Châu</Text>
-              </ActionTouchable>
+                <ActionTouchable>
+                  <ButtonIconContainer>
+                    <Ionicons name="md-book" size={18} color="white" />
+                  </ButtonIconContainer>
+                  <Text size="small">Hòa Thượng Thích Minh Châu</Text>
+                </ActionTouchable>
+              </TouchableNativeFeedback>
               {item.tracks && item.tracks.length > 0 && (
-                <ActionTouchable
+                <TouchableNativeFeedback
                   onPress={() => handleCardAudioClicked(item.id)}
                 >
-                  <Text>HAS AUDIO</Text>
-                </ActionTouchable>
+                  <ActionTouchable>
+                    <ButtonIconContainer>
+                      <Ionicons name="md-mic" size={18} color="white" />
+                    </ButtonIconContainer>
+                    <Text>Nguồn: batchanhdao.vn</Text>
+                  </ActionTouchable>
+                </TouchableNativeFeedback>
               )}
             </ActionContainer>
           </SuttaCard>
@@ -62,6 +87,12 @@ const GroupScreen = ({ group, navigation }) => {
     </Screen>
   );
 };
+
+const styles = StyleSheet.create({
+  flexShrink: {
+    flexShrink: 1,
+  },
+});
 
 const Screen = styled.View`
   background-color: #f9f9f9;
@@ -87,9 +118,23 @@ const IntroductionText = styled.Text`
 
 const SuttaCard = styled.View`
   background-color: white;
-  padding: 16px 8px;
+  padding: 24px 8px 16px;
   margin-bottom: 12px;
   elevation: 1;
+`;
+
+const SuttaTitleRow = styled.View`
+  flex-direction: row;
+  justify-content: space-between;
+`;
+
+const SuttaSubtitleRow = styled.View`
+  flex-direction: row;
+  margin-bottom: 4px;
+`;
+
+const Spacer = styled.View`
+  width: 32px;
 `;
 
 const ContentContainer = styled.View`
@@ -99,7 +144,7 @@ const ContentContainer = styled.View`
 
 const ActionContainer = styled.View``;
 
-const ActionTouchable = styled.TouchableOpacity`
+const ActionTouchable = styled.View`
   flex-direction: row;
   align-items: center;
   padding: 12px 16px;
@@ -109,10 +154,10 @@ const ActionTouchable = styled.TouchableOpacity`
 `;
 
 const ButtonIconContainer = styled.View`
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.87);
   border-radius: 18px;
-  height: 36px;
-  width: 36px;
+  height: 32px;
+  width: 32px;
   padding: 4px;
   margin-right: 8px;
   justify-content: center;
@@ -121,8 +166,14 @@ const ButtonIconContainer = styled.View`
 
 function mapStateToProps(state, ownProps) {
   let id = ownProps.route.params.id;
+  let group = {
+    ...state.system.groups.byIds[id],
+    suttas: state.system.groups.byIds[id].suttas.map(
+      (id) => state.system.suttas.byIds[id]
+    ),
+  };
   return {
-    group: state.system.groups.byIds[id],
+    group: group,
   };
 }
 

@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { View, Text, ScrollView, TouchableOpacity } from "react-native";
+import {
+  View,
+  Text,
+  ScrollView,
+  TouchableOpacity,
+  TouchableWithoutFeedback,
+} from "react-native";
 import styled from "styled-components/native";
 import { connect } from "react-redux";
 import SuttaScreenMenu from "../components/SuttaScreenMenu";
@@ -8,6 +14,7 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 // Import custom components
 import AudioControlPanel from "../components/AudioControlPanel";
+import ScrollIndicator from "../components/ScrollIndicator";
 
 // Import actions
 import { loadNewPlaybackInstance } from "../store/actions/playerActions";
@@ -86,6 +93,7 @@ const SuttaScreen = ({
   suttaText,
   tracks,
   instance,
+  suttaName,
   loadNewPlaybackInstance,
   addNewReadingSutta,
   navigation,
@@ -97,7 +105,9 @@ const SuttaScreen = ({
 
   useEffect(() => {
     if (route.params.openWithAudio) {
-      loadNewPlaybackInstance(instance, tracks[0].url, tracks, true, {});
+      if (suttaName !== sutta.codeName) {
+        loadNewPlaybackInstance(instance, tracks, 0, true, sutta.codeName);
+      }
     }
   }, [id]);
 
@@ -152,6 +162,10 @@ const SuttaScreen = ({
 
   const [scrollingPosition, setScrollingPosition] = useState(0);
 
+  function handleCloseAudioPanel() {
+    setOpenAudioPanel(false);
+  }
+
   return (
     <Screen>
       {openMenu && <SuttaScreenMenu />}
@@ -161,20 +175,23 @@ const SuttaScreen = ({
         decreaseFontsizeHandler={handleDecreaseFontsize}
         menuButtonHandler={toggleMenu}
       />
-      <View>
-        <Text>{scrollingPosition}</Text>
-      </View>
+      <ScrollIndicator percent={scrollingPosition} />
       <ScrollView
         onScroll={(e) => handleOnContentScroll(e)}
         scrollEventThrottle={200}
       >
-        {/* <Text>Sutta screen</Text>
-        <Text>{id}</Text>
-        <Text>{JSON.stringify(sutta, null, 2)}</Text> */}
-
+        <ContentHeader>
+          <SuttaSubtitle>
+            {sutta.belongToCollection.name} - {sutta.codeName}
+          </SuttaSubtitle>
+          <Underline />
+          <SuttaTitle>{sutta.name}</SuttaTitle>
+        </ContentHeader>
         <ReadingText style={{ fontSize: fontSize }}>{suttaText}</ReadingText>
       </ScrollView>
-      {openAudioPanel && <AudioControlPanel />}
+      {openAudioPanel && (
+        <AudioControlPanel onCloseButton={handleCloseAudioPanel} />
+      )}
       {/* <Text>{JSON.stringify(tracks, null, 2)}</Text> */}
     </Screen>
   );
@@ -185,10 +202,40 @@ const Screen = styled.View`
   flex: 1;
 `;
 
+const SuttaSubtitle = styled.Text`
+  text-align: center;
+  font-family: sans400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+  margin-bottom: 8px;
+  padding: 0 16px;
+`;
+
+const Underline = styled.View`
+  align-self: center;
+  width: 124px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.08);
+`;
+
+const SuttaTitle = styled.Text`
+  text-align: center;
+  font-family: serif400;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 12px;
+  margin-bottom: 16px;
+  padding: 0 16px;
+`;
+
+const ContentHeader = styled.View`
+  padding: 32px 0 12px;
+`;
+
 const ReadingText = styled.Text`
   font-family: serif400;
   font-size: 16px;
-  padding: 48px 24px;
+  padding: 12px 24px;
 `;
 
 function mapStateToProps(state, ownProps) {
@@ -206,12 +253,18 @@ function mapStateToProps(state, ownProps) {
     );
   }
 
+  let belongToCollectionId = state.system.suttas.byIds[id].belongToCollection;
+
   return {
     id: id,
-    sutta: state.system.suttas.byIds[id],
+    sutta: {
+      ...state.system.suttas.byIds[id],
+      belongToCollection: state.system.collections.byIds[belongToCollectionId],
+    },
     suttaText: state.system.suttasText.byIds[id],
     tracks: tracks,
     instance: state.player.playbackInstance,
+    suttaName: state.player.suttaName,
   };
 }
 

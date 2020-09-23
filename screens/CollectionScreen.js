@@ -3,8 +3,11 @@ import { connect } from "react-redux";
 import styled from "styled-components/native";
 import CollectionAccordion from "../components/CollectionAccordion";
 
-const CollectionScreen = ({ collections, navigation }) => {
-  const data = collections.allIds.map((id) => collections.byIds[id]);
+const CollectionScreen = ({ collections, groups, navigation }) => {
+  const data = collections.allIds.map((id) => ({
+    ...collections.byIds[id],
+    groups: collections.byIds[id].groups.map((id) => groups.byIds[id]),
+  }));
 
   function handleCardClicked(idOfGroup, screenName) {
     navigation.navigate("Group", { id: idOfGroup, screenName: screenName });
@@ -24,6 +27,7 @@ const Screen = styled.View`
 function mapStateToProps(state) {
   return {
     collections: state.system.collections,
+    groups: state.system.groups,
   };
 }
 

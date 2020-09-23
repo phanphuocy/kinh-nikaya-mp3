@@ -5,6 +5,7 @@ import {
   PAUSE_PLAYBACK_INSTANCE,
   PLAY_PLAYBACK_INSTANCE,
   UPDATE_PLAYBACK_STATUS,
+  RESET_PLAYBACK,
 } from "../types";
 
 const LOADING_STRING = "... loading ...";
@@ -17,7 +18,7 @@ const initialState = {
   tracks: tracks,
   parts: [],
   currentPart: 0,
-  loadingInstance: false,
+  isLoadingNewInstance: false,
   isSeeking: false,
   shouldPlayAtEndOfSeek: false,
   playbackInstance: null,
@@ -37,6 +38,7 @@ const initialState = {
     rate: 1.0,
   },
   status: null,
+  suttaName: "",
 };
 
 const playerReducer = (state = initialState, action) => {
@@ -47,7 +49,9 @@ const playerReducer = (state = initialState, action) => {
         playbackInstance: action.payload.instance,
         status: action.payload.status,
         parts: action.payload.parts,
-        loadingInstance: false,
+        currentPart: action.payload.currentPart,
+        isLoadingNewInstance: false,
+        suttaName: action.payload.suttaName,
       };
     case UPDATE_PLAYBACK_STATUS:
       return {
@@ -66,10 +70,12 @@ const playerReducer = (state = initialState, action) => {
         playbackInstance: action.payload.instance,
         status: action.payload.status,
       };
+    case RESET_PLAYBACK:
+      return initialState;
     case LOADING_INSTANCE:
       return {
         ...state,
-        loadingInstance: true,
+        isLoadingNewInstance: true,
       };
     default:
       return state;

@@ -5,7 +5,9 @@ import {
   PLAY_PLAYBACK_INSTANCE,
   SET_PLAYBACK_POSITION,
   UPDATE_PLAYBACK_STATUS,
+  RESET_PLAYBACK,
 } from "../types";
+
 import { Audio } from "expo-av";
 
 export const loadingInstance = () => {
@@ -25,38 +27,33 @@ function updateStatus(dispatch, status) {
 
 export const loadNewPlaybackInstance = (
   instance,
-  source,
   parts,
+  startAt = 0,
   shouldPlay = true,
-  state
-) => async (dispatch, getState) => {
+  suttaName
+) => async (dispatch) => {
   try {
     console.log("ACTIONS: LOAD NEW PLAYBACK");
-    console.log("SOURCE:", source);
+    console.log(("PARTS", parts));
 
     function onPlaybackStatusUpdate(status) {
-      console.log(status);
+      console.log("UPDATING STATUS", status);
       updateStatus(dispatch, status);
     }
-    // let instance = getState().player.playbackInstance;
-    console.log("Instance", instance);
+
+    // console.log("Instance", instance);
     loadingInstance();
 
     if (instance !== null) {
       await instance.unloadAsync();
-      // this.instance.setOnPlaybackStatusUpdate(null);
       instance = null;
     }
 
-    const LOOPING_TYPE_ONE = 1;
+    let source = parts[startAt].url;
+    let fileName = parts[startAt].title;
 
     const initialStatus = {
-      shouldPlay: shouldPlay,
-      // rate: state.rate,
-      // shouldCorrectPitch: state.shouldCorrectPitch,
-      // volume: state.volume,
-      // isMuted: state.muted,
-      // isLooping: state.loopingType === LOOPING_TYPE_ONE,
+      shouldPlay: true,
     };
 
     const protocol = "https:";
@@ -75,6 +72,8 @@ export const loadNewPlaybackInstance = (
         instance: sound,
         status: status,
         parts: parts,
+        currentPart: startAt,
+        suttaName: suttaName,
       },
     });
   } catch (error) {
@@ -98,24 +97,28 @@ export const pausePlaybackIntance = (instance) => async (dispatch) => {
       payload: { instance: instance, status: status },
     });
   } catch (error) {
+    console.log("ERROR:");
     console.log(error);
   }
 };
 
 export const playPlaybackIntance = (instance) => async (dispatch) => {
   try {
+    let status;
     if (instance !== null) {
-      instance.playAsync();
+      console.log("PLAYING");
+      await instance.playAsync();
+      status = await instance.getStatusAsync();
+      dispatch({
+        type: PLAY_PLAYBACK_INSTANCE,
+        payload: { instance: instance, status: status },
+      });
+    } else {
+      console.log("There is no playback instance currently available");
+      dispatch({
+        type: RESET_PLAYBACK,
+      });
     }
-
-    console.log("PLAYING");
-    const status = await instance.getStatusAsync();
-    console.log("STATUS:", status);
-
-    dispatch({
-      type: PLAY_PLAYBACK_INSTANCE,
-      payload: { instance: instance, status: status },
-    });
   } catch (error) {
     console.log(error);
   }

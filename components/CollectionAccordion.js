@@ -1,7 +1,13 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Text } from "./Atomics";
 import styled from "styled-components/native";
-import { Animated, View, FlatList, TouchableOpacity } from "react-native";
+import {
+  Animated,
+  View,
+  FlatList,
+  TouchableOpacity,
+  TouchableNativeFeedback,
+} from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
 const CollectionAccordion = ({ data, handleCardClicked }) => {
@@ -53,14 +59,15 @@ const CollectionAccordionItem = ({
 }) => {
   return (
     <CollectionContainer>
-      <CollectionHeader>
-        <View>
-          <Text>{collection.name}</Text>
-          <Text>{collection.paliName}</Text>
-        </View>
-        <TouchableOpacity
-          onPress={() => setOpenningAndScroll(collection.slug, index)}
-        >
+      <TouchableNativeFeedback
+        onPress={() => setOpenningAndScroll(collection.slug, index)}
+      >
+        <CollectionHeader>
+          <View>
+            <Text>{collection.name}</Text>
+            <Text>{collection.paliName}</Text>
+          </View>
+
           <Text>
             {isOpenning ? (
               <Ionicons name="ios-arrow-up" size={24} color="black" />
@@ -68,21 +75,21 @@ const CollectionAccordionItem = ({
               <Ionicons name="ios-arrow-down" size={24} color="black" />
             )}
           </Text>
-        </TouchableOpacity>
-      </CollectionHeader>
+        </CollectionHeader>
+      </TouchableNativeFeedback>
       {isOpenning ? (
         <FlatList
           data={collection.groups}
           keyExtractor={(item) => item.slug}
           renderItem={({ item }) => (
-            <GroupCard>
-              <TouchableOpacity
-                onPress={() => handleCardClicked(item.id, item.name)}
-              >
-                <Text>{item.name}</Text>
+            <TouchableNativeFeedback
+              onPress={() => handleCardClicked(item.id, item.name)}
+            >
+              <GroupCard>
+                <Text weight="semibold">{item.name}</Text>
                 <Text>{item.paliName}</Text>
-              </TouchableOpacity>
-            </GroupCard>
+              </GroupCard>
+            </TouchableNativeFeedback>
           )}
         />
       ) : null}
@@ -91,14 +98,15 @@ const CollectionAccordionItem = ({
 };
 
 const CollectionContainer = styled.View`
-  margin: 8px;
+  margin: 0px 8px;
 `;
 
 const CollectionHeader = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0 24px 8px;
+  padding: 8px 24px;
+  margin-bottom: 8px;
 `;
 
 const GroupCard = styled.View`
