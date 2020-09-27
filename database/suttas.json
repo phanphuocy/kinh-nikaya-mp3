@@ -1,5 +1,2700 @@
 {
   "byIds": {
+    "1TfMrBF7EmkGBvrckjpRCP": {
+      "name": "Đại Phẩm",
+      "slug": "dai-pham-Pv",
+      "paliName": "Mahā Vagga",
+      "codeName": "Pv 36-51",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "6Zl0utZDyrgUqse2eVa263"
+      ],
+      "belongToGroup": "7rkTwRwhExfHHfMInXB0n3",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "1TfMrBF7EmkGBvrckjpRCP"
+    },
+    "cbRarIuy8L4cBUvhLn5ud": {
+      "name": "Phẩm Tiểu",
+      "slug": "pham-tieu",
+      "paliName": "Cūḷa Vagga",
+      "codeName": "Pv 26-35",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "5zWOulZjVfXXTtariCb1SZ"
+      ],
+      "belongToGroup": "7rkTwRwhExfHHfMInXB0n3",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "cbRarIuy8L4cBUvhLn5ud"
+    },
+    "42TlpWFCbtIUnrwjLST1QA": {
+      "name": "Phẩm Ubbarì",
+      "slug": "pham-ubbari",
+      "paliName": "Ubbari Vagga",
+      "codeName": "Pv 13-25",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "7qv7gNtTpJxrvEGgwt1BtK"
+      ],
+      "belongToGroup": "7rkTwRwhExfHHfMInXB0n3",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "42TlpWFCbtIUnrwjLST1QA"
+    },
+    "4BPagN7HbXGTtVlEUM1sGz": {
+      "name": "Phẩm Con Rắn",
+      "slug": "pham-con-ran",
+      "paliName": "Uraga Vagga",
+      "codeName": "Pv 01-12",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "6UUR5iwZ8IcbUvZnBt5LUX"
+      ],
+      "belongToGroup": "7rkTwRwhExfHHfMInXB0n3",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "4BPagN7HbXGTtVlEUM1sGz"
+    },
+    "6VxFwRaJZeuvKjL00HgsfR": {
+      "name": "Phẩm VII: Sunikkhitta",
+      "slug": "pham-vii-sunikkhitta",
+      "paliName": "Sunikkhitta Vagga",
+      "codeName": "Vv 75-85",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "4BxUsNud3qrZCZvmPYuCmi"
+      ],
+      "belongToGroup": "3W8Ux3HM1tKpMdOe4gLLJG",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "6VxFwRaJZeuvKjL00HgsfR"
+    },
+    "4ZxTvfLLmaJ2hBggiwPJmb": {
+      "name": "Phẩm VI: Pàyasi",
+      "slug": "pham-vi-payasi",
+      "paliName": "Pāyāsi Vagga",
+      "codeName": "Vv 64-74",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "1KDtdUQenKDr5hb6SrY7qV"
+      ],
+      "belongToGroup": "3W8Ux3HM1tKpMdOe4gLLJG",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "4ZxTvfLLmaJ2hBggiwPJmb"
+    },
+    "5hTMRG8qYcobCDW1b9HZXq": {
+      "name": "Phẩm IV: Đỏ Sẫm",
+      "slug": "pham-iv-do-sam",
+      "paliName": "Mañjiṭṭhaka Vagga",
+      "codeName": "Vv 39-50",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "2Ny67O3YKsDYW1SXplMOsz"
+      ],
+      "belongToGroup": "3W8Ux3HM1tKpMdOe4gLLJG",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "5hTMRG8qYcobCDW1b9HZXq"
+    },
+    "2VTMjbMNyIACsOdtDqDJPT": {
+      "name": "Phẩm V: Đại Xa",
+      "slug": "pham-v-dai-xa",
+      "paliName": "Mahāratha Vagga",
+      "codeName": "Vv 51-64",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "UARRWxmIydL5QhhbeDMQD"
+      ],
+      "belongToGroup": "3W8Ux3HM1tKpMdOe4gLLJG",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "2VTMjbMNyIACsOdtDqDJPT"
+    },
+    "4GdTgVI93qGybPsmdUVzxC": {
+      "name": "Phẩm I: Lâu Đài Nữ Giới",
+      "slug": "pham-i-lau-dai-nu-gioi",
+      "paliName": "Pīṭha Vagga",
+      "codeName": "Vv 01-17",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "IMs2FhJEhSGhcjM7o0br4"
+      ],
+      "belongToGroup": "3W8Ux3HM1tKpMdOe4gLLJG",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "4GdTgVI93qGybPsmdUVzxC"
+    },
+    "5ScIiVYVASy6GC9Fjg7rGM": {
+      "name": "Phẩm II: Cittalatà",
+      "slug": "pham-ii-cittalata",
+      "paliName": "Cittalatā Vagga",
+      "codeName": "Vv 18-28",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "fvprWC5jLBDKGywDTGAGZ"
+      ],
+      "belongToGroup": "3W8Ux3HM1tKpMdOe4gLLJG",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "5ScIiVYVASy6GC9Fjg7rGM"
+    },
+    "68NK0ghYLBvFd2R9tecsyY": {
+      "name": "Phẩm III: Pàricchattaka ",
+      "slug": "pham-iii-paricchattaka",
+      "paliName": "Pāricchattaka Vagga",
+      "codeName": "Vv 29-38",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3fpQZMOz81Z54TLxsvWTMY"
+      ],
+      "belongToGroup": "3W8Ux3HM1tKpMdOe4gLLJG",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "68NK0ghYLBvFd2R9tecsyY"
+    },
+    "5a3nAgHZEH2ZtL9IAYKpJI": {
+      "name": "Phẩm Con Ðường Ðến Bờ Bên Kia",
+      "slug": "pham-con-duong-den-bo-ben-kia",
+      "paliName": "Pārāyana Vagga",
+      "codeName": "Snp 5.01-19",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "382EJveh6vMo7ezw04L6BA"
+      ],
+      "belongToGroup": "4ms7T8Akobgn2dKjxyUUST",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "5a3nAgHZEH2ZtL9IAYKpJI"
+    },
+    "5j2ThnbOp6M44ARP2qehz6": {
+      "name": "Phẩm Tám",
+      "slug": "pham-tam-Snp",
+      "paliName": "Aṭṭhaka Vagga",
+      "codeName": "Snp 4.01-16",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "2K7sqkM8Lz5RnxqXawiVWs"
+      ],
+      "belongToGroup": "4ms7T8Akobgn2dKjxyUUST",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "5j2ThnbOp6M44ARP2qehz6"
+    },
+    "1AzqQkq1fYAAnI6UO6O0Nf": {
+      "name": "Đại Phẩm",
+      "slug": "dai-pham-Snp",
+      "paliName": "Mahā Vagga",
+      "codeName": "Snp 3.01-12",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "63DGq8pRngnQy0LFOO02fg"
+      ],
+      "belongToGroup": "4ms7T8Akobgn2dKjxyUUST",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "1AzqQkq1fYAAnI6UO6O0Nf"
+    },
+    "59zq2CiXFpTQ0UaV6hGNQF": {
+      "name": "Tiểu Phẩm",
+      "slug": "tieu-pham",
+      "paliName": "Cūḷa Vagga",
+      "codeName": "Snp 2.01-14",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "4TDU085RIacmBloS8izsrG"
+      ],
+      "belongToGroup": "4ms7T8Akobgn2dKjxyUUST",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "59zq2CiXFpTQ0UaV6hGNQF"
+    },
+    "5NBr6CqYvNCYRIliHX2En1": {
+      "name": "Phẩm Rắn",
+      "slug": "pham-ran",
+      "paliName": "Uraga Vagga",
+      "codeName": "Snp 1.01-12",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "1THiOCyvwJgJPGXZjODrPX"
+      ],
+      "belongToGroup": "4ms7T8Akobgn2dKjxyUUST",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "5NBr6CqYvNCYRIliHX2En1"
+    },
+    "2hXiOHfS4x1BbrEBT4pB1G": {
+      "name": "Chương Bốn - Tập Bốn Pháp",
+      "slug": "chuong-bon-tap-bon-phap",
+      "paliName": "Catukkanipāta",
+      "codeName": "It 100-112",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3qRD9LxXl3hKzIstrvQvcu"
+      ],
+      "belongToGroup": "5HzvtyzwXn8KCV9mbMIioi",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "2hXiOHfS4x1BbrEBT4pB1G"
+    },
+    "5Csftl1WZ63OPAbUFB0Ck8": {
+      "name": "Chương Ba - Tập Ba Pháp",
+      "slug": "chuong-ba-tap-ba-phap",
+      "paliName": "Tikanipāta",
+      "codeName": "It 50-99",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3KlSWJliNdQIrOTOkqjGa9"
+      ],
+      "belongToGroup": "5HzvtyzwXn8KCV9mbMIioi",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "5Csftl1WZ63OPAbUFB0Ck8"
+    },
+    "4JyFuKSKvu6FffyjLc9wNQ": {
+      "name": "Chương Hai - Tập Hai Pháp",
+      "slug": "chuong-hai-tap-hai-phap",
+      "paliName": "Dukanipāta",
+      "codeName": "It 28-49",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "44hdbvlDsVyFteUPk1QGZ8"
+      ],
+      "belongToGroup": "5HzvtyzwXn8KCV9mbMIioi",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "4JyFuKSKvu6FffyjLc9wNQ"
+    },
+    "3gGWyj4RYTk2ymPYFqK93a": {
+      "name": "Chương Một - Tập Một Pháp",
+      "slug": "chuong-mot-tap-mot-phap",
+      "paliName": "Ekakanipāta",
+      "codeName": "It 01-27",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "5l85t0PLYIAGLwWFM9iNTt"
+      ],
+      "belongToGroup": "5HzvtyzwXn8KCV9mbMIioi",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "3gGWyj4RYTk2ymPYFqK93a"
+    },
+    "2EERkDiiBwZrgXPs06PYGc": {
+      "name": "Phẩm Pàtaligàmiya",
+      "slug": "pham-pataligamiya",
+      "paliName": "Cūḷa Vagga",
+      "codeName": "Ud 8.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "FyCfg1xP28BfS50hLVEqf"
+      ],
+      "belongToGroup": "cqjtDfcwiUx8R2H1PsrxL",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "2EERkDiiBwZrgXPs06PYGc"
+    },
+    "4dLcgu9EwcKbDkzVs6ZIKJ": {
+      "name": "Phẩm Nhỏ",
+      "slug": "pham-nho-Ud",
+      "paliName": "Cūḷa Vagga",
+      "codeName": "Ud 7.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "70Zs9d7OebW1nvTpRV2syk"
+      ],
+      "belongToGroup": "cqjtDfcwiUx8R2H1PsrxL",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "4dLcgu9EwcKbDkzVs6ZIKJ"
+    },
+    "3Ewid2N9zDrR3VbeZuESK9": {
+      "name": "Phẩm Chưa Sanh Đã Mù",
+      "slug": "pham-chua-sanh-da-mu",
+      "paliName": "Jaccandha Vagga",
+      "codeName": "Ud 6.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "2Xd0FPjeLLZoIyQLeVIKCi"
+      ],
+      "belongToGroup": "cqjtDfcwiUx8R2H1PsrxL",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "3Ewid2N9zDrR3VbeZuESK9"
+    },
+    "3O48KURBnNN6DKbCHS9IhV": {
+      "name": "Phẩm Trưởng Lão Sona",
+      "slug": "pham-truong-lao-sona",
+      "paliName": "Soṇa Vagga",
+      "codeName": "Ud 5.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "23McWIzbNZpmcFowhN6rv8"
+      ],
+      "belongToGroup": "cqjtDfcwiUx8R2H1PsrxL",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "3O48KURBnNN6DKbCHS9IhV"
+    },
+    "4k1385scplCaGE92gQgbSm": {
+      "name": "Phẩm Meghiya",
+      "slug": "pham-meghiya",
+      "paliName": "Meghiya Vagga",
+      "codeName": "Ud 4.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "xmnRPnQO6kptAl9RwHQWn"
+      ],
+      "belongToGroup": "cqjtDfcwiUx8R2H1PsrxL",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "4k1385scplCaGE92gQgbSm"
+    },
+    "d0EZlbOS7fgP3ImTeEeB4": {
+      "name": "Phẩm Nanda",
+      "slug": "pham-nanda",
+      "paliName": "Nanda Vagga",
+      "codeName": "Ud 3.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "4q2oMiYI53uSJPhlVvziq2"
+      ],
+      "belongToGroup": "cqjtDfcwiUx8R2H1PsrxL",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "d0EZlbOS7fgP3ImTeEeB4"
+    },
+    "6rmdwL73qhY1d4UYzf6IXM": {
+      "name": "Phẩm Bồ Đề",
+      "slug": "pham-bo-de",
+      "paliName": "Bodhi Vagga",
+      "codeName": "Ud 1.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "618yi3MpyjlcoYEL9z2RXi"
+      ],
+      "belongToGroup": "cqjtDfcwiUx8R2H1PsrxL",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "6rmdwL73qhY1d4UYzf6IXM"
+    },
+    "4BSS9YGghYRUSaHolrLWW0": {
+      "name": "Phẩm Mucalinda",
+      "slug": "pham-mucalinda",
+      "paliName": "Mucalinda Vagga",
+      "codeName": "Ud 2.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "YCosMBfi0EgopkGMoNLYr"
+      ],
+      "belongToGroup": "cqjtDfcwiUx8R2H1PsrxL",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "4BSS9YGghYRUSaHolrLWW0"
+    },
+    "3ERhSX3ZIDdQO5jNvEXxDn": {
+      "name": "Phẩm Bà-La-Môn",
+      "slug": "pham-ba-la-mon-Dhp",
+      "paliName": "Brāhmaṇa Vagga",
+      "codeName": "Dhp 383–423",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "5PghLlUAMhJSGDSDrxVpxe"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "3ERhSX3ZIDdQO5jNvEXxDn"
+    },
+    "3JWsprh75H3KN3bmPYKFqL": {
+      "name": "Phẩm Tỷ Kheo",
+      "slug": "pham-ty-kheo",
+      "paliName": "Bhikkhu Vagga",
+      "codeName": "Dhp 360–382",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "7kVqdGH2ygGJKJqQ4w0Abr"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "3JWsprh75H3KN3bmPYKFqL"
+    },
+    "01lOYOpXzWO9QAjZZ0OAiw": {
+      "name": "Phẩm Tham Ái",
+      "slug": "pham-tham-ai",
+      "paliName": "Taṇhā Vagga",
+      "codeName": "Dhp 334–359",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "53kvjN2EdjwwORgMq3hfme"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "01lOYOpXzWO9QAjZZ0OAiw"
+    },
+    "7gavdKGLW903W58W6kh5Nk": {
+      "name": "Phẩm Voi",
+      "slug": "pham-voi",
+      "paliName": "Nāga Vagga",
+      "codeName": "Dhp 320–333",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "j8cRxVWJ5pPMobcTHQGcT"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "7gavdKGLW903W58W6kh5Nk"
+    },
+    "71iIUww9vT3tM9Q4Rp5R9B": {
+      "name": "Phẩm Ðịa Ngục",
+      "slug": "pham-dia-nguc",
+      "paliName": "Niraya Vagga",
+      "codeName": "Dhp 306–319",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "7zaNGf9QYxP34Kl4gUGJnv"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "71iIUww9vT3tM9Q4Rp5R9B"
+    },
+    "2ac59IFaJkDzFffnc9gbfj": {
+      "name": "Phẩm Tạp Lục",
+      "slug": "pham-tap-luc",
+      "paliName": "Pakiṇṇaka Vagga",
+      "codeName": "Dhp 290–305",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "4SpmKIoY1kSiboynG8TD2y"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "2ac59IFaJkDzFffnc9gbfj"
+    },
+    "7BXWeggls1YftJcw7TmuHr": {
+      "name": "Phẩm Ðạo",
+      "slug": "pham-dao",
+      "paliName": "Magga Vagga",
+      "codeName": "Dhp 273–289",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "1nr09MQa70A3rpFMbGRLPV"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "7BXWeggls1YftJcw7TmuHr"
+    },
+    "3AswY5uY4fgzWTN0I3gTYP": {
+      "name": "Phẩm Pháp Trụ",
+      "slug": "pham-phap-tru",
+      "paliName": "Dhammaṭṭha Vagga",
+      "codeName": "Dhp 256–272",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3Bv9tZGnPtAnHEgdXBoaZI"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "3AswY5uY4fgzWTN0I3gTYP"
+    },
+    "6ZfHoKxhdBLyzhbpo91cuZ": {
+      "name": "Phẩm Cấu Uế",
+      "slug": "pham-cau-ue",
+      "paliName": "Mala Vagga",
+      "codeName": "Dhp 235–255",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "4d1w62gfUodYThnMzExhCQ"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "6ZfHoKxhdBLyzhbpo91cuZ"
+    },
+    "7svFk7E0svemYpSHUy0IQ0": {
+      "name": "Phẩm Phẫn Nộ",
+      "slug": "pham-phan-no",
+      "paliName": "Kodha Vagga",
+      "codeName": "Dhp 221–234",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "6BRDWYasvvDH84CODGPcRf"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "7svFk7E0svemYpSHUy0IQ0"
+    },
+    "7dsSlCXhQ6LK1l2W56Y7ro": {
+      "name": "Phẩm Hỷ Ái",
+      "slug": "pham-hy-ai",
+      "paliName": "Piya Vagga",
+      "codeName": "Dhp 209–220",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "5bDUjMBfj7VTDbtCPZxSRL"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "7dsSlCXhQ6LK1l2W56Y7ro"
+    },
+    "2EaLELW4CmR4lA49TORPay": {
+      "name": "Phẩm An Lạc",
+      "slug": "pham-an-lac",
+      "paliName": "Sukha Vagga",
+      "codeName": "Dhp 197–208",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "1kIR9qMJCe5Zpaam3sZ8p7"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "2EaLELW4CmR4lA49TORPay"
+    },
+    "1yADukBwlUqBHFMbEWFF54": {
+      "name": "Phẩm Phật Ðà",
+      "slug": "pham-phat-da",
+      "paliName": "Buddha Vagga",
+      "codeName": "Dhp 179–196",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3Xh4Yw6ONzDIrKyHdMjPws"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "1yADukBwlUqBHFMbEWFF54"
+    },
+    "5GSnHdFjOiBzxwLKyf0WTi": {
+      "name": "Phẩm Thế Gian",
+      "slug": "pham-the-gian",
+      "paliName": "Loka Vagga",
+      "codeName": "Dhp 167–178",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "4JC2yxMshQcdbNfKSSESSd"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "5GSnHdFjOiBzxwLKyf0WTi"
+    },
+    "6AHmayPgRerpMTL4LydNrc": {
+      "name": "Phẩm Tự Ngã",
+      "slug": "pham-tu-nga",
+      "paliName": "Atta Vagga",
+      "codeName": "Dhp 157–166",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "1gjz5o4fAhemlAfsL61nS9"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "6AHmayPgRerpMTL4LydNrc"
+    },
+    "4r72d7qwl3rLS3aleG8owA": {
+      "name": "Phẩm Già",
+      "slug": "pham-gia",
+      "paliName": "Jarā Vagga",
+      "codeName": "Dhp 146–156",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "5QuA9vjo1xBPFEFjDb9RAl"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "4r72d7qwl3rLS3aleG8owA"
+    },
+    "k0wzsz28cB1KvgiJNSRBA": {
+      "name": "Phẩm Hình Phạt",
+      "slug": "pham-hinh-phat",
+      "paliName": "Daṇḍa Vagga",
+      "codeName": "Dhp 129–145",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "5CPEbUMXWMCb74y7oRUhMW"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "k0wzsz28cB1KvgiJNSRBA"
+    },
+    "5bO5YPhWPnBbFGi5htNQay": {
+      "name": "Phẩm Ác",
+      "slug": "pham-ac",
+      "paliName": "Pāpa Vagga",
+      "codeName": "Dhp 116–128",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "7uZZxr5DBv5e0bzH7BPXII"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "5bO5YPhWPnBbFGi5htNQay"
+    },
+    "1JF7MrJbX5FsvONEDdn4wR": {
+      "name": "Phẩm Ngàn",
+      "slug": "pham-ngan",
+      "paliName": "Sahassa Vagga",
+      "codeName": "Dhp 100–115",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "6egx8COmSRpc9MpHGjJsCZ"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "1JF7MrJbX5FsvONEDdn4wR"
+    },
+    "5hqLj1iY9Ipy41pXJxGSky": {
+      "name": "Phẩm A-La-Hán",
+      "slug": "pham-a-la-han-Dhp",
+      "paliName": "Arahanta Vagga",
+      "codeName": "Dhp 90–99",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3UQAXDHbV1OEP0zhwJgVqk"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "5hqLj1iY9Ipy41pXJxGSky"
+    },
+    "MkDhBl6BQMdvCOVq5iYSf": {
+      "name": "Phẩm Hiền Trí",
+      "slug": "pham-hien-tri",
+      "paliName": "Paṇḍita Vagga",
+      "codeName": "Dhp 76–89",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "KwyorTIP3qzCuyOwUfiNs"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "MkDhBl6BQMdvCOVq5iYSf"
+    },
+    "29xYR6VGrY8Oiyl7Y8oZeV": {
+      "name": "Phẩm Kẻ Ngu",
+      "slug": "pham-ke-ngu",
+      "paliName": "Bāla Vagga",
+      "codeName": "Dhp 60–75",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "7JWjZ89K3z21RFRW3xQ0e2"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "29xYR6VGrY8Oiyl7Y8oZeV"
+    },
+    "6e80dSNvnDhgIOuPYmcxNN": {
+      "name": "Phẩm Hoa",
+      "slug": "pham-hoa",
+      "paliName": "Puppha Vagga",
+      "codeName": "Dhp 44–59",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "2eep5l1dgBwsTGuBtNOjUD"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "6e80dSNvnDhgIOuPYmcxNN"
+    },
+    "7z75C74DWlY0dcFDMyRlYY": {
+      "name": "Phẩm Tâm",
+      "slug": "pham-tam",
+      "paliName": "Citta Vagga",
+      "codeName": "Dhp 33–43",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "1NgckIvZSf18TAyBNrvXrT"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "7z75C74DWlY0dcFDMyRlYY"
+    },
+    "1qIL14IZYHtnmbArfxVeHq": {
+      "name": "Phẩm Song Yếu",
+      "slug": "pham-song-yeu",
+      "paliName": "Yamaka Vagga",
+      "codeName": "Dhp 01-20",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "6Az5Bx0pTCgMzSfTEAUNHx"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "1qIL14IZYHtnmbArfxVeHq"
+    },
+    "4TzyAqenDJYCEJVWsQok57": {
+      "name": "Phẩm Không Phóng Dật",
+      "slug": "pham-khong-phong-dat",
+      "paliName": "Appamāda Vagga",
+      "codeName": "Dhp 21-32",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3K5ri4Pwz9eus4DpEuF7vm"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "4TzyAqenDJYCEJVWsQok57"
+    },
+    "4axjdQTj308zqXhZ50a0HS": {
+      "name": "Toàn Bộ Kinh Pháp Cú",
+      "slug": "toan-bo-kinh-phap-cu",
+      "paliName": "Dhammapada",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "5FSME7JPcbjkQQ7aIkN9rK"
+      ],
+      "belongToGroup": "ke8hCr3FK5h9MirS7PYkH",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "4axjdQTj308zqXhZ50a0HS"
+    },
+    "6xAfJlOgQGxz605cImGlgg": {
+      "name": "Kinh Lòng Từ",
+      "slug": "kinh-long-tu",
+      "paliName": "Mettā Sutta ",
+      "codeName": "Kp 9",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "5C8WDLV9JHd9pKr9aVgepE"
+      ],
+      "belongToGroup": "2LjmJV3AVyhksC7ZIQDXSV",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "6xAfJlOgQGxz605cImGlgg"
+    },
+    "616j5ImHaOvNptVhG2aXrH": {
+      "name": "Kinh Bảo Tàng",
+      "slug": "kinh-bao-tang",
+      "paliName": "Nidhikaṇḍa Sutta",
+      "codeName": "Kp 8",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "5rQBm49kfDJ8IIPyTKA9fl"
+      ],
+      "belongToGroup": "2LjmJV3AVyhksC7ZIQDXSV",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "616j5ImHaOvNptVhG2aXrH"
+    },
+    "1k0wQ6iqyXOsVxi8LTLCbv": {
+      "name": "Kinh Ngoài Bức Tường",
+      "slug": "kinh-ngoai-buc-tuong",
+      "paliName": "Tirokuṭṭa Sutta",
+      "codeName": "Kp 7",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "2xhV3TX3tazSf2ENytR6pT"
+      ],
+      "belongToGroup": "2LjmJV3AVyhksC7ZIQDXSV",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "1k0wQ6iqyXOsVxi8LTLCbv"
+    },
+    "14YkpEw6Tppz4BhLFYB27V": {
+      "name": "Kinh Châu Báu",
+      "slug": "kinh-chau-bau",
+      "paliName": "Ratana Sutta",
+      "codeName": "Kp 6",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "241SDtq8ezhNf0Q7yl5rRU"
+      ],
+      "belongToGroup": "2LjmJV3AVyhksC7ZIQDXSV",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "14YkpEw6Tppz4BhLFYB27V"
+    },
+    "7Baedfqwuo4QLsGjJ2B8Da": {
+      "name": "Kinh Ðiềm Lành",
+      "slug": "kinh-diem-lanh",
+      "paliName": "Maṅgala Sutta",
+      "codeName": "Kp 5",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "4xypegi6dC1qqQ307bstOF"
+      ],
+      "belongToGroup": "2LjmJV3AVyhksC7ZIQDXSV",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "7Baedfqwuo4QLsGjJ2B8Da"
+    },
+    "7xhkqko0V7UGNeRmIZjmri": {
+      "name": "Nam Tử Hỏi Ðạo",
+      "slug": "nam-tu-hoi-dao",
+      "paliName": "Kumārapañhā",
+      "codeName": "Kp 4",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3RCJLIIv9BjjModVUqScoj"
+      ],
+      "belongToGroup": "2LjmJV3AVyhksC7ZIQDXSV",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "7xhkqko0V7UGNeRmIZjmri"
+    },
+    "6LevO0V3jgAGGkKEX7dYHn": {
+      "name": "Ba Mươi Hai Phần",
+      "slug": "ba-muoi-hai-phan",
+      "paliName": "Dvattiṃsākāra",
+      "codeName": "Kp 3",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "2uj3NNzDmIbkQ8uwSL3Zy7"
+      ],
+      "belongToGroup": "2LjmJV3AVyhksC7ZIQDXSV",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "6LevO0V3jgAGGkKEX7dYHn"
+    },
+    "5VEeWm04Iv1dCCYz6FLo5T": {
+      "name": "Thập Giới",
+      "slug": "thap-gioi",
+      "paliName": "Dasasikkhāpada",
+      "codeName": "Kp 2",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "2elvcpzRcafzb74NXbrSn6"
+      ],
+      "belongToGroup": "2LjmJV3AVyhksC7ZIQDXSV",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "5VEeWm04Iv1dCCYz6FLo5T"
+    },
+    "5BrSjk41WOrNKpMfk5XAZL": {
+      "name": "Tam Quy",
+      "slug": "tam-quy",
+      "paliName": "Saraṇattaya",
+      "codeName": "Kp 1",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "416OVPCsriNWM4paJhXMCp"
+      ],
+      "belongToGroup": "2LjmJV3AVyhksC7ZIQDXSV",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "5BrSjk41WOrNKpMfk5XAZL"
+    },
+    "1CtrJk4GFXAuHiuBQq4U4L": {
+      "name": "Toàn Bộ Kinh Tiểu Tụng",
+      "slug": "toan-bo-kinh-tieu-tung",
+      "paliName": "Khuddakapāṭha",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "BU7K7UWUKBCdYIEGWfDko"
+      ],
+      "belongToGroup": "2LjmJV3AVyhksC7ZIQDXSV",
+      "belongToCollection": "6G0Dpqi9FNtB4dJDVAVGeA",
+      "id": "1CtrJk4GFXAuHiuBQq4U4L"
+    },
+    "iAIUjwRTaWXUAKBPUliPu": {
+      "name": "Phẩm Ba : Tổng Kết",
+      "slug": "pham-ba-tong-ket",
+      "paliName": "Sāmañña Vagga",
+      "codeName": "AN 11.23-25",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "4se4hNrwmnKtVFTDqu80aI",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "iAIUjwRTaWXUAKBPUliPu"
+    },
+    "45VNxX9iyJVsrcKJvTwOyJ": {
+      "name": "Phẩm Tùy Niệm",
+      "slug": "pham-tuy-niem",
+      "paliName": "Anussati Vagga",
+      "codeName": "AN 11.12-22",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "4se4hNrwmnKtVFTDqu80aI",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "45VNxX9iyJVsrcKJvTwOyJ"
+    },
+    "7h5pXmm27dq1KKTYVJtHiY": {
+      "name": "Phẩm Y Chỉ",
+      "slug": "pham-y-chi",
+      "paliName": "Nissaya Vagga",
+      "codeName": "AN 11.01-11",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "4se4hNrwmnKtVFTDqu80aI",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "7h5pXmm27dq1KKTYVJtHiY"
+    },
+    "1WadYClcUudLxMSaLvz8Me": {
+      "name": "Phẩm Thân Do Nghiệp Sanh",
+      "slug": "pham-than-do-nghiep-sanh",
+      "paliName": "Karajakāya Vagga",
+      "codeName": "AN 10.200-209",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1WadYClcUudLxMSaLvz8Me"
+    },
+    "1xgptAPo6E8Ffww2Wc3qln": {
+      "name": "Không Có Ðầu Ðề",
+      "slug": "khong-co-dau-de",
+      "codeName": "AN 10.210-217",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1xgptAPo6E8Ffww2Wc3qln"
+    },
+    "IMHL2ApOUNGawwUPSqOkX": {
+      "name": "Phẩm Các Hạng Người",
+      "slug": "pham-cac-hang-nguoi",
+      "paliName": "Aparapuggala Vagga",
+      "codeName": "AN 10.199-210",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "IMHL2ApOUNGawwUPSqOkX"
+    },
+    "1jOwKsjM6TI3JJEG3LumVf": {
+      "name": "Phẩm Thánh Ðạo",
+      "slug": "pham-thanh-dao-AN10",
+      "paliName": "Ariyamagga Vagga",
+      "codeName": "AN 10.189-198",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1jOwKsjM6TI3JJEG3LumVf"
+    },
+    "18HQPDTgoUG26BbemEBqb0": {
+      "name": "Phẩm Thiện Lương",
+      "slug": "pham-thien-luong-AN10-18",
+      "paliName": "Sādhu Vagga",
+      "codeName": "AN 10.178-188",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "18HQPDTgoUG26BbemEBqb0"
+    },
+    "7ldYiMpNuHZjMMdOzFzCAY": {
+      "name": "Phẩm Jànussoni",
+      "slug": "pham-janussoni",
+      "paliName": "Jāṇussoṇi Vagga",
+      "codeName": "AN 10.167-177",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "7ldYiMpNuHZjMMdOzFzCAY"
+    },
+    "24mUb7DzkZsoScmorXVhT3": {
+      "name": "Phẩm Người",
+      "slug": "pham-nguoi-AN10",
+      "paliName": "Puggala Vagga",
+      "codeName": "AN 10.155-166",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "24mUb7DzkZsoScmorXVhT3"
+    },
+    "6OuJdCdbOI0B0fz8ATWf1B": {
+      "name": "Phẩm Thánh Ðạo",
+      "slug": "pham-thanh-dao",
+      "paliName": "Ariya Vagga",
+      "codeName": "AN 10.145-154",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "6OuJdCdbOI0B0fz8ATWf1B"
+    },
+    "4NyB249bcQQIs8eIF9zb7k": {
+      "name": "Phẩm Thiện Lương",
+      "slug": "pham-thien-luong",
+      "paliName": "Sādhu Vagga",
+      "codeName": "AN 10.134-144",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "4NyB249bcQQIs8eIF9zb7k"
+    },
+    "7bhfuroYN0CFtULnpirsWo": {
+      "name": "Phẩm Thanh Tịnh",
+      "slug": "pham-thanh-tinh",
+      "paliName": "Parisuddha Vagga",
+      "codeName": "AN 10.123-133",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "7bhfuroYN0CFtULnpirsWo"
+    },
+    "3pEC1vqtQr92NEI25nu6a": {
+      "name": "Phẩm Ði Xuống",
+      "slug": "pham-di-xuong",
+      "paliName": "Paccorohaṇi Vagga",
+      "codeName": "AN 10.113-122",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "3pEC1vqtQr92NEI25nu6a"
+    },
+    "2XTHX0nr2AXcgfV3cdRGNA": {
+      "name": "Phẩm Sa Môn Tưởng",
+      "slug": "pham-sa-mon-tuong",
+      "paliName": "Samaṇasaññā Vagga",
+      "codeName": "AN 10.101-112",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2XTHX0nr2AXcgfV3cdRGNA"
+    },
+    "V5XwVH2NrQXWLH26oRKwD": {
+      "name": "Phẩm Nam Cư Sĩ",
+      "slug": "pham-nam-cu-si-AN10",
+      "paliName": "Upāli Vagga",
+      "codeName": "AN 10.91-100",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "V5XwVH2NrQXWLH26oRKwD"
+    },
+    "BJR1yhk2Kw2DctWAcv7dw": {
+      "name": "Phẩm Trưởng Lão",
+      "slug": "pham-truong-lao-AN10",
+      "paliName": "Thera Vagga",
+      "codeName": "AN 10.81-90",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "BJR1yhk2Kw2DctWAcv7dw"
+    },
+    "53tBOhkn2uHoMgdulzS80J": {
+      "name": "Phẩm Ước Nguyện",
+      "slug": "pham-uoc-nguyen",
+      "paliName": "Ākaṅkha Vagga",
+      "codeName": "AN 10.71-80",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "53tBOhkn2uHoMgdulzS80J"
+    },
+    "41KBqptGzJmwzP2zXA9o7F": {
+      "name": "Phẩm Song Ðôi",
+      "slug": "pham-song-doi-AN10",
+      "paliName": "Yamaka Vagga",
+      "codeName": "AN 10.61-70",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "41KBqptGzJmwzP2zXA9o7F"
+    },
+    "62YvhR4YcX9FYU5PvMh9t4": {
+      "name": "Phẩm Tâm Của Mình",
+      "slug": "pham-tam-cua-minh",
+      "paliName": "Sacitta Vagga",
+      "codeName": "AN 10.51-60",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "62YvhR4YcX9FYU5PvMh9t4"
+    },
+    "7smPAO31H2PXrk3aoc1NFd": {
+      "name": "Phẩm Mắng Nhiếc",
+      "slug": "pham-mang-nhiec-AN10",
+      "paliName": "Akkosa Vagga",
+      "codeName": "AN 10.41-50",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "7smPAO31H2PXrk3aoc1NFd"
+    },
+    "4HaFm4awIu5cR5RVrojf7D": {
+      "name": "Phẩm Upàli Và Ananda",
+      "slug": "pham-upali-va-ananda",
+      "paliName": "Upāli Vagga",
+      "codeName": "AN 10.31-40",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "4HaFm4awIu5cR5RVrojf7D"
+    },
+    "6rigFjtLV154Czpdt7nMnB": {
+      "name": "Phẩm Lớn",
+      "slug": "pham-lon-AN10",
+      "paliName": "Mahā Vagga",
+      "codeName": "AN 10.21-30",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "6rigFjtLV154Czpdt7nMnB"
+    },
+    "4A1MZvi2P8EtizC88qtitE": {
+      "name": "Phẩm Hộ Trì",
+      "slug": "pham-ho-tri",
+      "paliName": "Nātha Vagga",
+      "codeName": "AN 10.11-20",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "4A1MZvi2P8EtizC88qtitE"
+    },
+    "7fNIn3TfnawarLfpt0wERX": {
+      "name": "Phẩm Lợi Ích",
+      "slug": "pham-loi-ich-AN10",
+      "paliName": "Ānisaṃsa Vagga",
+      "codeName": "AN 10.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "1bqjWQDew2odswB2ClOjov",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "7fNIn3TfnawarLfpt0wERX"
+    },
+    "5kuW21zut7mFAXLF4TlaCA": {
+      "name": "Phẩm Tham",
+      "slug": "pham-tham-AN9",
+      "paliName": "Rāga Peyyāla",
+      "codeName": "AN 9.93-100",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "610mvL3xluOxDF91H8izDt",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5kuW21zut7mFAXLF4TlaCA"
+    },
+    "6n8Y0ZRRKAQABAy8EBnPiI": {
+      "name": "Phẩm Bốn Như Ý Túc",
+      "slug": "pham-bon-nhu-y-tuc",
+      "paliName": "Iddhipāda Vagga",
+      "codeName": "AN 9.83-92",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "610mvL3xluOxDF91H8izDt",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "6n8Y0ZRRKAQABAy8EBnPiI"
+    },
+    "3VM7ZooQYKlCRLwrA0W9fI": {
+      "name": "Phẩm Chánh Cần",
+      "slug": "pham-chanh-can",
+      "paliName": "Sammappadhāna Vagga",
+      "codeName": "AN 9.73-82",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "610mvL3xluOxDF91H8izDt",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "3VM7ZooQYKlCRLwrA0W9fI"
+    },
+    "3qNpQ2jBoWG8eV43KECxVD": {
+      "name": "Phẩm Niệm Xứ",
+      "slug": "pham-niem-xu",
+      "paliName": "Satipaṭṭhāna Vagga",
+      "codeName": "AN 9.63-72",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "610mvL3xluOxDF91H8izDt",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "3qNpQ2jBoWG8eV43KECxVD"
+    },
+    "IO6fVPpJlUS3zKiqqG6QF": {
+      "name": "Phẩm An Ổn",
+      "slug": "pham-an-on",
+      "paliName": "Khema Vagga",
+      "codeName": "AN 9.52-62",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "610mvL3xluOxDF91H8izDt",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "IO6fVPpJlUS3zKiqqG6QF"
+    },
+    "2AWuB1DimgdS1fFOyytlKM": {
+      "name": "Phẩm Chỗ Cư Trú Của Hữu Tình",
+      "slug": "pham-cho-cu-tru-cua-huu-tinh",
+      "paliName": "Sattāvāsa Vagga",
+      "codeName": "AN 9.21-31",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "610mvL3xluOxDF91H8izDt",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2AWuB1DimgdS1fFOyytlKM"
+    },
+    "5C7FSTLM5C8IlQP4imD21K": {
+      "name": "Đại Phẩm",
+      "slug": "dai-pham-AN9",
+      "paliName": "Mahā Vagga",
+      "codeName": "AN 9.32-41",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "610mvL3xluOxDF91H8izDt",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5C7FSTLM5C8IlQP4imD21K"
+    },
+    "5Va7QXmTrajVRZ0i36M1CG": {
+      "name": "Phẩm Pancala",
+      "slug": "pham-pancala",
+      "paliName": "Sāmañña Vagga",
+      "codeName": "AN 9.42-51",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "610mvL3xluOxDF91H8izDt",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5Va7QXmTrajVRZ0i36M1CG"
+    },
+    "2N2SyPawAt3wxWIPsrudX7": {
+      "name": "Phẩm Tiếng Rống Con Sư Tử",
+      "slug": "pham-tieng-rong-con-su-tu",
+      "paliName": "Sīhanāda Vagga",
+      "codeName": "AN 9.11-20",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "610mvL3xluOxDF91H8izDt",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2N2SyPawAt3wxWIPsrudX7"
+    },
+    "1l35Vh7iNOqSNj6qrVvnFX": {
+      "name": "Phẩm Chánh Giác",
+      "slug": "pham-chanh-giac-AN9",
+      "paliName": "Sambodhi Vagga",
+      "codeName": "AN 9.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "610mvL3xluOxDF91H8izDt",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1l35Vh7iNOqSNj6qrVvnFX"
+    },
+    "40r9p0hDJ7kNPUpwuqSqpF": {
+      "name": "Tham Ái",
+      "slug": "tham-ai",
+      "paliName": "Sāmañña Vagga",
+      "codeName": "AN 8.91–117",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "FGDO865tg5agZyRjTrFjX"
+      ],
+      "belongToGroup": "65GEJ52UPyOzhJZy5LNa8b",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "40r9p0hDJ7kNPUpwuqSqpF"
+    },
+    "2eoUrjOPJ87Yki7SGxC54": {
+      "name": "Phẩm Niệm",
+      "slug": "pham-niem",
+      "paliName": "Sati Vagga",
+      "codeName": "AN 8.81-90",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "2FAw3fKbBoooa9ecQh6IVk"
+      ],
+      "belongToGroup": "65GEJ52UPyOzhJZy5LNa8b",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2eoUrjOPJ87Yki7SGxC54"
+    },
+    "5s3ILBzm4YOEy0Kk6Nbze1": {
+      "name": "Phẩm Song Ðôi",
+      "slug": "pham-song-doi",
+      "paliName": "Yamaka Vagga",
+      "codeName": "AN 8.71-80",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "6oDfYm050GNnzjF5hqOOer",
+        "3A9E1wljbQXmrQiN2C7Rwp"
+      ],
+      "belongToGroup": "65GEJ52UPyOzhJZy5LNa8b",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5s3ILBzm4YOEy0Kk6Nbze1"
+    },
+    "48GtpZZbmTwEcXLKFfCKnv": {
+      "name": "Phẩm Ðất Rung Ðộng",
+      "slug": "pham-dat-rung-dong",
+      "paliName": "Bhūmicāla Vagga",
+      "codeName": "AN 8.61-70",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "65GEJ52UPyOzhJZy5LNa8b",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "48GtpZZbmTwEcXLKFfCKnv"
+    },
+    "7Ht6l7hqRXIwMBLR2spGBi": {
+      "name": "Phẩm Gotamì",
+      "slug": "pham-gotami",
+      "paliName": "Gotamī Vagga",
+      "codeName": "AN 8.51-60",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "65GEJ52UPyOzhJZy5LNa8b",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "7Ht6l7hqRXIwMBLR2spGBi"
+    },
+    "2kGAmoqc8UCFkR1shqhe3j": {
+      "name": "Phẩm Ngày Trai Giới",
+      "slug": "pham-ngay-trai-gioi",
+      "paliName": "Uposatha Vagga",
+      "codeName": "AN 8.41-50",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "65GEJ52UPyOzhJZy5LNa8b",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2kGAmoqc8UCFkR1shqhe3j"
+    },
+    "6VjaFOGUeDT6nPvT9PWWKP": {
+      "name": "Phẩm Bố Thí",
+      "slug": "pham-bo-thi",
+      "paliName": "Dāna Vagga",
+      "codeName": "AN 8.31-40",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "65GEJ52UPyOzhJZy5LNa8b",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "6VjaFOGUeDT6nPvT9PWWKP"
+    },
+    "2HpJrDLmxEzoyieWpzbxeG": {
+      "name": "Phẩm Gia Chủ",
+      "slug": "pham-gia-chu",
+      "paliName": "Gahapati Vagga",
+      "codeName": "AN 8.21-30",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "65GEJ52UPyOzhJZy5LNa8b",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2HpJrDLmxEzoyieWpzbxeG"
+    },
+    "5aZ5mUKcJzJmBkVRUcR6Qt": {
+      "name": "Phẩm Lớn",
+      "slug": "pham-lon-AN",
+      "paliName": "Mahā Vagga",
+      "codeName": "AN 8.11-20",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "65GEJ52UPyOzhJZy5LNa8b",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5aZ5mUKcJzJmBkVRUcR6Qt"
+    },
+    "28GTp3KEHzbmNtREug6cBi": {
+      "name": "Phẩm Từ",
+      "slug": "pham-tu",
+      "paliName": "Mettā Vagga",
+      "codeName": "AN 8.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "65GEJ52UPyOzhJZy5LNa8b",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "28GTp3KEHzbmNtREug6cBi"
+    },
+    "4akXzDrB2sv2RwL5hItXjh": {
+      "name": "Phẩm Các Kinh Không Nhiếp",
+      "slug": "pham-cac-kinh-khong-nhiep",
+      "paliName": "Samaṇa Vagga",
+      "codeName": "AN 7.85-94",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "4SkqmvysMdgiljco7zrs04",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "4akXzDrB2sv2RwL5hItXjh"
+    },
+    "gSL46yZAdDxfbDAxQaEX2": {
+      "name": "Phẩm Về Luật",
+      "slug": "pham-ve-luat",
+      "paliName": "Vinaya Vagga",
+      "codeName": "AN 7.75-84",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "4SkqmvysMdgiljco7zrs04",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "gSL46yZAdDxfbDAxQaEX2"
+    },
+    "4b5h9Qhy7wUUtGcHHcQ3bM": {
+      "name": "Ðại Phẩm",
+      "slug": "dai-pham-AN7-7",
+      "paliName": "Mahā Vagga",
+      "codeName": "AN 7.65-74",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "4SkqmvysMdgiljco7zrs04",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "4b5h9Qhy7wUUtGcHHcQ3bM"
+    },
+    "2XhvcsApcr8beX5gfnDl9j": {
+      "name": "Phẩm Không Tuyên Bố",
+      "slug": "pham-khong-tuyen-bo",
+      "paliName": "Abyākata Vagga",
+      "codeName": "AN 7.54-64",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "4SkqmvysMdgiljco7zrs04",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2XhvcsApcr8beX5gfnDl9j"
+    },
+    "3SKUTeferUIuRNDQrgaCQF": {
+      "name": "Phẩm Ðại Tế Ðàn",
+      "slug": "pham-dai-te-dan",
+      "paliName": "Mahāyañña Vagga",
+      "codeName": "AN 7.44-53",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "4SkqmvysMdgiljco7zrs04",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "3SKUTeferUIuRNDQrgaCQF"
+    },
+    "ehEsGb15PT5QGBOsu6pvP": {
+      "name": "Phẩm Chư Thiên",
+      "slug": "pham-chu-thien-AN7-3",
+      "paliName": "Devatā Vagga",
+      "codeName": "AN 7.32-43",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "4SkqmvysMdgiljco7zrs04",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "ehEsGb15PT5QGBOsu6pvP"
+    },
+    "1wJOCCKho80vJi919xw88L": {
+      "name": "Phẩm Vajjì (Bạt Kỳ)",
+      "slug": "pham-vajji-bat-ky",
+      "paliName": "Vajjisattaka Vagga",
+      "codeName": "AN 7.21-31",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "4SkqmvysMdgiljco7zrs04",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1wJOCCKho80vJi919xw88L"
+    },
+    "4zL6VDRp8jzmmsHNTCCGOK": {
+      "name": "Phẩm Tùy Miên",
+      "slug": "pham-tuy-mien",
+      "paliName": "Anusaya Vagga",
+      "codeName": "AN 7.11-20",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "1PDfxAF8mPjkmUKjqKpzhX"
+      ],
+      "belongToGroup": "4SkqmvysMdgiljco7zrs04",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "4zL6VDRp8jzmmsHNTCCGOK"
+    },
+    "1AahqmHlemH59RDWdLzgAs": {
+      "name": "Phẩm Tài Sản",
+      "slug": "pham-tai-san",
+      "paliName": "Dhana Vagga",
+      "codeName": "AN 7.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "79YXgZa1EA6x5iHFjuml4k"
+      ],
+      "belongToGroup": "4SkqmvysMdgiljco7zrs04",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1AahqmHlemH59RDWdLzgAs"
+    },
+    "3liVkLslwnVj1qfZ3kVt4B": {
+      "name": "Phẩm Các Kinh Không Nhiếp Trong Phẩm",
+      "slug": "pham-cac-kinh-khong-nhiep-trong-pham",
+      "paliName": "Sāmañña Vagga",
+      "codeName": "AN 6.117-139",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "6yYd6NCTxKYR1jzVYXjz5Z"
+      ],
+      "belongToGroup": "jUzaSzMzMD3jV8HD3jPIz",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "3liVkLslwnVj1qfZ3kVt4B"
+    },
+    "1uTgKHj67UhlCigyvJtlqz": {
+      "name": "Phẩm Ba Pháp",
+      "slug": "pham-ba-phap",
+      "paliName": "Tika Vagga",
+      "codeName": "AN 6.107-116",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "18O3C5mURfkaffqPrUZfRq"
+      ],
+      "belongToGroup": "jUzaSzMzMD3jV8HD3jPIz",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1uTgKHj67UhlCigyvJtlqz"
+    },
+    "7F53s1iBe8pa9qK7ItOBIK": {
+      "name": "Phẩm Lợi Ích",
+      "slug": "pham-loi-ich",
+      "paliName": "Ānisaṃsa Vagga",
+      "codeName": "AN 6.96-106",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3cniSkg35lM9ZkNVP6tMWd"
+      ],
+      "belongToGroup": "jUzaSzMzMD3jV8HD3jPIz",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "7F53s1iBe8pa9qK7ItOBIK"
+    },
+    "63bk02JNMvGlGelOfILcC9": {
+      "name": "Phẩm Mát Lạnh",
+      "slug": "pham-mat-lanh",
+      "paliName": "Sīti Vagga",
+      "codeName": "AN 6.85-95",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "15Wn5DojW8eDIeW147y0Bn"
+      ],
+      "belongToGroup": "jUzaSzMzMD3jV8HD3jPIz",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "63bk02JNMvGlGelOfILcC9"
+    },
+    "2EqGd5pCoRz2RTOR1E7kEy": {
+      "name": "Phẩm A-La-Hán",
+      "slug": "pham-a-la-han",
+      "paliName": "Arahatta Vagga",
+      "codeName": "AN 6.75-84",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "4LGIZjfekKt59xgy6ptZzr"
+      ],
+      "belongToGroup": "jUzaSzMzMD3jV8HD3jPIz",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2EqGd5pCoRz2RTOR1E7kEy"
+    },
+    "5JRN425xBs0YqDW2kzKEtT": {
+      "name": "Phẩm Chư Thiên",
+      "slug": "pham-chu-thien-AN6-7",
+      "paliName": "Devatā Vagga",
+      "codeName": "AN 6.65-74",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "6Y0htfgKSy1PDkMa4B0uLn"
+      ],
+      "belongToGroup": "jUzaSzMzMD3jV8HD3jPIz",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5JRN425xBs0YqDW2kzKEtT"
+    },
+    "4EkCA6VxUDJ17tzghHCHTp": {
+      "name": "Ðại Phẩm",
+      "slug": "dai-pham-AN6-6",
+      "paliName": "Mahā Vagga",
+      "codeName": "AN 6.55-64",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "4wGeqg2xJ2niQSqOQMYgn2",
+        "3Psn6OxwJiOdsqrCS3Ytw0",
+        "2iHN228IiiAG9VWhvAQM9G"
+      ],
+      "belongToGroup": "jUzaSzMzMD3jV8HD3jPIz",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "4EkCA6VxUDJ17tzghHCHTp"
+    },
+    "3N7eay5VoRcyxDrhtZtT7I": {
+      "name": "Phẩm Chư Thiên",
+      "slug": "pham-chu-thien",
+      "paliName": "Devatā Vagga",
+      "codeName": "AN 6.31-42",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "26dRcRiJ0usW5xc8OIJEy"
+      ],
+      "belongToGroup": "jUzaSzMzMD3jV8HD3jPIz",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "3N7eay5VoRcyxDrhtZtT7I"
+    },
+    "1CKjsSmvcjt7l96BEunqSr": {
+      "name": "Phẩm Dhammika",
+      "slug": "pham-dhammika",
+      "paliName": "Dhammika Vagga",
+      "codeName": "AN 6.43-54",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "IYIcPsugQDaxKaWn60g9j",
+        "6Kc248gHrIY7K1fboMH1uN"
+      ],
+      "belongToGroup": "jUzaSzMzMD3jV8HD3jPIz",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1CKjsSmvcjt7l96BEunqSr"
+    },
+    "15jR9Hhmwl5rIhyGPdbFoO": {
+      "name": "Phẩm Trên Tất Cả",
+      "slug": "pham-tren-tat-ca",
+      "paliName": "Anuttariya Vagga",
+      "codeName": "AN 6.21-30",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "4vgpt8ogpo4JQbN4NDNKhY"
+      ],
+      "belongToGroup": "jUzaSzMzMD3jV8HD3jPIz",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "15jR9Hhmwl5rIhyGPdbFoO"
+    },
+    "3wU4fXoN2DqDNhFnlZdfPw": {
+      "name": "Phẩm Ðáng Ðược Cung Kính",
+      "slug": "pham-dang-duoc-cung-kinh",
+      "paliName": "Āhuneyya Vagga",
+      "codeName": "AN 6.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "16EMQ5gH52KLehn45x7Z37"
+      ],
+      "belongToGroup": "jUzaSzMzMD3jV8HD3jPIz",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "3wU4fXoN2DqDNhFnlZdfPw"
+    },
+    "1AekMNXwZJ0ul6QOhETzc6": {
+      "name": "Phẩm Cần Phải Nhớ",
+      "slug": "pham-can-phai-nho",
+      "paliName": "Sāraṇīya Vagga",
+      "codeName": "AN 6.11-20",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "C9GMArOZUbnIe0do4hCPU"
+      ],
+      "belongToGroup": "jUzaSzMzMD3jV8HD3jPIz",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1AekMNXwZJ0ul6QOhETzc6"
+    },
+    "2RpaQtxSOhqqLmbVvsvvlD": {
+      "name": "Phẩm Cụ Túc Giới",
+      "slug": "pham-cu-tuc-gioi",
+      "codeName": "AN 5.251-400",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2RpaQtxSOhqqLmbVvsvvlD"
+    },
+    "2JmWe5HZ9t9IAk3cnaMCv8": {
+      "name": "Phẩm Ác Hành",
+      "slug": "pham-ac-hanh",
+      "paliName": "Duccarita Vagga",
+      "codeName": "AN 5.241-250",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2JmWe5HZ9t9IAk3cnaMCv8"
+    },
+    "5pCRXT4tdlLiwLd97OuwrV": {
+      "name": "Phẩm Trú Tại Chỗ",
+      "slug": "pham-tru-tai-cho",
+      "paliName": "Āvāsika Vagga",
+      "codeName": "AN 5.231-240",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5pCRXT4tdlLiwLd97OuwrV"
+    },
+    "3ygoo6zRQfXTmbRzRS4ycN": {
+      "name": "Phẩm Du Hành Dài",
+      "slug": "pham-du-hanh-dai",
+      "paliName": "Dīghacārika Vagga",
+      "codeName": "AN 5.221-230",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "3ygoo6zRQfXTmbRzRS4ycN"
+    },
+    "1mN2FwqvPz5ont5E9pMJtL": {
+      "name": "Phẩm Mắng Nhiếc",
+      "slug": "pham-mang-nhiec",
+      "paliName": "Akkosaka Vagga",
+      "codeName": "AN 5.211-220",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1mN2FwqvPz5ont5E9pMJtL"
+    },
+    "7lcwTf88hlReVySDD1gtCm": {
+      "name": "Phẩm Kimbila",
+      "slug": "pham-kimbila",
+      "paliName": "Kimila Vagga",
+      "codeName": "AN 5.201-210",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "7lcwTf88hlReVySDD1gtCm"
+    },
+    "2p9IYknrSr6yCyxRCjYVlV": {
+      "name": "Phẩm Bà-La-Môn",
+      "slug": "pham-ba-la-mon",
+      "paliName": "Brāhmaṇa Vagga",
+      "codeName": "AN 5.191-200",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2p9IYknrSr6yCyxRCjYVlV"
+    },
+    "4zgbGcsyxiaLWKiR5khDiq": {
+      "name": "Phẩm Rừng",
+      "slug": "pham-rung",
+      "paliName": "Arañña Vagga",
+      "codeName": "AN 5.181-190",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "4zgbGcsyxiaLWKiR5khDiq"
+    },
+    "4gPsN6dzV5ALRwF3FcE3KH": {
+      "name": "Phẩm Nam Cư Sĩ",
+      "slug": "pham-nam-cu-si",
+      "paliName": "Upāsaka Vagga",
+      "codeName": "AN 5.171-180",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "4gPsN6dzV5ALRwF3FcE3KH"
+    },
+    "7xYQMh5LAIgSPL7VMSmOBg": {
+      "name": "Phẩm Hiềm Hận",
+      "slug": "pham-hiem-han",
+      "paliName": "Āghāta Vagga",
+      "codeName": "AN 5.161-170",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "7xYQMh5LAIgSPL7VMSmOBg"
+    },
+    "6BpozQmyL1XxoRbygB8UL7": {
+      "name": "Phẩm Diệu Pháp",
+      "slug": "pham-dieu-phap",
+      "paliName": "Saddhamma Vagga",
+      "codeName": "AN 5.151-160",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "6BpozQmyL1XxoRbygB8UL7"
+    },
+    "2wHtr5g58xSVXS3cxZFn6c": {
+      "name": "Phẩm Vua",
+      "slug": "pham-vua",
+      "paliName": "Rāja Vagga",
+      "codeName": "AN 5.131-140",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2wHtr5g58xSVXS3cxZFn6c"
+    },
+    "5mPkYI1p7ufxazefwhm8tc": {
+      "name": "Phẩm Tikandaki",
+      "slug": "pham-tikandaki",
+      "paliName": "Tikaṇḍakī Vagga",
+      "codeName": "AN 5.141-150",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5mPkYI1p7ufxazefwhm8tc"
+    },
+    "EJn6bV2ntiHGGp5gpNWiy": {
+      "name": "Phẩm Bệnh",
+      "slug": "pham-benh",
+      "paliName": "Gilāna Vagga",
+      "codeName": "AN 5.121-130",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "EJn6bV2ntiHGGp5gpNWiy"
+    },
+    "73VcVF9O7UywGj5UnehOAm": {
+      "name": "Phẩm Andhakavinda",
+      "slug": "pham-andhakavinda",
+      "paliName": "Andhakavinda Vagga",
+      "codeName": "AN 5.111-120",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "73VcVF9O7UywGj5UnehOAm"
+    },
+    "20eI1aW6zCLv2POliLqY2a": {
+      "name": "Phẩm An Ổn Trú",
+      "slug": "pham-an-on-tru",
+      "paliName": "Phāsuvihāra Vagga",
+      "codeName": "AN 5.101-110",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "20eI1aW6zCLv2POliLqY2a"
+    },
+    "fRS9CgSxAo4S0L7FXIP2C": {
+      "name": "Phẩm Kakudha",
+      "slug": "pham-kakudha",
+      "paliName": "Kakudha Vagga",
+      "codeName": "AN 5.91-100",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "fRS9CgSxAo4S0L7FXIP2C"
+    },
+    "5CrtlNdUidBpXNY7YWi4C9": {
+      "name": "Phẩm Trưởng Lão",
+      "slug": "pham-truong-lao",
+      "paliName": "Thera Vagga",
+      "codeName": "AN 5.81-90",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5CrtlNdUidBpXNY7YWi4C9"
+    },
+    "5D6WC9feLoxaTexkHWkyKc": {
+      "name": "Phẩm Tưởng",
+      "slug": "pham-tuong-AN5-7",
+      "paliName": "Saññā Vagga",
+      "codeName": "AN 5.61-70",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5D6WC9feLoxaTexkHWkyKc"
+    },
+    "4ooV3WqDhu9wM1WLYkHiZ1": {
+      "name": "Phẩm Chiến Sĩ",
+      "slug": "pham-chien-si-AN5-8",
+      "paliName": "Yodhājīva Vagga",
+      "codeName": "AN 5.71-80",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "4ooV3WqDhu9wM1WLYkHiZ1"
+    },
+    "CaV9HnzrwXPdOXzDN7fTf": {
+      "name": "Phẩm Triền Cái",
+      "slug": "pham-trien-cai",
+      "paliName": "Nīvaraṇa Vagga",
+      "codeName": "AN 5.51-60",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "CaV9HnzrwXPdOXzDN7fTf"
+    },
+    "22Zwf9qobzN5mnRMwjDULG": {
+      "name": "Phẩm Vua Munda",
+      "slug": "pham-vua-munda",
+      "paliName": "Muṇḍarāja Vagga",
+      "codeName": "AN 5.41-50",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "22Zwf9qobzN5mnRMwjDULG"
+    },
+    "1WsYnomeZf26Xz00tEe7Ru": {
+      "name": "Phẩm Sumanà",
+      "slug": "pham-sumana",
+      "paliName": "Sumana Vagga",
+      "codeName": "AN 5.31-40",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1WsYnomeZf26Xz00tEe7Ru"
+    },
+    "3wR9l6SingU0Buh7LNvhfG": {
+      "name": "Phẩm Năm Phần",
+      "slug": "pham-suc-manh",
+      "paliName": "Pañcaṅgika Vagga",
+      "codeName": "AN 5.21-30",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "3wR9l6SingU0Buh7LNvhfG"
+    },
+    "1PsGQCprun5mpTjFEs1Yi8": {
+      "name": "Phẩm Sức Mạnh",
+      "slug": "pham-suc-manh-AN5-2",
+      "paliName": "Bala Vagga",
+      "codeName": "AN 5.11-20",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1PsGQCprun5mpTjFEs1Yi8"
+    },
+    "7l3yh79BhaZ1KcSaDLQ3rx": {
+      "name": "Phẩm Sức Mạnh Hữu Học",
+      "slug": "pham-suc-manh-huu-hoc",
+      "paliName": "Sekhabala Vagga",
+      "codeName": "AN 5.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3dITn1V0Jndxgfu9dIBf3Z",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "7l3yh79BhaZ1KcSaDLQ3rx"
+    },
+    "1AIkS89b9TVtHfXZC9fBOa": {
+      "name": "Phẩm Từ 09 Đến 17 (Bài Kinh 87-309)",
+      "slug": "pham-tu-09-den-17",
+      "codeName": "AN 2.87-309",
+      "hasDifficultyLevel": false,
+      "introduction": "Phẩm Các Pháp • Phẩm Kẻ Ngu • Phẩm Các Hy Vọng • Phẩm Hy Cầu • Phẩm Bố Thí • Phẩm Ðón Chào • Phẩm Nhập Ðịnh • Phẩm Phẫn Nộ • Phẩm Thứ Mười Bảy",
+      "hasAudio": true,
+      "tracks": [
+        "1HEmdoNVDBTtKupFdHQElc"
+      ],
+      "belongToGroup": "7yobOn3iFyuP5M8OyI0zdi",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1AIkS89b9TVtHfXZC9fBOa"
+    },
+    "5rFNoLaAAArjzTRcGbWsFK": {
+      "name": "Phẩm Từ 05 Đến 08 (Bài 42-86)",
+      "slug": "pham-tu-05-den-08",
+      "codeName": "AN 2.42-86",
+      "hasDifficultyLevel": false,
+      "introduction": "Phẩm Hội Chúng • Phẩm Người • Phẩm Lạc • Phẩm Tướng",
+      "hasAudio": true,
+      "tracks": [
+        "24lp0I36fx8xMDX6kOPVOO"
+      ],
+      "belongToGroup": "7yobOn3iFyuP5M8OyI0zdi",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5rFNoLaAAArjzTRcGbWsFK"
+    },
+    "6nQoXeOYFFt8rCanPJb5Tc": {
+      "name": "Phẩm 03 Và 04 (Bài Kinh 21-41)",
+      "slug": "pham-03-va-04",
+      "codeName": "AN 2.21-41",
+      "hasDifficultyLevel": false,
+      "introduction": "Phẩm Người Ngu • Phẩm Tâm Thăng Bằng",
+      "hasAudio": true,
+      "tracks": [
+        "4Agkt9l6e0RrzyIPdjNB4j"
+      ],
+      "belongToGroup": "7yobOn3iFyuP5M8OyI0zdi",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "6nQoXeOYFFt8rCanPJb5Tc"
+    },
+    "5W9NnsyUEAX3KjAfaHawt1": {
+      "name": "Phẩm 01 Và 02 (Bài Kinh 01-20)",
+      "slug": "pham-01-va-02",
+      "codeName": "AN 2.01-20",
+      "hasDifficultyLevel": false,
+      "introduction": "Phẩm Hình Phạt • Phẩm Tranh Luận",
+      "hasAudio": true,
+      "tracks": [
+        "bFoHMlrhHbO1pC0tNodIV"
+      ],
+      "belongToGroup": "7yobOn3iFyuP5M8OyI0zdi",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5W9NnsyUEAX3KjAfaHawt1"
+    },
+    "2IZ5zEwoAuo96Djz1Xn68f": {
+      "name": "Phẩm 20 Và 21 (Bài Kinh 378-615)",
+      "slug": "pham-20-va-21",
+      "codeName": "AN 1.378-615",
+      "hasDifficultyLevel": false,
+      "introduction": "Phẩm Thiền Ðịnh 1 • Phẩm Thiền Ðịnh 2",
+      "hasAudio": true,
+      "tracks": [
+        "1Cij5rgEb8Px2c5Ct1TzYo"
+      ],
+      "belongToGroup": "7A4uIXQWbKUBYTscmrhhJ4",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2IZ5zEwoAuo96Djz1Xn68f"
+    },
+    "WAt0hxK24MNbgED47UmOt": {
+      "name": "Phẩm Từ 15 Đến 19 (Bài Kinh 268-377)",
+      "slug": "pham-tu-15-den-19",
+      "codeName": "AN 1.268-377",
+      "hasDifficultyLevel": false,
+      "introduction": "Phẩm Không Thể Có Ðược • Phẩm Một Pháp • Phẩm Chủng Tử • Phẩm Makkhali • Phẩm Không Phóng Dật",
+      "hasAudio": true,
+      "tracks": [
+        "7b2h0bezX5PuudDnimKn5K"
+      ],
+      "belongToGroup": "7A4uIXQWbKUBYTscmrhhJ4",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "WAt0hxK24MNbgED47UmOt"
+    },
+    "4KlPqrHIapZkO1kAdXTJgl": {
+      "name": "Phẩm Từ 09 Đến 14 (Bài Kinh 82-267)",
+      "slug": "pham-tu-09-den-14",
+      "codeName": "AN 1.82-267",
+      "hasDifficultyLevel": false,
+      "introduction": "Phẩm Phóng Dật • Phẩm Phi Pháp • Phẩm Thứ Mười Một • Phẩm Vô Phạm • Phẩm Một Người • Phẩm Người Tối Thắng",
+      "hasAudio": true,
+      "tracks": [
+        "lUkzavg9OGc2FZpSKITR3"
+      ],
+      "belongToGroup": "7A4uIXQWbKUBYTscmrhhJ4",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "4KlPqrHIapZkO1kAdXTJgl"
+    },
+    "7AGqhgAo3CpnK7OgumHhit": {
+      "name": "Phẩm Từ 01 Đến 08 (Bài Kinh 01-81)",
+      "slug": "pham-tu-01-den-08",
+      "codeName": "AN 1.01-81",
+      "hasDifficultyLevel": false,
+      "introduction": "Phẩm Sắc • Phẩm Ðoạn Triền Cái • Phẩm Khó Sử Dụng • Phẩm Không Ðiều Phục • Phẩm Ðặt Hướng và Trong Sáng • Phẩm Búng Ngón Tay • Phẩm Tinh Tấn • Phẩm Làm Bạn Với Thiện",
+      "hasAudio": true,
+      "tracks": [
+        "8ANWCFWxEMo0ZWsCZeYw4"
+      ],
+      "belongToGroup": "7A4uIXQWbKUBYTscmrhhJ4",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "7AGqhgAo3CpnK7OgumHhit"
+    },
+    "3tvETitloF3UURXmluDT9K": {
+      "name": "Phẩm Tham",
+      "slug": "pham-tham",
+      "codeName": "AN 4.271",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "3tvETitloF3UURXmluDT9K"
+    },
+    "3nf2gox42ntTvXjsoy9kid": {
+      "name": "Phẩm Nghiệp Ðạo",
+      "slug": "pham-nghiep-dao",
+      "paliName": "Kammapatha Vagga",
+      "codeName": "AN 4.261-270",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "3nf2gox42ntTvXjsoy9kid"
+    },
+    "1QJEXDcKfAHzooDmtuErQe": {
+      "name": "Phẩm Thắng Trí",
+      "slug": "pham-thang-tri",
+      "paliName": "Abhiññā Vagga",
+      "codeName": "AN 4.251-260",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1QJEXDcKfAHzooDmtuErQe"
+    },
+    "5d9hmv6FNB8uWoHum6qEcB": {
+      "name": "Phẩm Sợ Hãi Phạm Tội",
+      "slug": "pham-so-hai-pham-toi",
+      "paliName": "Āpattibhaya Vagga",
+      "codeName": "AN 4.241-250",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3BzabnM1PHjmXZGbCpgitA"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5d9hmv6FNB8uWoHum6qEcB"
+    },
+    "44yYo2qDPkKFk7sMYR5UdI": {
+      "name": "Phẩm Nghiệp",
+      "slug": "pham-nghiep",
+      "paliName": "Kamma Vagga",
+      "codeName": "AN 4.231-240",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3bXga7gs9krrwCHD28OGST"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "44yYo2qDPkKFk7sMYR5UdI"
+    },
+    "5aVvGFQaRmk5D6fyv0zV8G": {
+      "name": "Phẩm Diệu Hạnh",
+      "slug": "pham-dieu-hanh",
+      "paliName": "Duccarita Vagga",
+      "codeName": "AN 4.221-230",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "202Pyyos0SePsP3z2Pkp2T"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5aVvGFQaRmk5D6fyv0zV8G"
+    },
+    "6Rgxp04eLFNlVMPsDcSALc": {
+      "name": "Phẩm Ô Uế",
+      "slug": "pham-o-ue",
+      "paliName": "Parisā Vagga",
+      "codeName": "AN 4.211-220",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "16K2bsD77YXxZWSBS1GDs1"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "6Rgxp04eLFNlVMPsDcSALc"
+    },
+    "2VT1hnAuKhCoOQYUHMLUu7": {
+      "name": "Phẩm Bậc Chân Nhân",
+      "slug": "pham-bac-chan-nhan",
+      "paliName": "Sappurisa Vagga",
+      "codeName": "AN 4.201-210",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "7xEMd7quhxZfCi3xPLV0v6"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2VT1hnAuKhCoOQYUHMLUu7"
+    },
+    "2qVKpGJluuNcpNTMnmpyku": {
+      "name": "Ðại Phẩm",
+      "slug": "dai-pham",
+      "paliName": "Mahā Vagga",
+      "codeName": "AN 4.191-200",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "6OtwFlfyKBzcBu0Z0DHxT",
+        "3GbZJD3i1aU17TsK1GRf3J",
+        "1yHck8HsrgcQsDI7ipSS0s"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2qVKpGJluuNcpNTMnmpyku"
+    },
+    "5anzXyh9lvKqpMYoHKPhcY": {
+      "name": "Phẩm Chiến Sĩ",
+      "slug": "pham-chien-si",
+      "paliName": "Brāhmaṇa Vagga",
+      "codeName": "AN 4.181-190",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3FRX1R0l3ScJwyfejNIrN3",
+        "7yXOpa7J102AnI4z9QgHkn"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5anzXyh9lvKqpMYoHKPhcY"
+    },
+    "7bM0hYbnEUosSDjmzA53aE": {
+      "name": "Phẩm Tư Tâm Sở",
+      "slug": "pham-tu-tam-so",
+      "paliName": "Sañcetaniya Vagga",
+      "codeName": "AN 4.171-180",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "6Go3r0ySbX3FVebt79RlG3"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "7bM0hYbnEUosSDjmzA53aE"
+    },
+    "umIaWTPjRs8n7dMou0sJJ": {
+      "name": "Phẩm Ðạo Hành",
+      "slug": "pham-dao-hanh",
+      "paliName": "Paṭipadā Vagga",
+      "codeName": "AN 4.161-170",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "78iP6JAaIXBkYIhAFzeoPb"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "umIaWTPjRs8n7dMou0sJJ"
+    },
+    "2SsqWmU6olkMchezRvhHAR": {
+      "name": "Phẩm Các Căn",
+      "slug": "pham-cac-can",
+      "paliName": "Indriya Vagga",
+      "codeName": "AN 4.151-160",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "78iP6JAaIXBkYIhAFzeoPb"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2SsqWmU6olkMchezRvhHAR"
+    },
+    "1JSO7HMfPOmC7Mgn6lCPqG": {
+      "name": "Phẩm Ánh Sáng",
+      "slug": "pham-anh-sang",
+      "paliName": "Ābhā Vagga",
+      "codeName": "AN 4.141-150",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "5nlgAFsOEIpLPlTlYq5UiH"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1JSO7HMfPOmC7Mgn6lCPqG"
+    },
+    "uYo53mmv9gtArw6yVbhNh": {
+      "name": "Phẩm Loài Người",
+      "slug": "pham-loai-nguoi",
+      "paliName": "Puggala Vagga",
+      "codeName": "AN 4.131-140",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "5ldbroBy6uFLR21FVMdkWB"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "uYo53mmv9gtArw6yVbhNh"
+    },
+    "88Wu8GJVCTbOggrJ33HRZ": {
+      "name": "Phẩm Sợ Hãi",
+      "slug": "pham-so-hai",
+      "paliName": "Bhaya Vagga",
+      "codeName": "AN 4.121-130",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "6KnwCLS484RtjfekvjpqKx"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "88Wu8GJVCTbOggrJ33HRZ"
+    },
+    "3U6FzGCvvmlfBAeFSQxVXP": {
+      "name": "Phẩm Kesi",
+      "slug": "pham-kesi",
+      "paliName": "Kesi Vagga",
+      "codeName": "AN 4.111-120",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3ac86pjuToqUp8jV4uNXOK"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "3U6FzGCvvmlfBAeFSQxVXP"
+    },
+    "5Dd3ZOkqw21sPlXiwXJIvN": {
+      "name": "Phẩm Mây Mưa",
+      "slug": "pham-may-mua",
+      "paliName": "Valāhaka Vagga",
+      "codeName": "AN 4.101-110",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "4dK0pKqEP1Hewduo9Jecu4"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5Dd3ZOkqw21sPlXiwXJIvN"
+    },
+    "3akhXsQF3hWWXbIVf3N4Fs": {
+      "name": "Phẩm Asura (A-tu-la)",
+      "slug": "pham-asura-a-tu-la",
+      "paliName": "Asura Vagga",
+      "codeName": "AN 4.91-100",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "MGENIRNmhNGqqjf3C7yES"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "3akhXsQF3hWWXbIVf3N4Fs"
+    },
+    "1wd5VfCRAlCG7DNzWfHCuA": {
+      "name": "Phẩm Không Có Rung Ðộng",
+      "slug": "pham-khong-co-rung-dong",
+      "paliName": "Macala Vagga",
+      "codeName": "AN 4.81-90",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "4GoqFtrvHtmKCsDIl64bW1"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1wd5VfCRAlCG7DNzWfHCuA"
+    },
+    "7amxaFG89pLGzbsMxPCNUk": {
+      "name": "Phẩm Không Hý Luận",
+      "slug": "pham-khong-hy-luan",
+      "paliName": "Apaṇṇaka Vagga",
+      "codeName": "AN 4.71-80",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "VRU62OXdQxLK4V4Q9xGpO"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "7amxaFG89pLGzbsMxPCNUk"
+    },
+    "2q3157pl5SdYZCcDxzyofe": {
+      "name": "Phẩm Nghiệp Công Ðức",
+      "slug": "pham-nghiep-cong-duc",
+      "paliName": "Pattakamma Vagga",
+      "codeName": "AN 4.61-70",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "27Kzg0I6X9aZmUC8Lmu7UD"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2q3157pl5SdYZCcDxzyofe"
+    },
+    "2zlnUGZnOezyG9zcEzULGy": {
+      "name": "Phẩm Nguồn Sanh Phước",
+      "slug": "pham-nguon-sanh-phuoc",
+      "paliName": "Puññābhisanda Vagga",
+      "codeName": "AN 4.51-60",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "4VIwAnnMLJhVpGxk2iRJ2o"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2zlnUGZnOezyG9zcEzULGy"
+    },
+    "20JVXBNGqZ31pwIStwuP2f": {
+      "name": "Phẩm Rohitassa",
+      "slug": "pham-rohitassa",
+      "paliName": "Rohitassa Vagga",
+      "codeName": "AN 4.41-50",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "4rA4nGNUXdhEk6K8qQUA0T"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "20JVXBNGqZ31pwIStwuP2f"
+    },
+    "6ORrO6oyVCC0AhTkPfFzRz": {
+      "name": "Phẩm Bánh Xe",
+      "slug": "pham-banh-xe",
+      "paliName": "Cakka Vagga",
+      "codeName": "AN 4.31-40",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3Q01nUdm1vmRz6QC5loU8e"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "6ORrO6oyVCC0AhTkPfFzRz"
+    },
+    "796eA7A8TL2wc543o3Xeqy": {
+      "name": "Phẩm Uruvelà",
+      "slug": "pham-uruvela",
+      "paliName": "Uruvela Vagga",
+      "codeName": "AN 4.21-30",
+      "hasDifficultyLevel": false,
+      "hasAudio": false,
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "796eA7A8TL2wc543o3Xeqy"
+    },
+    "2CCJmr2NZd2kdm9xIgpe0A": {
+      "name": "Phẩm Hành",
+      "slug": "pham-hanh",
+      "paliName": "Cara Vagga",
+      "codeName": "AN 4.11-20",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3FRX1R0l3ScJwyfejNIrN3",
+        "7yXOpa7J102AnI4z9QgHkn"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2CCJmr2NZd2kdm9xIgpe0A"
+    },
+    "1pLsoZ5uUnrEH9vsWP5vln": {
+      "name": "Phẩm Bhandagana",
+      "slug": "pham-bhandagana",
+      "paliName": "Bhaṇḍagāma Vagga",
+      "codeName": "AN 4.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "1fWWNLjf3PJ5l1toQcMhoM"
+      ],
+      "belongToGroup": "3zxTY3DSzlcGGPrxPSROLR",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1pLsoZ5uUnrEH9vsWP5vln"
+    },
+    "2xtDl1jsjbovv9KbgXv9Oi": {
+      "name": "Phẩm Lõa Thể",
+      "slug": "pham-loa-the",
+      "codeName": "AN 3.151-163",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "5oWjcSFuVYS4x0ABqtIGn5"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2xtDl1jsjbovv9KbgXv9Oi"
+    },
+    "UISzYMKLnguATfNwNHLtJ": {
+      "name": "Phẩm Cát Tường",
+      "slug": "pham-cat-tuong",
+      "paliName": "Maṅgala Vagga",
+      "codeName": "AN 3.141-150",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3vAxuV0Y2wIdwao2ZGSkFf"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "UISzYMKLnguATfNwNHLtJ"
+    },
+    "4BrnN44aKkBSbPNZb9Tu8Y": {
+      "name": "Phẩm Kẻ Chiến Sĩ",
+      "slug": "pham-ke-chien-si",
+      "paliName": "Yodhājīva Vagga",
+      "codeName": "AN 3.131-139",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "1KjwAczfiH1yvnEr53RCqS"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "4BrnN44aKkBSbPNZb9Tu8Y"
+    },
+    "2uSwl9HbUFZ8WvwVco4lPH": {
+      "name": "Phẩm Kusinàra",
+      "slug": "pham-kusinara",
+      "paliName": "Kusināra Vagga",
+      "codeName": "AN 3.121-130",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "73daK9LpsbGfH1cq9w3pwu"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2uSwl9HbUFZ8WvwVco4lPH"
+    },
+    "49INTxI6ncCmNS1z2W3bzu": {
+      "name": "Phẩm Người Ðóng Xe",
+      "slug": "pham-nguoi-dong-xe",
+      "paliName": "Rathakāra Vagga",
+      "codeName": "AN 3.11-20",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "62xnYljWHe1MlR98mJ9Qlh"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "49INTxI6ncCmNS1z2W3bzu"
+    },
+    "1S5gggm4tzSqcgWfVnYlk8": {
+      "name": "Phẩm Ðọa Xứ",
+      "slug": "pham-doa-xu",
+      "paliName": "Āpāyika Vagga",
+      "codeName": "AN 3.111-119",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "qIUtVJJBGjc9LmVusqh8P"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "1S5gggm4tzSqcgWfVnYlk8"
+    },
+    "42on98nyE3WwQRvplLXe4M": {
+      "name": "Phẩm Chánh Giác",
+      "slug": "pham-chanh-giac",
+      "paliName": "Sambodha Vagga",
+      "codeName": "AN 3.101-110",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3FQfoUTxMrH2BpsxxzpOPn"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "42on98nyE3WwQRvplLXe4M"
+    },
+    "2fBqGDjL9KHFwS9rpYpuxM": {
+      "name": "Phẩm Sa-Môn",
+      "slug": "pham-sa-mon",
+      "paliName": "Samaṇa Vagga",
+      "codeName": "AN 3.81-90",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "28YW6zWe5eP2xjTFcgdhFz"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "2fBqGDjL9KHFwS9rpYpuxM"
+    },
+    "4WHsplNvP92EYsXXaxxi9o": {
+      "name": "Phẩm Ananda",
+      "slug": "pham-ananda",
+      "paliName": "Ānanda Vagga",
+      "codeName": "AN 3.71-80",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "4Yvk6V2UHOlvcjtMU0hvEi"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "4WHsplNvP92EYsXXaxxi9o"
+    },
+    "6ZLKpX6BQdkXCLSlH98AB0": {
+      "name": "Phẩm Lớn",
+      "slug": "pham-lon",
+      "paliName": "Mahā Vagga",
+      "codeName": "AN 3.61-70",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "3GCW2cfOzqo1fJfmbiB4Xr",
+        "3NyRaClSAVhJ5gmXB0qLoi",
+        "48B5r8vZh0lKyAMajIGBOq"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "6ZLKpX6BQdkXCLSlH98AB0"
+    },
+    "3OSUWtf5aszR27IHxxACAo": {
+      "name": "Phẩm Các Bà-La-Môn",
+      "slug": "pham-cac-ba-la-mon",
+      "paliName": "Brāhmaṇa Vagga",
+      "codeName": "AN 3.51-60",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "7y3nkklFFD7Dsx52E95G26",
+        "1E8MhBV3JMcjoZ4GqwBbd5"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "3OSUWtf5aszR27IHxxACAo"
+    },
+    "5rwkjdDn0BDRkugIA8cQen": {
+      "name": "Phẩm Nhỏ",
+      "slug": "pham-nho",
+      "paliName": "Cūḷa Vagga",
+      "codeName": "AN 3.41-50",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "71hJVUKORh8kjJcYSzPzT3"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5rwkjdDn0BDRkugIA8cQen"
+    },
+    "3rZIAOsgJz808HjjNKirSt": {
+      "name": "Phẩm Sứ Giả Của Trời",
+      "slug": "pham-su-gia-cua-troi",
+      "paliName": "Devadūta Vagga",
+      "codeName": "AN 3.31-40",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "7dkMUW4LT4eEwgFeF9NOZe"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "3rZIAOsgJz808HjjNKirSt"
+    },
+    "5bwB0HnVfMfCyG9rSSrNDG": {
+      "name": "Phẩm Người",
+      "slug": "pham-nguoi",
+      "paliName": "Puggala Vagga",
+      "codeName": "AN 3.21-30",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "cMN5aTehQNXpynzDos28Q"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "5bwB0HnVfMfCyG9rSSrNDG"
+    },
+    "7LOxiRNyW292JYu2VvJ7J3": {
+      "name": "Phẩm Hạt Muối",
+      "slug": "pham-hat-muoi",
+      "paliName": "Loṇakapalla Vagga",
+      "codeName": "AN 3.91-100",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "2BJMSbEPDMopP1B8OCSttJ",
+        "6vnpHzh0EoHUDcISGrSRF8"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "7LOxiRNyW292JYu2VvJ7J3"
+    },
+    "4errc2vR2KBSbkGYv4maf1": {
+      "name": "Phẩm Người Ngu",
+      "slug": "pham-nguoi-ngu",
+      "paliName": "Bāla Vagga",
+      "codeName": "AN 3.01-10",
+      "hasDifficultyLevel": false,
+      "hasAudio": true,
+      "tracks": [
+        "UrBgPVQyyYRQSStV0rNlr"
+      ],
+      "belongToGroup": "2XsJc6TsPaNelENN5oKLVo",
+      "belongToCollection": "6ffwBrThXdkGsYturHjFXy",
+      "id": "4errc2vR2KBSbkGYv4maf1"
+    },
     "3ZRbBmTKFN4IMOOYloxdLT": {
       "name": "Tương Ưng Sáu Xứ - Phẩm 01-05",
       "slug": "tuong-ung-sau-xu-pham-01-05",
@@ -3911,6 +6606,215 @@
     }
   },
   "allIds": [
+    "1TfMrBF7EmkGBvrckjpRCP",
+    "cbRarIuy8L4cBUvhLn5ud",
+    "42TlpWFCbtIUnrwjLST1QA",
+    "4BPagN7HbXGTtVlEUM1sGz",
+    "6VxFwRaJZeuvKjL00HgsfR",
+    "4ZxTvfLLmaJ2hBggiwPJmb",
+    "5hTMRG8qYcobCDW1b9HZXq",
+    "2VTMjbMNyIACsOdtDqDJPT",
+    "4GdTgVI93qGybPsmdUVzxC",
+    "5ScIiVYVASy6GC9Fjg7rGM",
+    "68NK0ghYLBvFd2R9tecsyY",
+    "5a3nAgHZEH2ZtL9IAYKpJI",
+    "5j2ThnbOp6M44ARP2qehz6",
+    "1AzqQkq1fYAAnI6UO6O0Nf",
+    "59zq2CiXFpTQ0UaV6hGNQF",
+    "5NBr6CqYvNCYRIliHX2En1",
+    "2hXiOHfS4x1BbrEBT4pB1G",
+    "5Csftl1WZ63OPAbUFB0Ck8",
+    "4JyFuKSKvu6FffyjLc9wNQ",
+    "3gGWyj4RYTk2ymPYFqK93a",
+    "2EERkDiiBwZrgXPs06PYGc",
+    "4dLcgu9EwcKbDkzVs6ZIKJ",
+    "3Ewid2N9zDrR3VbeZuESK9",
+    "3O48KURBnNN6DKbCHS9IhV",
+    "4k1385scplCaGE92gQgbSm",
+    "d0EZlbOS7fgP3ImTeEeB4",
+    "6rmdwL73qhY1d4UYzf6IXM",
+    "4BSS9YGghYRUSaHolrLWW0",
+    "3ERhSX3ZIDdQO5jNvEXxDn",
+    "3JWsprh75H3KN3bmPYKFqL",
+    "01lOYOpXzWO9QAjZZ0OAiw",
+    "7gavdKGLW903W58W6kh5Nk",
+    "71iIUww9vT3tM9Q4Rp5R9B",
+    "2ac59IFaJkDzFffnc9gbfj",
+    "7BXWeggls1YftJcw7TmuHr",
+    "3AswY5uY4fgzWTN0I3gTYP",
+    "6ZfHoKxhdBLyzhbpo91cuZ",
+    "7svFk7E0svemYpSHUy0IQ0",
+    "7dsSlCXhQ6LK1l2W56Y7ro",
+    "2EaLELW4CmR4lA49TORPay",
+    "1yADukBwlUqBHFMbEWFF54",
+    "5GSnHdFjOiBzxwLKyf0WTi",
+    "6AHmayPgRerpMTL4LydNrc",
+    "4r72d7qwl3rLS3aleG8owA",
+    "k0wzsz28cB1KvgiJNSRBA",
+    "5bO5YPhWPnBbFGi5htNQay",
+    "1JF7MrJbX5FsvONEDdn4wR",
+    "5hqLj1iY9Ipy41pXJxGSky",
+    "MkDhBl6BQMdvCOVq5iYSf",
+    "29xYR6VGrY8Oiyl7Y8oZeV",
+    "6e80dSNvnDhgIOuPYmcxNN",
+    "7z75C74DWlY0dcFDMyRlYY",
+    "1qIL14IZYHtnmbArfxVeHq",
+    "4TzyAqenDJYCEJVWsQok57",
+    "4axjdQTj308zqXhZ50a0HS",
+    "6xAfJlOgQGxz605cImGlgg",
+    "616j5ImHaOvNptVhG2aXrH",
+    "1k0wQ6iqyXOsVxi8LTLCbv",
+    "14YkpEw6Tppz4BhLFYB27V",
+    "7Baedfqwuo4QLsGjJ2B8Da",
+    "7xhkqko0V7UGNeRmIZjmri",
+    "6LevO0V3jgAGGkKEX7dYHn",
+    "5VEeWm04Iv1dCCYz6FLo5T",
+    "5BrSjk41WOrNKpMfk5XAZL",
+    "1CtrJk4GFXAuHiuBQq4U4L",
+    "iAIUjwRTaWXUAKBPUliPu",
+    "45VNxX9iyJVsrcKJvTwOyJ",
+    "7h5pXmm27dq1KKTYVJtHiY",
+    "1WadYClcUudLxMSaLvz8Me",
+    "1xgptAPo6E8Ffww2Wc3qln",
+    "IMHL2ApOUNGawwUPSqOkX",
+    "1jOwKsjM6TI3JJEG3LumVf",
+    "18HQPDTgoUG26BbemEBqb0",
+    "7ldYiMpNuHZjMMdOzFzCAY",
+    "24mUb7DzkZsoScmorXVhT3",
+    "6OuJdCdbOI0B0fz8ATWf1B",
+    "4NyB249bcQQIs8eIF9zb7k",
+    "7bhfuroYN0CFtULnpirsWo",
+    "3pEC1vqtQr92NEI25nu6a",
+    "2XTHX0nr2AXcgfV3cdRGNA",
+    "V5XwVH2NrQXWLH26oRKwD",
+    "BJR1yhk2Kw2DctWAcv7dw",
+    "53tBOhkn2uHoMgdulzS80J",
+    "41KBqptGzJmwzP2zXA9o7F",
+    "62YvhR4YcX9FYU5PvMh9t4",
+    "7smPAO31H2PXrk3aoc1NFd",
+    "4HaFm4awIu5cR5RVrojf7D",
+    "6rigFjtLV154Czpdt7nMnB",
+    "4A1MZvi2P8EtizC88qtitE",
+    "7fNIn3TfnawarLfpt0wERX",
+    "5kuW21zut7mFAXLF4TlaCA",
+    "6n8Y0ZRRKAQABAy8EBnPiI",
+    "3VM7ZooQYKlCRLwrA0W9fI",
+    "3qNpQ2jBoWG8eV43KECxVD",
+    "IO6fVPpJlUS3zKiqqG6QF",
+    "2AWuB1DimgdS1fFOyytlKM",
+    "5C7FSTLM5C8IlQP4imD21K",
+    "5Va7QXmTrajVRZ0i36M1CG",
+    "2N2SyPawAt3wxWIPsrudX7",
+    "1l35Vh7iNOqSNj6qrVvnFX",
+    "40r9p0hDJ7kNPUpwuqSqpF",
+    "2eoUrjOPJ87Yki7SGxC54",
+    "5s3ILBzm4YOEy0Kk6Nbze1",
+    "48GtpZZbmTwEcXLKFfCKnv",
+    "7Ht6l7hqRXIwMBLR2spGBi",
+    "2kGAmoqc8UCFkR1shqhe3j",
+    "6VjaFOGUeDT6nPvT9PWWKP",
+    "2HpJrDLmxEzoyieWpzbxeG",
+    "5aZ5mUKcJzJmBkVRUcR6Qt",
+    "28GTp3KEHzbmNtREug6cBi",
+    "4akXzDrB2sv2RwL5hItXjh",
+    "gSL46yZAdDxfbDAxQaEX2",
+    "4b5h9Qhy7wUUtGcHHcQ3bM",
+    "2XhvcsApcr8beX5gfnDl9j",
+    "3SKUTeferUIuRNDQrgaCQF",
+    "ehEsGb15PT5QGBOsu6pvP",
+    "1wJOCCKho80vJi919xw88L",
+    "4zL6VDRp8jzmmsHNTCCGOK",
+    "1AahqmHlemH59RDWdLzgAs",
+    "3liVkLslwnVj1qfZ3kVt4B",
+    "1uTgKHj67UhlCigyvJtlqz",
+    "7F53s1iBe8pa9qK7ItOBIK",
+    "63bk02JNMvGlGelOfILcC9",
+    "2EqGd5pCoRz2RTOR1E7kEy",
+    "5JRN425xBs0YqDW2kzKEtT",
+    "4EkCA6VxUDJ17tzghHCHTp",
+    "3N7eay5VoRcyxDrhtZtT7I",
+    "1CKjsSmvcjt7l96BEunqSr",
+    "15jR9Hhmwl5rIhyGPdbFoO",
+    "3wU4fXoN2DqDNhFnlZdfPw",
+    "1AekMNXwZJ0ul6QOhETzc6",
+    "2RpaQtxSOhqqLmbVvsvvlD",
+    "2JmWe5HZ9t9IAk3cnaMCv8",
+    "5pCRXT4tdlLiwLd97OuwrV",
+    "3ygoo6zRQfXTmbRzRS4ycN",
+    "1mN2FwqvPz5ont5E9pMJtL",
+    "7lcwTf88hlReVySDD1gtCm",
+    "2p9IYknrSr6yCyxRCjYVlV",
+    "4zgbGcsyxiaLWKiR5khDiq",
+    "4gPsN6dzV5ALRwF3FcE3KH",
+    "7xYQMh5LAIgSPL7VMSmOBg",
+    "6BpozQmyL1XxoRbygB8UL7",
+    "2wHtr5g58xSVXS3cxZFn6c",
+    "5mPkYI1p7ufxazefwhm8tc",
+    "EJn6bV2ntiHGGp5gpNWiy",
+    "73VcVF9O7UywGj5UnehOAm",
+    "20eI1aW6zCLv2POliLqY2a",
+    "fRS9CgSxAo4S0L7FXIP2C",
+    "5CrtlNdUidBpXNY7YWi4C9",
+    "5D6WC9feLoxaTexkHWkyKc",
+    "4ooV3WqDhu9wM1WLYkHiZ1",
+    "CaV9HnzrwXPdOXzDN7fTf",
+    "22Zwf9qobzN5mnRMwjDULG",
+    "1WsYnomeZf26Xz00tEe7Ru",
+    "3wR9l6SingU0Buh7LNvhfG",
+    "1PsGQCprun5mpTjFEs1Yi8",
+    "7l3yh79BhaZ1KcSaDLQ3rx",
+    "1AIkS89b9TVtHfXZC9fBOa",
+    "5rFNoLaAAArjzTRcGbWsFK",
+    "6nQoXeOYFFt8rCanPJb5Tc",
+    "5W9NnsyUEAX3KjAfaHawt1",
+    "2IZ5zEwoAuo96Djz1Xn68f",
+    "WAt0hxK24MNbgED47UmOt",
+    "4KlPqrHIapZkO1kAdXTJgl",
+    "7AGqhgAo3CpnK7OgumHhit",
+    "3tvETitloF3UURXmluDT9K",
+    "3nf2gox42ntTvXjsoy9kid",
+    "1QJEXDcKfAHzooDmtuErQe",
+    "5d9hmv6FNB8uWoHum6qEcB",
+    "44yYo2qDPkKFk7sMYR5UdI",
+    "5aVvGFQaRmk5D6fyv0zV8G",
+    "6Rgxp04eLFNlVMPsDcSALc",
+    "2VT1hnAuKhCoOQYUHMLUu7",
+    "2qVKpGJluuNcpNTMnmpyku",
+    "5anzXyh9lvKqpMYoHKPhcY",
+    "7bM0hYbnEUosSDjmzA53aE",
+    "umIaWTPjRs8n7dMou0sJJ",
+    "2SsqWmU6olkMchezRvhHAR",
+    "1JSO7HMfPOmC7Mgn6lCPqG",
+    "uYo53mmv9gtArw6yVbhNh",
+    "88Wu8GJVCTbOggrJ33HRZ",
+    "3U6FzGCvvmlfBAeFSQxVXP",
+    "5Dd3ZOkqw21sPlXiwXJIvN",
+    "3akhXsQF3hWWXbIVf3N4Fs",
+    "1wd5VfCRAlCG7DNzWfHCuA",
+    "7amxaFG89pLGzbsMxPCNUk",
+    "2q3157pl5SdYZCcDxzyofe",
+    "2zlnUGZnOezyG9zcEzULGy",
+    "20JVXBNGqZ31pwIStwuP2f",
+    "6ORrO6oyVCC0AhTkPfFzRz",
+    "796eA7A8TL2wc543o3Xeqy",
+    "2CCJmr2NZd2kdm9xIgpe0A",
+    "1pLsoZ5uUnrEH9vsWP5vln",
+    "2xtDl1jsjbovv9KbgXv9Oi",
+    "UISzYMKLnguATfNwNHLtJ",
+    "4BrnN44aKkBSbPNZb9Tu8Y",
+    "2uSwl9HbUFZ8WvwVco4lPH",
+    "49INTxI6ncCmNS1z2W3bzu",
+    "1S5gggm4tzSqcgWfVnYlk8",
+    "42on98nyE3WwQRvplLXe4M",
+    "2fBqGDjL9KHFwS9rpYpuxM",
+    "4WHsplNvP92EYsXXaxxi9o",
+    "6ZLKpX6BQdkXCLSlH98AB0",
+    "3OSUWtf5aszR27IHxxACAo",
+    "5rwkjdDn0BDRkugIA8cQen",
+    "3rZIAOsgJz808HjjNKirSt",
+    "5bwB0HnVfMfCyG9rSSrNDG",
+    "7LOxiRNyW292JYu2VvJ7J3",
+    "4errc2vR2KBSbkGYv4maf1",
     "3ZRbBmTKFN4IMOOYloxdLT",
     "7BaO8AByeUJr41tY3iOjqa",
     "4TAzt0rUloKT84FVmQAvoM",

@@ -65,8 +65,9 @@ function sanitizeCollection(data) {
 
 (async function getCollectionData() {
   let collectionRes = await client.getEntries({
-    limit: 500,
+    limit: 100,
     content_type: "collection",
+    include: 0,
   });
   console.log(
     chalk.blue(
@@ -102,15 +103,20 @@ function sanitizeGroup(data) {
 }
 
 (async function getGroupData() {
-  let groupRes = await client.getEntries({
-    limit: 500,
-    content_type: "group",
-  });
-  console.log(
-    chalk.blue("Fetched", groupRes.total, "group items from database.")
-  );
-  let groups = sanitizeGroup(groupRes.items);
-  writeDataToDrive(groups, "./database/groups.json", groups.allIds.length);
+  try {
+    let groupRes = await client.getEntries({
+      limit: 1000,
+      content_type: "group",
+      include: 0,
+    });
+    console.log(
+      chalk.blue("Fetched", groupRes.total, "group items from database.")
+    );
+    let groups = sanitizeGroup(groupRes.items);
+    writeDataToDrive(groups, "./database/groups.json", groups.allIds.length);
+  } catch (error) {
+    console.error(error);
+  }
 })();
 
 function sanitizeSutta(data) {
@@ -171,40 +177,59 @@ function sanitizeSutta(data) {
 }
 
 (async function getSuttaData() {
-  let res = await client.getEntries({
-    limit: 500,
-    content_type: "sutta",
-  });
-  console.log(chalk.blue("Fetched", res.total, "sutta items from database."));
-  let { suttas, suttasText } = sanitizeSutta(res.items);
-  writeDataToDrive(suttas, "./database/suttas.json", suttas.allIds.length);
-  writeDataToDrive(
-    suttasText,
-    "./database/suttasText.json",
-    suttasText.allIds.length
-  );
+  try {
+    let items = [];
+    for (let i = 0; i < 10; i++) {
+      console.log("Fetching sutta", i + 1, "/10");
+      let res = await client.getEntries({
+        limit: 100,
+        skip: i * 100,
+        content_type: "sutta",
+        include: 0,
+      });
+      items = [...items, ...res.items];
+    }
+
+    console.log(
+      chalk.blue("Fetched", items.length, "sutta items from database.")
+    );
+    let { suttas, suttasText } = sanitizeSutta(items);
+    writeDataToDrive(suttas, "./database/suttas.json", suttas.allIds.length);
+    writeDataToDrive(
+      suttasText,
+      "./database/suttasText.json",
+      suttasText.allIds.length
+    );
+  } catch (error) {
+    console.error(error);
+  }
 })();
 
 (async function getTrackData() {
-  let assets = await client.getAssets({
-    limit: 1000,
-  });
-  let tracks = {
-    byIds: {},
-    allIds: [],
-  };
-  assets.items.forEach((item) => {
-    let id = item.sys.id;
-    if (item.fields.file.contentType === "audio/mpeg") {
-      tracks.byIds[id] = {
-        ...item.fields.file,
-        size: item.fields.file.details.size,
-        title: item.fields.title,
-        id: id,
-      };
-      delete tracks.byIds[id].details;
-      tracks.allIds.push(id);
-    }
-  });
-  writeDataToDrive(tracks, "./database/tracks.json", tracks.allIds.length);
+  try {
+    let assets = await client.getAssets({
+      limit: 500,
+    });
+    console.log(chalk.bgBlueBright("Fetched", assets.items.length, "assets."));
+    let tracks = {
+      byIds: {},
+      allIds: [],
+    };
+    assets.items.forEach((item) => {
+      let id = item.sys.id;
+      if (item.fields.file.contentType === "audio/mpeg") {
+        tracks.byIds[id] = {
+          ...item.fields.file,
+          size: item.fields.file.details.size,
+          title: item.fields.title,
+          id: id,
+        };
+        delete tracks.byIds[id].details;
+        tracks.allIds.push(id);
+      }
+    });
+    writeDataToDrive(tracks, "./database/tracks.json", tracks.allIds.length);
+  } catch (error) {
+    console.error(error);
+  }
 })();

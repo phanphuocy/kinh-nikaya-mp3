@@ -1,5 +1,21 @@
 {
   "byIds": {
+    "6G0Dpqi9FNtB4dJDVAVGeA": {
+      "name": "Tiểu Bộ Kinh",
+      "slug": "tieu-bo-kinh",
+      "paliName": "Khuddaka-Nikāya",
+      "order": 5,
+      "groups": [
+        "2LjmJV3AVyhksC7ZIQDXSV",
+        "ke8hCr3FK5h9MirS7PYkH",
+        "cqjtDfcwiUx8R2H1PsrxL",
+        "5HzvtyzwXn8KCV9mbMIioi",
+        "4ms7T8Akobgn2dKjxyUUST",
+        "3W8Ux3HM1tKpMdOe4gLLJG",
+        "7rkTwRwhExfHHfMInXB0n3"
+      ],
+      "id": "6G0Dpqi9FNtB4dJDVAVGeA"
+    },
     "2NLN9cau0God62R3qHu1a1": {
       "name": "Trung Bộ Kinh",
       "slug": "trung-bo-kinh",
@@ -75,6 +91,7 @@
     "UnhHz00Dfqb6Fo5UEmvtR",
     "2NLN9cau0God62R3qHu1a1",
     "sM8Z1YQWKSsnbq77YNq7o",
-    "6ffwBrThXdkGsYturHjFXy"
+    "6ffwBrThXdkGsYturHjFXy",
+    "6G0Dpqi9FNtB4dJDVAVGeA"
   ]
 }
