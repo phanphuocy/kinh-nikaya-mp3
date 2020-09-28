@@ -31,7 +31,6 @@ const personalReducer = (state = initialState, action) => {
         let newAllIds = state.reading.allIds
           .slice(0, indexOfSutta)
           .concat(state.reading.allIds.slice(indexOfSutta + 1));
-        console.log(newAllIds);
         return {
           ...state,
           reading: {

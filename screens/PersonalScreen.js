@@ -7,7 +7,7 @@ import {
   HaveReadList,
 } from "../components/PersonalLists";
 
-const PersonalScreen = () => {
+const PersonalScreen = ({ navigation }) => {
   return (
     <Screen>
       <ScrollView>
@@ -15,8 +15,8 @@ const PersonalScreen = () => {
           source={require("../assets/photo-1496165044541-3221a1d68cc8.jpg")}
         ></Cover>
         <ScreenTitle>Trang Cá Nhân</ScreenTitle>
-        <CurrentlyReadingList />
-        <HaveReadList />
+        <CurrentlyReadingList navigation={navigation} />
+        {/* <HaveReadList /> */}
       </ScrollView>
     </Screen>
   );

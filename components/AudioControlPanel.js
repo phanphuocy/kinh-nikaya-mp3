@@ -13,6 +13,7 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 import {
   pausePlaybackIntance,
   playPlaybackIntance,
+  setPlaybackPosition,
 } from "../store/actions/playerActions";
 import convertToReadableTime from "../helpers/convertToReadableTime";
 import Slider from "@react-native-community/slider";
@@ -59,6 +60,7 @@ const AudioControlPanel = ({
   player,
   pausePlaybackIntance,
   playPlaybackIntance,
+  setPlaybackPosition,
   onCloseButton,
 }) => {
   const {
@@ -75,6 +77,35 @@ const AudioControlPanel = ({
 
   function playButtonHandler() {
     playPlaybackIntance(playbackInstance);
+  }
+
+  function rewind10ButtonHandler() {
+    if (status !== null) {
+      let newPosition =
+        status.positionMillis - 10000 <= 0 ? 0 : status.positionMillis - 10000;
+      setPlaybackPosition(playbackInstance, newPosition);
+    }
+  }
+
+  function fastforward30ButtonHandler() {
+    if (status !== null) {
+      let newPosition =
+        status.positionMillis + 30000 >= status.durationMillis
+          ? status.durationMillis
+          : status.positionMillis + 30000;
+      setPlaybackPosition(playbackInstance, newPosition);
+    }
+  }
+
+  function onSliderSeeked(value) {
+    if (value < 0 || value > 1) {
+      return;
+    }
+    if (!status) {
+      return;
+    }
+    let newPosition = Math.round(status.durationMillis * value);
+    setPlaybackPosition(playbackInstance, newPosition);
   }
 
   // useEffect(() => {
@@ -111,6 +142,7 @@ const AudioControlPanel = ({
               maximumTrackTintColor="#000000"
               thumbTintColor="#606C38"
               value={progress}
+              onSlidingComplete={(newVal) => onSliderSeeked(newVal)}
               // ref={progressRef}
             />
           </GrowView>
@@ -123,7 +155,7 @@ const AudioControlPanel = ({
       )}
       <Row5>
         <Row5Item>
-          <IconButton
+          {/* <IconButton
             icon={
               <MaterialCommunityIcons
                 name="skip-previous"
@@ -131,7 +163,7 @@ const AudioControlPanel = ({
                 color="black"
               />
             }
-          />
+          /> */}
         </Row5Item>
         <Row5Item>
           <IconButton
@@ -142,6 +174,7 @@ const AudioControlPanel = ({
                 color="black"
               />
             }
+            onPress={rewind10ButtonHandler}
           />
         </Row5Item>
         <Row5Item>
@@ -168,10 +201,11 @@ const AudioControlPanel = ({
                 color="black"
               />
             }
+            onPress={fastforward30ButtonHandler}
           />
         </Row5Item>
         <Row5Item>
-          <IconButton
+          {/* <IconButton
             icon={
               <MaterialCommunityIcons
                 name="skip-next"
@@ -179,7 +213,7 @@ const AudioControlPanel = ({
                 color="black"
               />
             }
-          />
+          /> */}
         </Row5Item>
       </Row5>
     </PanelContainer>
@@ -257,4 +291,5 @@ function mapStateToProps(state, ownProps) {
 export default connect(mapStateToProps, {
   pausePlaybackIntance,
   playPlaybackIntance,
+  setPlaybackPosition,
 })(AudioControlPanel);

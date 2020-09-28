@@ -106,7 +106,7 @@ export const playPlaybackIntance = (instance) => async (dispatch) => {
   try {
     let status;
     if (instance !== null) {
-      console.log("PLAYING");
+      console.log("ACTION: PLAYING");
       await instance.playAsync();
       status = await instance.getStatusAsync();
       dispatch({
@@ -124,12 +124,21 @@ export const playPlaybackIntance = (instance) => async (dispatch) => {
   }
 };
 
-export const setPlaybackPosition = (instance, current, offset) => async (
+export const setPlaybackPosition = (instance, newPosition) => async (
   dispatch
 ) => {
   try {
-    if (instance !== null) {
-      let newPosition = current + offset;
+    if (instance) {
+      console.log("ACTION: SET POSITION");
+      await instance.setPositionAsync(newPosition);
+      status = await instance.getStatusAsync();
+      dispatch({
+        type: SET_PLAYBACK_POSITION,
+        payload: {
+          instance: instance,
+          status: status,
+        },
+      });
     }
   } catch (error) {
     console.log(error);

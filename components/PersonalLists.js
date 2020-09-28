@@ -1,8 +1,9 @@
 import React from "react";
-import { View } from "react-native";
+import { View, TouchableNativeFeedback } from "react-native";
 import { Text } from "./Atomics";
 import { connect } from "react-redux";
 import styled from "styled-components/native";
+import convertSematicDate from "../helpers/convertSematicDate";
 
 function mapStateToReadingListProp(state) {
   return {
@@ -37,7 +38,7 @@ const EmptyNotiText = styled.Text`
   /* text-align: center; */
 `;
 
-const ListItemContainer = styled.TouchableOpacity`
+const ListItemContainer = styled.View`
   width: 100%;
   padding: 0 16px;
 `;
@@ -65,31 +66,44 @@ const TimestampSide = styled.View`
 
 export const CurrentlyReadingList = connect(mapStateToReadingListProp)(
   (props) => {
-    const { reading } = props;
+    const { reading, navigation } = props;
+    function onCardTouched(id, scrollOffset) {
+      navigation.navigate("Reading", {
+        id: id,
+        openWithAudio: false,
+        scrollOffset: scrollOffset,
+      });
+    }
     return (
       <ListContainer>
         <ListHeaderTitle>ĐANG ĐỌC</ListHeaderTitle>
-        {/* <Text>{JSON.stringify(reading, null, 2)}</Text> */}
         {reading.allIds.length <= 0 ? (
           <EmptyReadingList />
         ) : (
           <View>
             {reading.allIds.slice(0, 5).map((id) => (
-              <ListItemContainer key={id}>
-                <ItemSeparatorLine />
-                <ListItemContent key={id}>
-                  <TitleSide>
-                    <Text>{reading.byIds[id].codeName}</Text>
-                    <Text>{reading.byIds[id].name}</Text>
-                    <Text>
-                      Đang đọc {Math.round(reading.byIds[id].position * 100)}%
-                    </Text>
-                  </TitleSide>
-                  <TimestampSide>
-                    <Text>{reading.byIds[id].timestamp}</Text>
-                  </TimestampSide>
-                </ListItemContent>
-              </ListItemContainer>
+              <TouchableNativeFeedback
+                key={id}
+                onPress={() => onCardTouched(id, reading.byIds[id].offset)}
+              >
+                <ListItemContainer>
+                  <ItemSeparatorLine />
+                  <ListItemContent key={id}>
+                    <TitleSide>
+                      <Text>{reading.byIds[id].codeName}</Text>
+                      <Text>{reading.byIds[id].name}</Text>
+                      <Text>
+                        Đang đọc {Math.round(reading.byIds[id].position * 100)}%
+                      </Text>
+                    </TitleSide>
+                    <TimestampSide>
+                      <Text>
+                        {convertSematicDate(reading.byIds[id].timestamp)}
+                      </Text>
+                    </TimestampSide>
+                  </ListItemContent>
+                </ListItemContainer>
+              </TouchableNativeFeedback>
             ))}
           </View>
         )}

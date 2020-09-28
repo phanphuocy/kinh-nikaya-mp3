@@ -4,6 +4,7 @@ import {
   LOADING_INSTANCE,
   PAUSE_PLAYBACK_INSTANCE,
   PLAY_PLAYBACK_INSTANCE,
+  SET_PLAYBACK_POSITION,
   UPDATE_PLAYBACK_STATUS,
   RESET_PLAYBACK,
 } from "../types";
@@ -22,21 +23,21 @@ const initialState = {
   isSeeking: false,
   shouldPlayAtEndOfSeek: false,
   playbackInstance: null,
-  state: {
-    showVideo: false,
-    muted: false,
-    playbackInstanceName: LOADING_STRING,
-    loopingType: LOOPING_TYPE_ALL,
-    playbackInstancePosition: null,
-    playbackInstanceDuration: null,
-    shouldPlay: false,
-    isPlaying: false,
-    isBuffering: false,
-    isLoading: true,
-    shouldCorrectPitch: true,
-    volume: 1.0,
-    rate: 1.0,
-  },
+  // state: {
+  //   showVideo: false,
+  //   muted: false,
+  //   playbackInstanceName: "",
+  //   loopingType: LOOPING_TYPE_ALL,
+  //   playbackInstancePosition: null,
+  //   playbackInstanceDuration: null,
+  //   shouldPlay: false,
+  //   isPlaying: false,
+  //   isBuffering: false,
+  //   isLoading: true,
+  //   shouldCorrectPitch: true,
+  //   volume: 1.0,
+  //   rate: 1.0,
+  // },
   status: null,
   suttaName: "",
 };
@@ -65,6 +66,12 @@ const playerReducer = (state = initialState, action) => {
         status: action.payload.status,
       };
     case PLAY_PLAYBACK_INSTANCE:
+      return {
+        ...state,
+        playbackInstance: action.payload.instance,
+        status: action.payload.status,
+      };
+    case SET_PLAYBACK_POSITION:
       return {
         ...state,
         playbackInstance: action.payload.instance,

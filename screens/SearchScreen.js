@@ -15,6 +15,7 @@ const SearchScreen = ({
   filteringTerm,
   filterSuttas,
   clearFilteredSutta,
+  navigation,
 }) => {
   function handleInputChange(event) {
     event.persist();
@@ -28,6 +29,11 @@ const SearchScreen = ({
   function handleInputViewTouched() {
     inputRef.current.focus();
   }
+
+  function onCardTouched(id) {
+    navigation.navigate("Reading", { id: id, openWithAudio: false });
+  }
+
   return (
     <Screen>
       {/* <Text weight="semibold">Tìm Kiếm</Text> */}
@@ -57,10 +63,12 @@ const SearchScreen = ({
         keyExtractor={(item) => item.slug}
         ItemSeparatorComponent={() => <ResultItemSeparator />}
         renderItem={({ item }) => (
-          <ResultItemContainer>
-            <Text>{item.name}</Text>
-            <Text>{item.paliName}</Text>
-          </ResultItemContainer>
+          <TouchableNativeFeedback onPress={() => onCardTouched(item.id)}>
+            <ResultItemContainer>
+              <Text>{item.name}</Text>
+              <Text>{item.paliName}</Text>
+            </ResultItemContainer>
+          </TouchableNativeFeedback>
         )}
       />
     </Screen>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   View,
   Text,
@@ -29,11 +29,11 @@ const ScreenHeader = ({
   return (
     <HeaderContainer>
       <MenuContainer>
-        <TouchableOpacity onPress={menuButtonHandler}>
+        {/* <TouchableOpacity onPress={menuButtonHandler}>
           <MenuButtonContainer>
             <Ionicons name="md-menu" size={28} color="white" />
           </MenuButtonContainer>
-        </TouchableOpacity>
+        </TouchableOpacity> */}
         <TouchableOpacity onPress={decreaseFontsizeHandler}>
           <HeaderButtonContainer>
             <MaterialCommunityIcons
@@ -103,6 +103,8 @@ const SuttaScreen = ({
     route.params.openWithAudio
   );
 
+  const scrollViewRef = useRef(null);
+
   useEffect(() => {
     if (route.params.openWithAudio) {
       if (suttaName !== sutta.codeName) {
@@ -148,15 +150,16 @@ const SuttaScreen = ({
     let position =
       Math.round(
         (event.nativeEvent.contentOffset.y /
-          event.nativeEvent.contentSize.height) *
+          (event.nativeEvent.contentSize.height -
+            event.nativeEvent.layoutMeasurement.height)) *
           100
       ) / 100;
     setScrollingPosition(position);
-
+    let scrollingOffset = Math.round(event.nativeEvent.contentOffset.y);
     // Only fire add new sutta action when scrolling changed by 0.01 and user have
     // read over 10% percent
     if (position !== scrollingPosition && position >= 0.1) {
-      addNewReadingSutta(id, sutta, scrollingPosition);
+      addNewReadingSutta(id, sutta, scrollingPosition, scrollingOffset);
     }
   }
 
@@ -177,8 +180,19 @@ const SuttaScreen = ({
       />
       <ScrollIndicator percent={scrollingPosition} />
       <ScrollView
+        ref={scrollViewRef}
         onScroll={(e) => handleOnContentScroll(e)}
         scrollEventThrottle={200}
+        onLayout={(evt) => {
+          evt.persist();
+          if (scrollViewRef.current && route.params.scrollOffset) {
+            scrollViewRef.current.scrollTo({
+              x: 0,
+              y: route.params.scrollOffset,
+              animate: true,
+            });
+          }
+        }}
       >
         <ContentHeader>
           <SuttaSubtitle>

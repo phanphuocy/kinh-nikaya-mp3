@@ -28,11 +28,21 @@ const systemReducer = (state = initialState, action) => {
       let regrex = new RegExp(term, "gi");
       let matchedIds = state.suttas.allIds.filter((id) => {
         let sutta = state.suttas.byIds[id];
-        return (
-          tidyVietnamese(sutta.name).match(regrex) ||
-          tidyVietnamese(sutta.paliName).match(regrex) ||
+        if (sutta.name && tidyVietnamese(sutta.name).match(regrex)) {
+          return true;
+        } else if (
+          sutta.paliName &&
+          tidyVietnamese(sutta.paliName).match(regrex)
+        ) {
+          return true;
+        } else if (
+          sutta.codeName &&
           tidyVietnamese(sutta.codeName).match(regrex)
-        );
+        ) {
+          return true;
+        } else {
+          return false;
+        }
       });
       return {
         ...state,
