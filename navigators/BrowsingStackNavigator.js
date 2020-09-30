@@ -9,6 +9,7 @@ import CollectionScreen from "../screens/CollectionScreen";
 import GroupScreen from "../screens/GroupScreen";
 import SearchScreen from "../screens/SearchScreen";
 import PersonalScreen from "../screens/PersonalScreen";
+import QuoteScreen from "../screens/QuoteScreen";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 // BrowsingStack is the child of BrowsingTabs, alongside with Search(screen)
@@ -86,7 +87,7 @@ const BrowsingTabsNavigator = () => {
           tabBarLabel: "Tạng Kinh",
         }}
       />
-
+      <BrowsingTabs.Screen name="Quotes" component={QuoteScreen} />
       <BrowsingTabs.Screen
         name="Search"
         component={SearchScreen}
