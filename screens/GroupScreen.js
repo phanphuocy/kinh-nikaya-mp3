@@ -54,7 +54,7 @@ const GroupScreen = ({ group, navigation }) => {
                 <Spacer />
                 <Text>{item.codeName}</Text>
               </SuttaSubtitleRow>
-              <Text size="sm">{item.introduction}</Text>
+              {item.introduction && <Text size="sm">{item.introduction}</Text>}
             </ContentContainer>
             <ActionContainer>
               <TouchableNativeFeedback
@@ -100,12 +100,13 @@ const Screen = styled.View`
 `;
 
 const SectionTitle = styled.Text`
-  text-align: center;
+  /* text-align: center; */
   font-family: serif400;
   font-size: 28px;
   color: rgba(0, 0, 0, 0.87);
   margin-top: 16px;
   margin-bottom: 16px;
+  margin-left: 24px;
 `;
 
 const IntroductionText = styled.Text`

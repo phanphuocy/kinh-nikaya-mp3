@@ -61,8 +61,9 @@ const BrowsingTabsNavigator = () => {
             iconName = focused
               ? "bookmark-multiple"
               : "bookmark-multiple-outline";
+          } else if (route.name === "Quotes") {
+            iconName = focused ? "animation" : "animation-outline";
           }
-
           // You can return any component that you like here!
           return (
             <MaterialCommunityIcons name={iconName} size={size} color={color} />
@@ -87,12 +88,18 @@ const BrowsingTabsNavigator = () => {
           tabBarLabel: "Tạng Kinh",
         }}
       />
-      <BrowsingTabs.Screen name="Quotes" component={QuoteScreen} />
       <BrowsingTabs.Screen
         name="Search"
         component={SearchScreen}
         options={{
           tabBarLabel: "Tìm Kiếm",
+        }}
+      />
+      <BrowsingTabs.Screen
+        name="Quotes"
+        component={QuoteScreen}
+        options={{
+          tabBarLabel: "Trích Dẫn",
         }}
       />
       <BrowsingTabs.Screen

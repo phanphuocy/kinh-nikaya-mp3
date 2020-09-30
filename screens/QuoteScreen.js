@@ -45,7 +45,6 @@ const QuoteScreen = () => {
     PanResponder.create({
       onMoveShouldSetPanResponder: () => true,
       onPanResponderGrant: () => {
-        setAddNewSession(true);
         Animated.spring(secondCardAnim.scale, {
           toValue: 1,
           useNativeDriver: true,
@@ -101,7 +100,6 @@ const QuoteScreen = () => {
             toValue: -50,
             useNativeDriver: true,
           });
-          setAddNewSession(false);
         }
       },
     })

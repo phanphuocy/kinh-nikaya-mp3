@@ -15,7 +15,11 @@ const CollectionAccordion = ({ data, handleCardClicked }) => {
   const ref = useRef(null);
 
   function handleExpandButton(target) {
-    setOpenning(target);
+    if (openning === target) {
+      setOpenning("");
+    } else {
+      setOpenning(target);
+    }
   }
 
   useEffect(() => {
@@ -65,7 +69,7 @@ const CollectionAccordionItem = ({
         <CollectionHeader>
           <View>
             <Text>{collection.name}</Text>
-            <Text>{collection.paliName}</Text>
+            <Text style={{ color: "gray" }}>{collection.paliName}</Text>
           </View>
 
           <Text>
@@ -81,16 +85,31 @@ const CollectionAccordionItem = ({
         <FlatList
           data={collection.groups}
           keyExtractor={(item) => item.slug}
-          renderItem={({ item }) => (
+          renderItem={({ item, index }) => (
             <TouchableNativeFeedback
               onPress={() => handleCardClicked(item.id, item.name)}
             >
               <GroupCard>
-                <Text weight="semibold">{item.name}</Text>
-                <Text>{item.paliName}</Text>
+                <EnumeratorView>
+                  <Text size="extra-large">{index + 1}.</Text>
+                </EnumeratorView>
+                <View style={{ flex: 1 }}>
+                  <Text weight="semibold">{item.name}</Text>
+                  <View
+                    style={{
+                      flexDirection: "row",
+                      justifyContent: "space-between",
+                      width: "100%",
+                    }}
+                  >
+                    <Text>{item.paliName}</Text>
+                    <Text>{item.suttas.length} bài</Text>
+                  </View>
+                </View>
               </GroupCard>
             </TouchableNativeFeedback>
           )}
+          style={{ borderRadius: 12, overflow: "hidden" }}
         />
       ) : null}
     </CollectionContainer>
@@ -110,11 +129,18 @@ const CollectionHeader = styled.View`
 `;
 
 const GroupCard = styled.View`
-  background-color: white;
-  margin-bottom: 12px;
-  padding: 16px 24px;
+  background-color: #f9f9f9;
+  flex-direction: row;
+  /* margin-bottom: 12px; */
+  padding: 18px 24px;
   box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.8);
-  elevation: 8;
+  /* elevation: 8; */
+`;
+
+const EnumeratorView = styled.View`
+  width: 36px;
+  align-items: flex-start;
+  justify-content: center;
 `;
 
 export default CollectionAccordion;

@@ -21,7 +21,9 @@ const CollectionScreen = ({ collections, groups, navigation }) => {
 };
 
 const Screen = styled.View`
-  background-color: #f9f9f9;
+  /* background-color: #f2f2f2; */
+  background-color: white;
+  flex: 1;
 `;
 
 function mapStateToProps(state) {
